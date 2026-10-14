@@ -1,0 +1,41 @@
+
+Running 32 tests using 1 worker
+
+(node:46789) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/browser/interaction.spec.ts:10:1 › default visual, all four edge states, ancestor summaries and sidebar (573ms)
+  ✓   2 tests/browser/interaction.spec.ts:25:1 › search reveals hidden long title, escape restores collapsed view (8.8s)
+  ✓   3 tests/browser/interaction.spec.ts:33:1 › collapse keeps progress and anomalies, footer jumps to hidden anomaly (607ms)
+  ✓   4 tests/browser/interaction.spec.ts:43:1 › focus, expand all and keyboard details (720ms)
+  ✓   5 tests/browser/interaction.spec.ts:57:1 › drag survives collapse, refresh and reload; rearrange can be undone (897ms)
+  ✓   6 tests/browser/interaction.spec.ts:70:1 › read failure preserves display and root cannot accept without candidate (533ms)
+  ✓   7 tests/browser/interaction.spec.ts:76:1 › left edge starts at parent and fills toward child (465ms)
+  ✓   8 tests/browser/interaction.spec.ts:80:1 › corrupt view rebuilds and 1280px desktop remains usable (548ms)
+  ✓   9 tests/browser/real-project.spec.ts:17:1 › real preview uses explicit project content without fake decisions or demo report controls (320ms)
+  ✓  10 tests/browser/real-project.spec.ts:18:1 › real writable channel records local-user decision while drafts stay on the page and capacities are complete (659ms)
+  ✓  11 tests/browser/real-project.spec.ts:19:1 › views are keyed by project and recovery epoch and never replay legacy demo cache (298ms)
+  ✓  12 tests/browser/real-project.spec.ts:21:1 › restoration discards server view from old epoch when a fresh browser session reopens (282ms)
+  ✓  13 tests/browser/real-project.spec.ts:23:1 › missing project metadata fails closed without rendering demo content or crashing (183ms)
+隔离真实配置闭环：原文意见→真实CLI读取轮次→候选/provenance→回应落实→打开页r3轮询→关页再报告r4重开→模拟验收/退回/新增意见；真实主项目未写模拟决定。
+  ✓  14 tests/browser/real-project.spec.ts:26:1 › isolated real-project opinion loop uses actual CLI subprocesses and browser synchronization without touching main decisions (3.8s)
+  ✓  15 tests/browser/real-project.spec.ts:42:1 › desktop saved camera adapts on narrow reload while manual positions and collapse remain intact (1.2s)
+  ✓  16 tests/browser/real-project.spec.ts:44:1 › fresh narrow browser fits desktop server camera without losing custom node positions (2.0s)
+  ✓  17 tests/browser/real-project.spec.ts:46:1 › desktop reload rejects camera changed by another narrow window while keeping server positions (3.0s)
+  ✓  18 tests/browser/real-project.spec.ts:50:1 › v05 package supports selected partial acceptance then whole closure without repeated decisions (1.2s)
+  ✓  19 tests/browser/real-project.spec.ts:51:1 › v05 package blocks a changed version and requires a new preview without applying old selection (3.1s)
+  ✓  20 tests/browser/real-project.spec.ts:53:1 › v05 returned and reviewed results override stale report next-step text (938ms)
+  ✓  21 tests/browser/real-project.spec.ts:63:1 › v05 current iteration counts six pending while history keeps original sixteen and read-only chains (929ms)
+  ✓  22 tests/browser/real-project.spec.ts:65:1 › v05 progress explanation separates failed evidence from a user return and preserves closure (6.0s)
+  ✓  23 tests/browser/real-project.spec.ts:68:1 › v05 evidence renders malicious commands HTML scripts and external resources as inert text in node and package (521ms)
+  ✓  24 tests/browser/real-project.spec.ts:69:1 › v05 evidence reader explains missing digest and response-version failures without showing unsafe content (499ms)
+  ✓  25 tests/browser/real-project.spec.ts:70:1 › v05 narrow current history evidence and package remain usable while baseline transition fits fresh geometry (2.6s)
+  ✓  26 tests/browser/workflow.spec.ts:15:1 › opinion acknowledgement, implementation and synthetic acceptance remain separate (954ms)
+  ✓  27 tests/browser/workflow.spec.ts:23:1 › plain text opinion and stale open approval preserve drafts without auto submission (7.0s)
+  ✓  28 tests/browser/workflow.spec.ts:29:1 › restoration expires old browser session and leaves unsubmitted draft intact (396ms)
+  ✓  29 tests/browser/workflow.spec.ts:33:1 › proposal needs explicit approval and pause prevents new synthetic rounds (638ms)
+  ✓  30 tests/browser/workflow.spec.ts:38:1 › full proposal diff exposes same-count acceptance and rule changes before approval (422ms)
+  ✓  31 tests/browser/workflow.spec.ts:42:1 › approved removal of focused branch refreshes safely and preserves history references (370ms)
+CLI→网页直接证据：真实make-request/submit子进程，打开页轮询显示r1；关闭页提交再重开显示r2；两次节点结果均与CLI read一致。
+  ✓  32 tests/browser/workflow.spec.ts:46:1 › real CLI reports synchronize by polling and survive page close then reopen (3.4s)
+
+  32 passed (55.0s)

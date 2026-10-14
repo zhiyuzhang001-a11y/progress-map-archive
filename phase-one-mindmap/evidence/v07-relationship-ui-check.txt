@@ -1,0 +1,34 @@
+{
+  "kind": "independent-review relationship follow-up, actual project clone and isolated 201-node stress",
+  "cases": [
+    {
+      "kind": "actual",
+      "nodes": "actual project",
+      "directChildren": 8,
+      "parent": "map-planning",
+      "target": "b1-goal-map",
+      "second": "b1-edge-progress",
+      "exactSingleIncomingEmphasized": true,
+      "otherLinesMuted": true,
+      "keyboardOverridesPointer": true,
+      "keyboardInput": "actual ArrowUp from the first card after foregrounding the browser tab",
+      "detailParentReturn": true
+    },
+    {
+      "kind": "stress",
+      "nodes": "201",
+      "directChildren": 49,
+      "parent": "b1-group-0",
+      "target": "b1-task-0",
+      "second": "b1-task-4",
+      "exactSingleIncomingEmphasized": true,
+      "otherLinesMuted": true,
+      "keyboardOverridesPointer": true,
+      "keyboardInput": "actual ArrowUp from the first card after foregrounding the browser tab",
+      "detailParentReturn": true
+    }
+  ],
+  "errors": [],
+  "mainStateUnchanged": true,
+  "passed": true
+}

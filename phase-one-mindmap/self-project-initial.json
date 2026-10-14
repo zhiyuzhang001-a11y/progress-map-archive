@@ -1,0 +1,642 @@
+{
+  "schemaVersion": 2,
+  "projectId": "progress-mindmap-self",
+  "revision": 0,
+  "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+  "updatedAt": "2026-10-11T08:44:38.157Z",
+  "projectStatus": "active",
+  "staleHours": 168,
+  "baseline": {
+    "version": 1,
+    "nodes": [
+      {
+        "id": "goal",
+        "side": "center",
+        "color": "#163f3b",
+        "title": "项目进度思维导图工具",
+        "goal": "让项目目标、实际成果和验收依据可追踪，便于用户及时纠偏。"
+      },
+      {
+        "id": "visual",
+        "parent": "goal",
+        "side": "left",
+        "color": "#518574",
+        "title": "视觉与导图交互",
+        "goal": "原四阶段成果：中心目标、左右分支与交互。"
+      },
+      {
+        "id": "reliability",
+        "parent": "goal",
+        "side": "left",
+        "color": "#518574",
+        "title": "可靠状态与恢复",
+        "goal": "原四阶段成果与v0.4阶段二、四：可靠写入、隔离和恢复。"
+      },
+      {
+        "id": "feedback",
+        "parent": "goal",
+        "side": "right",
+        "color": "#8b755e",
+        "title": "反馈与验收",
+        "goal": "原四阶段与v0.4阶段二、三：意见、证据和用户决定分别记录。"
+      },
+      {
+        "id": "delivery",
+        "parent": "goal",
+        "side": "right",
+        "color": "#8b755e",
+        "title": "实际使用与交付",
+        "goal": "v0.4阶段一、三、四：内容属于本项目，入口可用，交付等待最终验收。"
+      },
+      {
+        "id": "goal-map",
+        "parent": "visual",
+        "side": "left",
+        "color": "#518574",
+        "title": "中心目标与左右分支",
+        "goal": "能看到本项目中心目标、左右分支及对应验收项。 依据：原阶段一。"
+      },
+      {
+        "id": "edge-progress",
+        "parent": "visual",
+        "side": "left",
+        "color": "#518574",
+        "title": "连线进度与折叠",
+        "goal": "进度按唯一叶子验收项计量，折叠后汇总仍一致。 依据：原阶段一。"
+      },
+      {
+        "id": "node-details",
+        "parent": "visual",
+        "side": "left",
+        "color": "#518574",
+        "title": "节点详情与偏差",
+        "goal": "点击节点可查看目标、剩余事项和偏差提示。 依据：原阶段一。"
+      },
+      {
+        "id": "readability",
+        "parent": "visual",
+        "side": "left",
+        "color": "#518574",
+        "title": "阅读与定位",
+        "goal": "搜索、分支聚焦和窄屏阅读可用，长标题可读。 依据：原阶段四。"
+      },
+      {
+        "id": "atomic-state",
+        "parent": "reliability",
+        "side": "left",
+        "color": "#518574",
+        "title": "可靠写入与诊断",
+        "goal": "原子写入、并发冲突、故障与摘要校验会保护权威状态。 依据：原阶段二、四。"
+      },
+      {
+        "id": "epoch-safety",
+        "parent": "reliability",
+        "side": "left",
+        "color": "#518574",
+        "title": "恢复代次与旧请求",
+        "goal": "恢复、离线恢复和重启后，网页与CLI旧请求均被拒绝。 依据：原阶段二；v0.4阶段四。"
+      },
+      {
+        "id": "project-isolation",
+        "parent": "reliability",
+        "side": "left",
+        "color": "#518574",
+        "title": "配置与演示隔离",
+        "goal": "真实项目与合成演示身份、目录、端口、来源和视图隔离。 依据：v0.4阶段一、二。"
+      },
+      {
+        "id": "capacity-export",
+        "parent": "reliability",
+        "side": "left",
+        "color": "#518574",
+        "title": "备份导出与容量",
+        "goal": "受控副本可恢复；导出可核对；容量提示覆盖有界集合且不误称释放容量。 依据：v0.4阶段四。"
+      },
+      {
+        "id": "opinion-loop",
+        "parent": "feedback",
+        "side": "right",
+        "color": "#8b755e",
+        "title": "意见到落实",
+        "goal": "真实意见保留原文及出处，CLI轮次、回应和落实证据可追溯。 依据：原阶段三；v0.4阶段二、三。"
+      },
+      {
+        "id": "evidence-version",
+        "parent": "feedback",
+        "side": "right",
+        "color": "#8b755e",
+        "title": "成果与证据绑定",
+        "goal": "新检查记录保留场景、命令、执行记录及可复查产物摘要。 依据：v0.4阶段二、三。"
+      },
+      {
+        "id": "decision-boundary",
+        "parent": "feedback",
+        "side": "right",
+        "color": "#8b755e",
+        "title": "用户决定边界",
+        "goal": "CLI不能代为验收；真实用户决定为空时进度保持0%，旧来源保持原值。 依据：原阶段三；v0.4阶段二。"
+      },
+      {
+        "id": "priority-next",
+        "parent": "feedback",
+        "side": "right",
+        "color": "#8b755e",
+        "title": "优先级、退回与下一步",
+        "goal": "节点详情显示有效优先级、退回原因和下一步，草稿提示清楚。 依据：v0.4阶段二、三。"
+      },
+      {
+        "id": "project-content",
+        "parent": "delivery",
+        "side": "right",
+        "color": "#8b755e",
+        "title": "页面对应我们的项目",
+        "goal": "默认页面反映工具自身，显示原成果、本轮工作及待验收事项。 依据：v0.4阶段一、三。"
+      },
+      {
+        "id": "launch-service",
+        "parent": "delivery",
+        "side": "right",
+        "color": "#8b755e",
+        "title": "可直接打开的入口",
+        "goal": "服务已启动；重复启动、端口占用和停止可诊断，关闭启动窗口不终止服务。 依据：v0.4阶段三、四。"
+      },
+      {
+        "id": "delivery-role",
+        "parent": "delivery",
+        "side": "right",
+        "color": "#8b755e",
+        "title": "只需最终验收",
+        "goal": "Codex负责实施、启动、CLI报告、备份恢复与核对，用户只负责最终验收。 依据：v0.4阶段三、四。"
+      },
+      {
+        "id": "handoff",
+        "parent": "delivery",
+        "side": "right",
+        "color": "#8b755e",
+        "title": "交付说明与复核",
+        "goal": "四阶段检查与独立审核可查，限制和维护边界清楚，最终验收由用户决定。 依据：v0.4阶段四。"
+      }
+    ],
+    "acceptance": [
+      {
+        "id": "accept-goal-map",
+        "nodeId": "goal-map",
+        "condition": "能看到本项目中心目标、左右分支及对应验收项。",
+        "weight": 1,
+        "method": "user"
+      },
+      {
+        "id": "accept-edge-progress",
+        "nodeId": "edge-progress",
+        "condition": "进度按唯一叶子验收项计量，折叠后汇总仍一致。",
+        "weight": 1,
+        "method": "user"
+      },
+      {
+        "id": "accept-node-details",
+        "nodeId": "node-details",
+        "condition": "点击节点可查看目标、剩余事项和偏差提示。",
+        "weight": 1,
+        "method": "user"
+      },
+      {
+        "id": "accept-readability",
+        "nodeId": "readability",
+        "condition": "搜索、分支聚焦和窄屏阅读可用，长标题可读。",
+        "weight": 1,
+        "method": "user"
+      },
+      {
+        "id": "accept-atomic-state",
+        "nodeId": "atomic-state",
+        "condition": "原子写入、并发冲突、故障与摘要校验会保护权威状态。",
+        "weight": 1,
+        "method": "user"
+      },
+      {
+        "id": "accept-epoch-safety",
+        "nodeId": "epoch-safety",
+        "condition": "恢复、离线恢复和重启后，网页与CLI旧请求均被拒绝。",
+        "weight": 1,
+        "method": "user"
+      },
+      {
+        "id": "accept-project-isolation",
+        "nodeId": "project-isolation",
+        "condition": "真实项目与合成演示身份、目录、端口、来源和视图隔离。",
+        "weight": 1,
+        "method": "user"
+      },
+      {
+        "id": "accept-capacity-export",
+        "nodeId": "capacity-export",
+        "condition": "受控副本可恢复；导出可核对；容量提示覆盖有界集合且不误称释放容量。",
+        "weight": 1,
+        "method": "user"
+      },
+      {
+        "id": "accept-opinion-loop",
+        "nodeId": "opinion-loop",
+        "condition": "真实意见保留原文及出处，CLI轮次、回应和落实证据可追溯。",
+        "weight": 1,
+        "method": "user"
+      },
+      {
+        "id": "accept-evidence-version",
+        "nodeId": "evidence-version",
+        "condition": "新检查记录保留场景、命令、执行记录及可复查产物摘要。",
+        "weight": 1,
+        "method": "user"
+      },
+      {
+        "id": "accept-decision-boundary",
+        "nodeId": "decision-boundary",
+        "condition": "CLI不能代为验收；真实用户决定为空时进度保持0%，旧来源保持原值。",
+        "weight": 1,
+        "method": "user"
+      },
+      {
+        "id": "accept-priority-next",
+        "nodeId": "priority-next",
+        "condition": "节点详情显示有效优先级、退回原因和下一步，草稿提示清楚。",
+        "weight": 1,
+        "method": "user"
+      },
+      {
+        "id": "accept-project-content",
+        "nodeId": "project-content",
+        "condition": "默认页面反映工具自身，显示原成果、本轮工作及待验收事项。",
+        "weight": 1,
+        "method": "user"
+      },
+      {
+        "id": "accept-launch-service",
+        "nodeId": "launch-service",
+        "condition": "服务已启动；重复启动、端口占用和停止可诊断，关闭启动窗口不终止服务。",
+        "weight": 1,
+        "method": "user"
+      },
+      {
+        "id": "accept-delivery-role",
+        "nodeId": "delivery-role",
+        "condition": "Codex负责实施、启动、CLI报告、备份恢复与核对，用户只负责最终验收。",
+        "weight": 1,
+        "method": "user"
+      },
+      {
+        "id": "accept-handoff",
+        "nodeId": "handoff",
+        "condition": "四阶段检查与独立审核可查，限制和维护边界清楚，最终验收由用户决定。",
+        "weight": 1,
+        "method": "user"
+      }
+    ],
+    "autoRules": []
+  },
+  "report": {
+    "nodes": [
+      {
+        "nodeId": "goal",
+        "status": "进行中",
+        "result": "按v0.4进行本轮技术准备；最终技术检查完成后提交成果与证据。",
+        "reason": "Codex依据已审阅计划整理初始基线，不构成用户批准或验收。",
+        "remaining": [
+          "完成本轮实现、自测与独立复核",
+          "等待用户最终验收"
+        ],
+        "flags": [],
+        "updatedAt": "2026-10-11T08:44:38.157Z"
+      },
+      {
+        "nodeId": "visual",
+        "status": "进行中",
+        "result": "按v0.4进行本轮技术准备；最终技术检查完成后提交成果与证据。",
+        "reason": "Codex依据已审阅计划整理初始基线，不构成用户批准或验收。",
+        "remaining": [
+          "完成本轮实现、自测与独立复核",
+          "等待用户最终验收"
+        ],
+        "flags": [],
+        "updatedAt": "2026-10-11T08:44:38.157Z"
+      },
+      {
+        "nodeId": "reliability",
+        "status": "进行中",
+        "result": "按v0.4进行本轮技术准备；最终技术检查完成后提交成果与证据。",
+        "reason": "Codex依据已审阅计划整理初始基线，不构成用户批准或验收。",
+        "remaining": [
+          "完成本轮实现、自测与独立复核",
+          "等待用户最终验收"
+        ],
+        "flags": [],
+        "updatedAt": "2026-10-11T08:44:38.157Z"
+      },
+      {
+        "nodeId": "feedback",
+        "status": "进行中",
+        "result": "按v0.4进行本轮技术准备；最终技术检查完成后提交成果与证据。",
+        "reason": "Codex依据已审阅计划整理初始基线，不构成用户批准或验收。",
+        "remaining": [
+          "完成本轮实现、自测与独立复核",
+          "等待用户最终验收"
+        ],
+        "flags": [],
+        "updatedAt": "2026-10-11T08:44:38.157Z"
+      },
+      {
+        "nodeId": "delivery",
+        "status": "进行中",
+        "result": "按v0.4进行本轮技术准备；最终技术检查完成后提交成果与证据。",
+        "reason": "Codex依据已审阅计划整理初始基线，不构成用户批准或验收。",
+        "remaining": [
+          "完成本轮实现、自测与独立复核",
+          "等待用户最终验收"
+        ],
+        "flags": [],
+        "updatedAt": "2026-10-11T08:44:38.157Z"
+      },
+      {
+        "nodeId": "goal-map",
+        "status": "待验收",
+        "result": "原四阶段已有实现；历史52项检查记录保留，尚未确认历史成果版本绑定。",
+        "reason": "Codex依据已审阅计划整理初始基线，不构成用户批准或验收。",
+        "remaining": [
+          "针对本轮版本重新验证",
+          "等待用户最终验收"
+        ],
+        "flags": [
+          {
+            "kind": "证据待复核",
+            "text": "历史检查通过，版本关联待核实；不倒填历史版本摘要。"
+          }
+        ],
+        "updatedAt": "2026-10-11T08:44:38.157Z"
+      },
+      {
+        "nodeId": "edge-progress",
+        "status": "待验收",
+        "result": "原四阶段已有实现；历史52项检查记录保留，尚未确认历史成果版本绑定。",
+        "reason": "Codex依据已审阅计划整理初始基线，不构成用户批准或验收。",
+        "remaining": [
+          "针对本轮版本重新验证",
+          "等待用户最终验收"
+        ],
+        "flags": [
+          {
+            "kind": "证据待复核",
+            "text": "历史检查通过，版本关联待核实；不倒填历史版本摘要。"
+          }
+        ],
+        "updatedAt": "2026-10-11T08:44:38.157Z"
+      },
+      {
+        "nodeId": "node-details",
+        "status": "待验收",
+        "result": "原四阶段已有实现；历史52项检查记录保留，尚未确认历史成果版本绑定。",
+        "reason": "Codex依据已审阅计划整理初始基线，不构成用户批准或验收。",
+        "remaining": [
+          "针对本轮版本重新验证",
+          "等待用户最终验收"
+        ],
+        "flags": [
+          {
+            "kind": "证据待复核",
+            "text": "历史检查通过，版本关联待核实；不倒填历史版本摘要。"
+          }
+        ],
+        "updatedAt": "2026-10-11T08:44:38.157Z"
+      },
+      {
+        "nodeId": "readability",
+        "status": "待验收",
+        "result": "原四阶段已有实现；历史52项检查记录保留，尚未确认历史成果版本绑定。",
+        "reason": "Codex依据已审阅计划整理初始基线，不构成用户批准或验收。",
+        "remaining": [
+          "针对本轮版本重新验证",
+          "等待用户最终验收"
+        ],
+        "flags": [
+          {
+            "kind": "证据待复核",
+            "text": "历史检查通过，版本关联待核实；不倒填历史版本摘要。"
+          }
+        ],
+        "updatedAt": "2026-10-11T08:44:38.157Z"
+      },
+      {
+        "nodeId": "atomic-state",
+        "status": "待验收",
+        "result": "原四阶段已有实现；历史52项检查记录保留，尚未确认历史成果版本绑定。",
+        "reason": "Codex依据已审阅计划整理初始基线，不构成用户批准或验收。",
+        "remaining": [
+          "针对本轮版本重新验证",
+          "等待用户最终验收"
+        ],
+        "flags": [
+          {
+            "kind": "证据待复核",
+            "text": "历史检查通过，版本关联待核实；不倒填历史版本摘要。"
+          }
+        ],
+        "updatedAt": "2026-10-11T08:44:38.157Z"
+      },
+      {
+        "nodeId": "epoch-safety",
+        "status": "待验收",
+        "result": "原四阶段已有实现；历史52项检查记录保留，尚未确认历史成果版本绑定。",
+        "reason": "Codex依据已审阅计划整理初始基线，不构成用户批准或验收。",
+        "remaining": [
+          "针对本轮版本重新验证",
+          "等待用户最终验收"
+        ],
+        "flags": [
+          {
+            "kind": "证据待复核",
+            "text": "历史检查通过，版本关联待核实；不倒填历史版本摘要。"
+          }
+        ],
+        "updatedAt": "2026-10-11T08:44:38.157Z"
+      },
+      {
+        "nodeId": "project-isolation",
+        "status": "进行中",
+        "result": "按v0.4进行本轮技术准备；最终技术检查完成后提交成果与证据。",
+        "reason": "Codex依据已审阅计划整理初始基线，不构成用户批准或验收。",
+        "remaining": [
+          "完成本轮实现、自测与独立复核",
+          "等待用户最终验收"
+        ],
+        "flags": [],
+        "updatedAt": "2026-10-11T08:44:38.157Z"
+      },
+      {
+        "nodeId": "capacity-export",
+        "status": "进行中",
+        "result": "按v0.4进行本轮技术准备；最终技术检查完成后提交成果与证据。",
+        "reason": "Codex依据已审阅计划整理初始基线，不构成用户批准或验收。",
+        "remaining": [
+          "完成本轮实现、自测与独立复核",
+          "等待用户最终验收"
+        ],
+        "flags": [],
+        "updatedAt": "2026-10-11T08:44:38.157Z"
+      },
+      {
+        "nodeId": "opinion-loop",
+        "status": "待验收",
+        "result": "原四阶段已有实现；历史52项检查记录保留，尚未确认历史成果版本绑定。",
+        "reason": "Codex依据已审阅计划整理初始基线，不构成用户批准或验收。",
+        "remaining": [
+          "针对本轮版本重新验证",
+          "等待用户最终验收"
+        ],
+        "flags": [
+          {
+            "kind": "证据待复核",
+            "text": "历史检查通过，版本关联待核实；不倒填历史版本摘要。"
+          }
+        ],
+        "updatedAt": "2026-10-11T08:44:38.157Z"
+      },
+      {
+        "nodeId": "evidence-version",
+        "status": "进行中",
+        "result": "按v0.4进行本轮技术准备；最终技术检查完成后提交成果与证据。",
+        "reason": "Codex依据已审阅计划整理初始基线，不构成用户批准或验收。",
+        "remaining": [
+          "完成本轮实现、自测与独立复核",
+          "等待用户最终验收"
+        ],
+        "flags": [],
+        "updatedAt": "2026-10-11T08:44:38.157Z"
+      },
+      {
+        "nodeId": "decision-boundary",
+        "status": "待验收",
+        "result": "原四阶段已有实现；历史52项检查记录保留，尚未确认历史成果版本绑定。",
+        "reason": "Codex依据已审阅计划整理初始基线，不构成用户批准或验收。",
+        "remaining": [
+          "针对本轮版本重新验证",
+          "等待用户最终验收"
+        ],
+        "flags": [
+          {
+            "kind": "证据待复核",
+            "text": "历史检查通过，版本关联待核实；不倒填历史版本摘要。"
+          }
+        ],
+        "updatedAt": "2026-10-11T08:44:38.157Z"
+      },
+      {
+        "nodeId": "priority-next",
+        "status": "进行中",
+        "result": "按v0.4进行本轮技术准备；最终技术检查完成后提交成果与证据。",
+        "reason": "Codex依据已审阅计划整理初始基线，不构成用户批准或验收。",
+        "remaining": [
+          "完成本轮实现、自测与独立复核",
+          "等待用户最终验收"
+        ],
+        "flags": [],
+        "updatedAt": "2026-10-11T08:44:38.157Z"
+      },
+      {
+        "nodeId": "project-content",
+        "status": "进行中",
+        "result": "按v0.4进行本轮技术准备；最终技术检查完成后提交成果与证据。",
+        "reason": "Codex依据已审阅计划整理初始基线，不构成用户批准或验收。",
+        "remaining": [
+          "完成本轮实现、自测与独立复核",
+          "等待用户最终验收"
+        ],
+        "flags": [],
+        "updatedAt": "2026-10-11T08:44:38.157Z"
+      },
+      {
+        "nodeId": "launch-service",
+        "status": "进行中",
+        "result": "按v0.4进行本轮技术准备；最终技术检查完成后提交成果与证据。",
+        "reason": "Codex依据已审阅计划整理初始基线，不构成用户批准或验收。",
+        "remaining": [
+          "完成本轮实现、自测与独立复核",
+          "等待用户最终验收"
+        ],
+        "flags": [],
+        "updatedAt": "2026-10-11T08:44:38.157Z"
+      },
+      {
+        "nodeId": "delivery-role",
+        "status": "进行中",
+        "result": "按v0.4进行本轮技术准备；最终技术检查完成后提交成果与证据。",
+        "reason": "Codex依据已审阅计划整理初始基线，不构成用户批准或验收。",
+        "remaining": [
+          "完成本轮实现、自测与独立复核",
+          "等待用户最终验收"
+        ],
+        "flags": [],
+        "updatedAt": "2026-10-11T08:44:38.157Z"
+      },
+      {
+        "nodeId": "handoff",
+        "status": "进行中",
+        "result": "按v0.4进行本轮技术准备；最终技术检查完成后提交成果与证据。",
+        "reason": "Codex依据已审阅计划整理初始基线，不构成用户批准或验收。",
+        "remaining": [
+          "完成本轮实现、自测与独立复核",
+          "等待用户最终验收"
+        ],
+        "flags": [],
+        "updatedAt": "2026-10-11T08:44:38.157Z"
+      }
+    ],
+    "candidates": [],
+    "evidence": [],
+    "runs": []
+  },
+  "decisions": {
+    "opinions": [
+      {
+        "id": "conversation-open",
+        "nodeId": "launch-service",
+        "text": "打不开啊，是不是没有运行",
+        "at": "2026-10-11T08:44:38.157Z",
+        "source": "conversation-user",
+        "reference": "本Codex聊天用户原文；此时间为录入时间，原消息具体时间未补造。"
+      },
+      {
+        "id": "conversation-content",
+        "nodeId": "project-content",
+        "text": "这个内容怎么还不是跟我们项目相关的",
+        "at": "2026-10-11T08:44:38.157Z",
+        "source": "conversation-user",
+        "reference": "本Codex聊天用户原文；此时间为录入时间，原消息具体时间未补造。"
+      },
+      {
+        "id": "conversation-role",
+        "nodeId": "delivery-role",
+        "text": "不是我负责这么多事，我最后只负责验收",
+        "at": "2026-10-11T08:44:38.157Z",
+        "source": "conversation-user",
+        "reference": "本Codex聊天用户原文；分工以v0.4及本次连续执行授权为准。此时间为录入时间。"
+      }
+    ],
+    "acknowledgements": [],
+    "responses": [],
+    "acceptance": [],
+    "priorities": [],
+    "proposals": [],
+    "baselineHistory": []
+  },
+  "history": [
+    {
+      "revision": 0,
+      "epoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+      "source": "system",
+      "action": "baseline-initialization",
+      "reason": "Codex按v0.4已审阅范围整理16个等权叶子验收项；不构成用户批准。",
+      "at": "2026-10-11T08:44:38.157Z",
+      "operationId": "cc6d357c-5e24-4324-9ced-b0a40d3f1c12"
+    }
+  ],
+  "operations": [],
+  "integrity": "5372809a3aeaa4ccc3564fa8c2380f1e90b3cce0a0a1424adf6e1c466b60d492"
+}

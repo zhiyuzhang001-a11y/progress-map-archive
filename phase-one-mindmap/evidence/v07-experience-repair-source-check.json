@@ -1,0 +1,87 @@
+{
+  "recordedAt": "2026-10-12T12:13:37.115547+00:00",
+  "kind": "independent experience repair source gate",
+  "passed": true,
+  "humanAcceptance": false,
+  "modelChecks": 34,
+  "browserChecks": 6,
+  "cloneDevices": [
+    "desktop",
+    "390x844 actual touch"
+  ],
+  "cloneAllItemsEach": 9,
+  "realMainFiveChangesPendingFinalGate": true,
+  "mainStateNotWritten": true,
+  "files": [
+    {
+      "path": "src/project-map.ts",
+      "bytes": 25455,
+      "sha256": "8129853b1a0ab09e5ffa5b4a53445e498961bc30f96c4102c1704f78ad2ef8a5"
+    },
+    {
+      "path": "src/ProjectMapScreen.tsx",
+      "bytes": 21574,
+      "sha256": "7bf3b417b54793aa85c5ffbe243d93f3057c9e59d33e281d4867a8bce31c0900"
+    },
+    {
+      "path": "tests/project-map.test.ts",
+      "bytes": 16731,
+      "sha256": "ffba1f7affdb822771e416afd6cd75872700814ee63a31d12f98fe97c5e81ec9"
+    },
+    {
+      "path": "tests/backend/map-workflow.test.ts",
+      "bytes": 13234,
+      "sha256": "8e17a523243246fc338577d47e67936c8654c802fd1a025fa05275f079021b52"
+    },
+    {
+      "path": "tests/browser/pure-map.spec.ts",
+      "bytes": 12930,
+      "sha256": "724ea7da25cf52b4ff8719e298f0cc69cf36e4ce5ed150029f5cf1d1fbb4ba4c"
+    },
+    {
+      "path": "scripts/v07-experience-repair-ui.ts",
+      "bytes": 7656,
+      "sha256": "bc6d9aa72f613e7c30224d691f67841f1134bbce022168190c49fae441b8b186"
+    },
+    {
+      "path": "scripts/v07-record-project.ts",
+      "bytes": 8950,
+      "sha256": "d83dd777c2655e480071b01d3e21891c9bc1ea1d39fd0f6541cab89ffa516cde"
+    },
+    {
+      "path": "scripts/v07-verify-delivery.ts",
+      "bytes": 6939,
+      "sha256": "5648033dbd67c2263cdd1e3015d9a5fe502fe908ea4b81d66d75583cdde6bf70"
+    },
+    {
+      "path": "scripts/v07-acceptance-context.ts",
+      "bytes": 1970,
+      "sha256": "ac22c5a537ad34bc8f0b9ebb3f849ecd4c9c65fd6de5ec89083ba5b875770618"
+    },
+    {
+      "path": "evidence/v07-experience-repair-source-review.md",
+      "bytes": 3724,
+      "sha256": "94c3086088f0efbc87d4c9297202917b109c2f1f247474c041cea5ddfa21eb7e"
+    },
+    {
+      "path": "evidence/v07-experience-repair-review-model.txt",
+      "bytes": 3576,
+      "sha256": "1d53f12ab338cd3d151249bfe19d03c71eee9bed00c9c6edc1610f86b2cb72f0"
+    },
+    {
+      "path": "evidence/v07-experience-repair-review-browser.txt",
+      "bytes": 1092,
+      "sha256": "a571a79a063d46895896a7d08d703126bb05a76ce0abe9b067dc3a2613dff91a"
+    },
+    {
+      "path": "evidence/v07-experience-repair-review-ui.txt",
+      "bytes": 675,
+      "sha256": "58ab02274d5727979f6c75bc85ac0a87447f7ad6af7b7663774e080121f50583"
+    },
+    {
+      "path": "evidence/v07-experience-repair-clone-ui.json",
+      "bytes": 674,
+      "sha256": "69e168248bc11bc929617d30c46911d25be8aec8c5eedbf098b026a108b15daa"
+    }
+  ]
+}

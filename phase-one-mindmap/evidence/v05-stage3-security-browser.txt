@@ -1,0 +1,10 @@
+
+Running 3 tests using 1 worker
+
+(node:45545) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/browser/real-project.spec.ts:68:1 › v05 evidence renders malicious commands HTML scripts and external resources as inert text in node and package (574ms)
+  ✓  2 tests/browser/real-project.spec.ts:69:1 › v05 evidence reader explains missing digest and response-version failures without showing unsafe content (500ms)
+  ✓  3 tests/browser/real-project.spec.ts:70:1 › v05 narrow current history evidence and package remain usable while baseline transition fits fresh geometry (2.7s)
+
+  3 passed (4.6s)

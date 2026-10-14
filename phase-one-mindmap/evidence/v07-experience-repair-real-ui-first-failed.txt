@@ -1,0 +1,28 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+locator.click: Error: strict mode violation: getByRole('button', { name: '关闭详情' }) resolved to 2 elements:
+    1) <button aria-label="关闭详情" class="map-detail-close">×</button> aka getByRole('button', { name: '关闭详情', exact: true })
+    2) <button>…</button> aka getByRole('button', { name: '本轮难题与处理 本轮难题与处理：进行中→待验收；现在：已解决大分支连线难辨和关闭详情后焦点丢失：现在可追踪所属计划，关闭后回到原卡。已报告的开发事项当前无受阻记' })
+
+Call log:
+[2m  - waiting for getByRole('button', { name: '关闭详情' })[22m
+
+    at click (/Users/zhiyu/Documents/ChatGPT/progress map/phase-one-mindmap/scripts/v07-experience-repair-ui.ts:4:576)
+    at /Users/zhiyu/Documents/ChatGPT/progress map/phase-one-mindmap/scripts/v07-experience-repair-ui.ts:5:890 {
+  log: [ "  - waiting for getByRole('button', { name: '关闭详情' })" ]
+}
+
+Node.js v24.19.0
+file:///private/tmp/v07-experience-main-run.mts:8
+await new Promise      ((resolve,reject)=>{const child=spawn(process.execPath,['scripts/v07-experience-repair-ui.ts','--main'],{cwd:root,stdio:'inherit'});child.once('error',reject);child.once('exit',code=>code===0?resolve():reject(new Error('Actual experience UI failed')));});
+                                                                                                                                                                                                                                        ^
+
+Error: Actual experience UI failed
+    at ChildProcess.<anonymous> (file:///private/tmp/v07-experience-main-run.mts:8:233)
+    at Object.onceWrapper (node:events:631:26)
+    at ChildProcess.emit (node:events:509:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+
+Node.js v24.19.0

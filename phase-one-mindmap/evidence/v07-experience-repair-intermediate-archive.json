@@ -1,0 +1,13 @@
+{
+  "recordedAt": "2026-10-12T12:20:49.736736+00:00",
+  "archive": "/Users/zhiyu/Documents/ChatGPT/progress map/phase-one-mindmap/archives/v07-delivered-full-d163b851f1.tar.gz",
+  "sha256": "c915b38dbc6c15c2f378dba6d6c8d7de1902c0e3251f29f8c6465340e5847754",
+  "files": 706,
+  "artifactVersion": "sha256-9cf16ff7f435fef98b97c3af3f528eb8779dd0e85b84c32fc4b141d163b851f1",
+  "revision": 185,
+  "stateSha256": "ec0fe78ed8fc9ab93f188f245e2a74e5d30fdba0dad418d73b38769fa03b21ea",
+  "manifestFilesAndChecksVerified": true,
+  "evidenceRecordsVerified": 394,
+  "mainStateUnchanged": true,
+  "scope": "Local program/configuration/current data/original evidence and screenshots, excluding dependencies, previous archives, transient service/test caches and duplicate test builds. No main restore. Later final summary files are separate; rollback must preserve decisions added since this revision."
+}

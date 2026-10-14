@@ -1,0 +1,9 @@
+{
+  "configVersion": 1,
+  "projectId": "synthetic-field-guide-01",
+  "name": "城市自然观察手册 · 合成演示",
+  "kind": "synthetic",
+  "dataDirectory": "runtime-data",
+  "port": 4174,
+  "readOnly": false
+}

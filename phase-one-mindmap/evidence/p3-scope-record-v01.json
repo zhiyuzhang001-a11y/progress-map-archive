@@ -1,0 +1,69 @@
+{
+  "scenario": "A real scope and record creation",
+  "actualApprover": "dot",
+  "source": {
+    "taskId": "progress-mindmap-self/P3-continuous-update",
+    "scopeProposalId": "p3-continuous-b4-v01",
+    "actualApprover": "dot review task 01a13546-b721-740a-a227-562e01e79004 acting within Owner continuous project delegation",
+    "approvalMethod": "Native Chrome UI existing restricted local approve-proposal; no new actor/schema or bypass",
+    "operationId": "6fec6e98-98a9-46dd-9eb9-348da5461211",
+    "revision": 211,
+    "baselineVersion": 4,
+    "actualIterationId": "baseline-4",
+    "newTasks": [
+      "p3-record",
+      "p3-update",
+      "p3-verify"
+    ],
+    "sourceIngress": "web-local-user",
+    "sourceIngressMeaning": "Local ingress channel, not claim of a fresh human approval",
+    "reason": "dot审核任务01a13546-b721-740a-a227-562e01e79004依据Owner连续授权（Sentinel_e86e8bb5b3908191b5f0d9c3b29b8ea4）批准P3限定B4范围；版本P3_TASK_BRIEF_v0.1，依据P3_CP1_RELEASE_v0.1.md；由审核方经既有本地入口代录，非Owner重新逐项批准，非用户验收。保留原16验收与12待定。",
+    "at": "2026-10-13T14:26:08.363Z",
+    "ownerSourceMessageId": "Sentinel_e86e8bb5b3908191b5f0d9c3b29b8ea4",
+    "newUserAcceptanceDecisions": 0,
+    "preservationChecks": {
+      "originalAcceptanceExact": true,
+      "originalClosuresPreserved": true,
+      "originalCandidatesPreserved": true,
+      "originalEvidencePreserved": true,
+      "originalEvidenceRecordsExact": true,
+      "originalComparisonExact": true
+    },
+    "B3Closure": {
+      "id": "4c1ec6dd-397b-44c0-8b2b-9b11e2a5405b",
+      "entries": 6
+    },
+    "oldAccepted": 16,
+    "oldPending": 12,
+    "evidenceRecords": 538,
+    "budgetMinutes": {
+      "execution": 60,
+      "review": 20
+    },
+    "executionPreparationCharged": 12.99,
+    "status": "B4 approved, tasks not started at approval; executor may now use existing controlled report path"
+  },
+  "preservation": {
+    "recordedAt": "2026-10-13T14:24:35.000569+00:00",
+    "beforeRevision": 209,
+    "afterRevision": 210,
+    "baselineVersion": 3,
+    "proposalId": "p3-continuous-b4-v01",
+    "proposalState": "pending",
+    "protectionChecks": {
+      "baseline": true,
+      "report": true,
+      "evidenceRecords": true,
+      "closures": true,
+      "carriedAcceptance": true,
+      "mapCheckpoints": true,
+      "recoveryEpoch": true,
+      "acceptance": true,
+      "baselineHistory": true
+    },
+    "approvalNotPerformedByExecutor": true,
+    "acceptanceDecisions": 16,
+    "proposalPayloadSha256": "e47e2f039ceca3403409108bb6fa99844e2331694e2e8219ee37044c641628c8"
+  },
+  "limitations": "范围启用及真实CLI回执证明，不代表用户成果验收或dot阶段结论"
+}

@@ -1,0 +1,84 @@
+
+Running 43 tests using 1 worker
+
+(node:9320) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/browser/interaction.spec.ts:10:1 › default visual, all four edge states, ancestor summaries and sidebar (573ms)
+  ✓   2 tests/browser/interaction.spec.ts:25:1 › search reveals hidden long title, escape restores collapsed view (469ms)
+  ✓   3 tests/browser/interaction.spec.ts:33:1 › collapse keeps progress and anomalies, footer jumps to hidden anomaly (561ms)
+  ✓   4 tests/browser/interaction.spec.ts:43:1 › focus, expand all and keyboard details (654ms)
+  ✓   5 tests/browser/interaction.spec.ts:57:1 › drag survives collapse, refresh and reload; rearrange can be undone (894ms)
+  ✓   6 tests/browser/interaction.spec.ts:70:1 › read failure preserves display and root cannot accept without candidate (508ms)
+  ✓   7 tests/browser/interaction.spec.ts:76:1 › left edge starts at parent and fills toward child (437ms)
+  ✓   8 tests/browser/interaction.spec.ts:80:1 › corrupt view rebuilds and 1280px desktop remains usable (507ms)
+  ✓   9 tests/browser/pure-map.spec.ts:9:1 › public default is only a readable map; details are opt in and internal tools stay absent (230ms)
+  ✓  10 tests/browser/pure-map.spec.ts:10:1 › collapsed deep problem reaches original item in two actions and returns to the map (8.7s)
+  ✘  11 tests/browser/pure-map.spec.ts:11:1 › keyboard opens closes and returns focus; arrows navigate and plus zooms without a toolbar (5.2s)
+(node:9402) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  12 tests/browser/pure-map.spec.ts:12:1 › branch fold restores camera, reload keeps expansion and ordinary report does not move known anchors (3.9s)
+  ✓  13 tests/browser/pure-map.spec.ts:13:1 › meaningful changes survive reload while text-only edits and refresh produce no false change (6.1s)
+  ✓  14 tests/browser/pure-map.spec.ts:14:1 › read-only fallback signals uncertainty on the center card instead of claiming current healthy completion (251ms)
+  ✓  15 tests/browser/pure-map.spec.ts:15:1 › phone overview keeps readable card text, touch detail and close work without default panels (436ms)
+  ✓  16 tests/browser/pure-map.spec.ts:16:1 › restored project invalidates the old page and old camera; a fresh page rechecks comparison applicability (11.6s)
+  ✓  17 tests/browser/pure-map.spec.ts:17:1 › rapid open-close cancels obsolete fit and pointer panning stays available without controls (870ms)
+  ✓  18 tests/browser/pure-map.spec.ts:18:1 › pointer and keyboard make the current card, direct parent and exact relationship clear without changing facts (396ms)
+  ✓  19 tests/browser/pure-map.spec.ts:19:1 › a delayed initial saved view cannot overwrite a branch the user already expanded (618ms)
+  ✓  20 tests/browser/real-project.spec.ts:17:1 › real preview uses explicit project content without fake decisions or demo report controls (295ms)
+  ✓  21 tests/browser/real-project.spec.ts:18:1 › real writable channel records local-user decision while drafts stay on the page and capacities are complete (687ms)
+  ✓  22 tests/browser/real-project.spec.ts:19:1 › views are keyed by project and recovery epoch and never replay legacy demo cache (288ms)
+  ✓  23 tests/browser/real-project.spec.ts:21:1 › restoration discards server view from old epoch when a fresh browser session reopens (248ms)
+  ✓  24 tests/browser/real-project.spec.ts:23:1 › missing project metadata fails closed without rendering demo content or crashing (197ms)
+隔离真实配置闭环：原文意见→真实CLI读取轮次→候选/provenance→回应落实→打开页r3轮询→关页再报告r4重开→模拟验收/退回/新增意见；真实主项目未写模拟决定。
+  ✓  25 tests/browser/real-project.spec.ts:26:1 › isolated real-project opinion loop uses actual CLI subprocesses and browser synchronization without touching main decisions (3.8s)
+  ✓  26 tests/browser/real-project.spec.ts:42:1 › desktop saved camera adapts on narrow reload while manual positions and collapse remain intact (1.2s)
+  ✓  27 tests/browser/real-project.spec.ts:44:1 › fresh narrow browser fits desktop server camera without losing custom node positions (2.0s)
+  ✓  28 tests/browser/real-project.spec.ts:46:1 › desktop reload rejects camera changed by another narrow window while keeping server positions (2.9s)
+  ✓  29 tests/browser/real-project.spec.ts:50:1 › v05 package supports selected partial acceptance then whole closure without repeated decisions (1.1s)
+  ✓  30 tests/browser/real-project.spec.ts:51:1 › v05 package blocks a changed version and requires a new preview without applying old selection (3.2s)
+  ✓  31 tests/browser/real-project.spec.ts:53:1 › v05 returned and reviewed results override stale report next-step text (950ms)
+  ✓  32 tests/browser/real-project.spec.ts:63:1 › v05 current iteration counts six pending while history keeps original sixteen and read-only chains (984ms)
+  ✓  33 tests/browser/real-project.spec.ts:65:1 › v05 progress explanation separates failed evidence from a user return and preserves closure (6.1s)
+  ✓  34 tests/browser/real-project.spec.ts:68:1 › v05 evidence renders malicious commands HTML scripts and external resources as inert text in node and package (479ms)
+  ✓  35 tests/browser/real-project.spec.ts:69:1 › v05 evidence reader explains missing digest and response-version failures without showing unsafe content (505ms)
+  ✓  36 tests/browser/real-project.spec.ts:70:1 › v05 narrow current history evidence and package remain usable while baseline transition fits fresh geometry (2.7s)
+  ✓  37 tests/browser/workflow.spec.ts:15:1 › opinion acknowledgement, implementation and synthetic acceptance remain separate (918ms)
+  ✓  38 tests/browser/workflow.spec.ts:23:1 › plain text opinion and stale open approval preserve drafts without auto submission (7.0s)
+  ✓  39 tests/browser/workflow.spec.ts:29:1 › restoration expires old browser session and leaves unsubmitted draft intact (362ms)
+  ✓  40 tests/browser/workflow.spec.ts:33:1 › proposal needs explicit approval and pause prevents new synthetic rounds (592ms)
+  ✓  41 tests/browser/workflow.spec.ts:38:1 › full proposal diff exposes same-count acceptance and rule changes before approval (397ms)
+  ✓  42 tests/browser/workflow.spec.ts:42:1 › approved removal of focused branch refreshes safely and preserves history references (346ms)
+CLI→网页直接证据：真实make-request/submit子进程，打开页轮询显示r1；关闭页提交再重开显示r2；两次节点结果均与CLI read一致。
+  ✓  43 tests/browser/workflow.spec.ts:46:1 › real CLI reports synchronize by polling and survive page close then reopen (3.4s)
+
+
+  1) tests/browser/pure-map.spec.ts:11:1 › keyboard opens closes and returns focus; arrows navigate and plus zooms without a toolbar 
+
+    Error: expect(locator).toBeFocused() failed
+
+    Locator:  getByTestId('card-b1-content').locator('.project-card-read')
+    Expected: focused
+    Received: inactive
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toBeFocused" getByTestId('card-b1-content').locator('.project-card-read') with timeout 5000ms
+      - waiting for getByTestId('card-b1-content').locator('.project-card-read')
+        14 × locator resolved to <button aria-label="02 · 内容与表达，进行中" class="project-card-read nodrag">…</button>
+           - unexpected value "inactive"
+
+
+       9 | test('public default is only a readable map; details are opt in and internal tools stay absent',async({page})=>{await expect(page.locator('header,footer,.toolbar,.context-bar,.react-flow__controls,.map-legend,.details')).toHaveCount(0);await expect(page.getByRole('dialog')).toHaveCount(0);await expect(page.getByTestId('card-b1-content')).toContainText('难题');await page.getByTestId('card-map-goal').locator('.project-card-read').click();await expect(page.getByRole('dialog')).toContainText('现在怎么样');await expect(page.getByRole('dialog')).not.toContainText(/revision|baseline|CLI|sha256/);await page.getByRole('button',{name:'关闭详情'}).click();await expect(page.getByRole('dialog')).toHaveCount(0);});
+      10 | test('collapsed deep problem reaches original item in two actions and returns to the map',async({page})=>{await expect(page.getByTestId('card-b1-facts')).toHaveCount(0);await page.getByTestId('card-b1-content').locator('.project-card-read').click();await page.getByRole('dialog').getByRole('button',{name:/辨识特征/}).first().click();await expect(page.getByRole('dialog')).toContainText('参考图使用范围未确认');await expect(page.locator('#map-detail-title')).toContainText('辨识特征');await page.keyboard.press('Escape');await expect(page.getByRole('dialog')).toHaveCount(0);await expect(page.getByTestId('card-b1-facts')).toBeVisible();});
+    > 11 | test('keyboard opens closes and returns focus; arrows navigate and plus zooms without a toolbar',async({page})=>{const first=page.getByTestId('card-b1-content').locator('.project-card-read');await first.focus();await page.keyboard.press('Enter');await expect(page.getByRole('dialog')).toBeVisible();await page.keyboard.press('Tab');await expect(page.getByRole('button',{name:'关闭详情'})).toBeFocused();await page.keyboard.press('Escape');await expect(first).toBeFocused();await page.keyboard.press('ArrowRight');await expect(page.getByTestId('card-map-goal').locator('.project-card-read')).toBeFocused();const before=await camera(page);await page.keyboard.press('+');await expect.poll(()=>camera(page)).not.toBe(before);});
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                        ^
+      12 | test('branch fold restores camera, reload keeps expansion and ordinary report does not move known anchors',async({page})=>{const toggle=page.getByRole('button',{name:'展开02 · 内容与表达'});const before=await camera(page);await toggle.click();await expect(page.getByTestId('card-b1-facts')).toBeVisible();await page.waitForTimeout(150);await page.getByRole('button',{name:'收起02 · 内容与表达'}).click();await expect.poll(()=>camera(page)).toBe(before);await toggle.click();await page.waitForTimeout(300);const key=await page.evaluate(()=>Object.keys(localStorage).find(k=>k.includes(':public:v7:'))!);const snapshot=await page.evaluate(k=>JSON.parse(localStorage.getItem(k)!),key);await page.reload();await expect(page.getByTestId('card-b1-facts')).toBeVisible();await expect.poll(async()=> (await bridge.store.readMapView())?.expanded).toContain('b1-content');const positions=snapshot.positions;const prior=await camera(page);await submit({type:'report',nodeId:'facts',status:'进行中',result:'已经补齐参考图，正在核对辨识依据。',reason:'隔离实际更新，不代表真人验收',remaining:['完成辨识核对'],flags:[]});await expect(page.getByTestId('card-b1-facts')).toContainText('进行中',{timeout:10000});expect(await camera(page)).toBe(prior);const saved=await page.evaluate(k=>JSON.parse(localStorage.getItem(k)!),key);expect(saved.positions).toEqual(positions);});
+      13 | test('meaningful changes survive reload while text-only edits and refresh produce no false change',async({page})=>{await submit({type:'map-checkpoint',reason:'隔离固定比较点'});await submit({type:'report',nodeId:'facts',status:'进行中',result:'已补齐参考图，继续核对内容。',reason:'隔离问题解决',remaining:['完成核对'],flags:[]});await expect(page.getByTestId('card-b1-content')).toContainText(/问题已解决|有进展/,{timeout:10000});await page.getByTestId('card-b1-content').locator('.project-card-read').click();await expect(page.getByRole('dialog')).toContainText('最近变化');await page.keyboard.press('Escape');await expect(page.getByRole('dialog')).toHaveCount(0);const text=await page.getByTestId('card-b1-content').textContent();await page.reload();await expect(page.getByTestId('card-b1-content')).toHaveText(text);await submit({type:'report',nodeId:'facts',status:'进行中',result:'同一成果换一种表达，继续核对内容。',reason:'隔离仅改文案',remaining:['完成核对'],flags:[]});await page.waitForTimeout(2900);await expect(page.getByTestId('card-b1-content')).toHaveText(text);});
+      14 | test('read-only fallback signals uncertainty on the center card instead of claiming current healthy completion',async({page})=>{const current=await bridge.store.status();await page.route('**/api/state',route=>route.fulfill({json:{...current,readOnly:true,warning:'主文件损坏，只读备份',metadata:{mode:'demo',title:'隔离备份',goal:'',readOnly:false}}}));await page.reload();await expect(page.getByTestId('card-map-goal')).toHaveAttribute('data-state','待核对');await expect(page.getByTestId('card-map-goal')).toContainText('显示上次地图');await page.getByTestId('card-map-goal').locator('.project-card-read').click();await expect(page.getByRole('dialog')).toContainText('最新进展需要核对');});
+        at /Users/zhiyu/Documents/ChatGPT/progress map/phase-one-mindmap/tests/browser/pure-map.spec.ts:11:456
+
+    Error Context: test-results/pure-map-keyboard-opens-cl-35c1b-lus-zooms-without-a-toolbar/error-context.md
+
+  1 failed
+    tests/browser/pure-map.spec.ts:11:1 › keyboard opens closes and returns focus; arrows navigate and plus zooms without a toolbar 
+  42 passed (1.4m)

@@ -1,0 +1,16 @@
+✔ four progress states and unknown propagation (0.502541ms)
+✔ collapse hides descendants but preserves all anomaly and acceptance summaries (0.1195ms)
+✔ weighted acceptance, invalidated evidence and near 100% (0.049167ms)
+✔ layout is deterministic, full tree leaves do not overlap, sides remain stable (6.944708ms)
+✔ unique acceptance IDs are counted once (0.060333ms)
+✔ focus filters the tree without changing business data (0.098542ms)
+✔ closure distinguishes technical completion, partial decision, return and final acceptance (0.096375ms)
+✔ resolved acceptance notice filter preserves genuine pending scope decisions (0.117708ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 69.631417

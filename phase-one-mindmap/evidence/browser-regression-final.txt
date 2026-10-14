@@ -1,0 +1,31 @@
+Final-code browser regression — 2026-10-11 14:33 Asia/Shanghai
+Command: pnpm test:browser
+Target: http://127.0.0.1:4173
+Runner: Playwright, existing configuration, one worker, Chrome
+Process exit code: 0
+
+PASS default visual, all four edge states, ancestor summaries and sidebar (347ms)
+PASS search reveals hidden long title, escape restores collapsed view (238ms)
+PASS collapse keeps progress and anomalies, footer jumps to hidden anomaly (380ms)
+PASS focus, expand all and keyboard details (441ms)
+PASS drag survives collapse, refresh and reload; rearrange can be undone (662ms)
+PASS read failure remains visible and decisions are clearly demonstration only (287ms)
+PASS left edge starts at parent and fills toward child (201ms)
+PASS corrupt view rebuilds and 1280px desktop remains usable (288ms)
+
+8 passed (3.6s). 0 failed. 0 blocked. No source or test changes needed.
+Non-failing runner warning: NO_COLOR ignored because FORCE_COLOR is set.
+
+Served asset verification:
+/assets/index-BlH2JgaD.js HTTP 200; SHA-256 matches current dist asset.
+/assets/index-BPGLqNFh.css HTTP 200; SHA-256 matches current dist asset.
+
+Source/test SHA-256 at this run:
+src/main.tsx 6a24bb44fb4661a39265b3aad8b0f7d3c285ded240140d772041cec01008bf37
+src/style.css 4ca65f2e795de3cc5df9f0b73c9db3449ec4da4a2e2cc256ab23a219c04d2dfc
+src/model.ts 825e84aa587b382ce1ada1b78d19b5c102cdc76a56087fbcbe15bfffd19a08b2
+tests/browser/interaction.spec.ts b75b50ad961cbcc01b2097ea0c5d2414d825b355cf39fdb7e5aadd338aa2396d
+
+The tests regenerated evidence/default.png, evidence/expanded.png,
+and evidence/desktop-1280.png from the current final build.
+This run does not add new test scenarios or verify phase-two storage/security.

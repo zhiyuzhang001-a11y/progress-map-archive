@@ -1,0 +1,398 @@
+{
+  "artifact": "current production dist",
+  "isolatedOnly": true,
+  "results": [
+    {
+      "run": 0,
+      "bringToFront": false,
+      "observations": [
+        {
+          "tag": "BODY",
+          "className": "",
+          "documentHasFocus": true,
+          "dialogs": 0
+        },
+        {
+          "tag": "BODY",
+          "className": "",
+          "documentHasFocus": true,
+          "dialogs": 0
+        },
+        {
+          "tag": "BODY",
+          "className": "",
+          "documentHasFocus": true,
+          "dialogs": 0
+        },
+        {
+          "tag": "BODY",
+          "className": "",
+          "documentHasFocus": true,
+          "dialogs": 0
+        },
+        {
+          "tag": "BODY",
+          "className": "",
+          "documentHasFocus": true,
+          "dialogs": 0
+        }
+      ],
+      "events": [
+        {
+          "type": "focusin",
+          "tag": "BUTTON",
+          "card": "card-b1-content",
+          "dialog": false,
+          "at": 84.90000003576279
+        },
+        {
+          "type": "keydown",
+          "key": "Enter",
+          "tag": "BUTTON",
+          "card": "card-b1-content",
+          "dialog": false,
+          "at": 87.90000003576279
+        },
+        {
+          "type": "focusout",
+          "tag": "BUTTON",
+          "card": "card-b1-content",
+          "dialog": false,
+          "at": 89.20000004768372
+        },
+        {
+          "type": "focusin",
+          "tag": "DIV",
+          "dialog": true,
+          "at": 90.90000003576279
+        },
+        {
+          "type": "keydown",
+          "key": "Tab",
+          "tag": "DIV",
+          "dialog": true,
+          "at": 93.60000002384186
+        },
+        {
+          "type": "focusout",
+          "tag": "DIV",
+          "dialog": true,
+          "at": 93.60000002384186
+        },
+        {
+          "type": "focusin",
+          "tag": "BUTTON",
+          "dialog": true,
+          "at": 93.60000002384186
+        },
+        {
+          "type": "keydown",
+          "key": "Escape",
+          "tag": "BUTTON",
+          "dialog": true,
+          "at": 94.10000002384186
+        },
+        {
+          "type": "focusout",
+          "tag": "BUTTON",
+          "dialog": true,
+          "at": 94.40000003576279
+        }
+      ]
+    },
+    {
+      "run": 1,
+      "bringToFront": true,
+      "observations": [
+        {
+          "tag": "BODY",
+          "className": "",
+          "documentHasFocus": true,
+          "dialogs": 0
+        },
+        {
+          "tag": "BODY",
+          "className": "",
+          "documentHasFocus": true,
+          "dialogs": 0
+        },
+        {
+          "tag": "BODY",
+          "className": "",
+          "documentHasFocus": true,
+          "dialogs": 0
+        },
+        {
+          "tag": "BODY",
+          "className": "",
+          "documentHasFocus": true,
+          "dialogs": 0
+        },
+        {
+          "tag": "BODY",
+          "className": "",
+          "documentHasFocus": true,
+          "dialogs": 0
+        }
+      ],
+      "events": [
+        {
+          "type": "focusin",
+          "tag": "BUTTON",
+          "card": "card-b1-content",
+          "dialog": false,
+          "at": 75.30000001192093
+        },
+        {
+          "type": "keydown",
+          "key": "Enter",
+          "tag": "BUTTON",
+          "card": "card-b1-content",
+          "dialog": false,
+          "at": 78.10000002384186
+        },
+        {
+          "type": "focusout",
+          "tag": "BUTTON",
+          "card": "card-b1-content",
+          "dialog": false,
+          "at": 79.5
+        },
+        {
+          "type": "focusin",
+          "tag": "DIV",
+          "dialog": true,
+          "at": 81.40000003576279
+        },
+        {
+          "type": "keydown",
+          "key": "Tab",
+          "tag": "DIV",
+          "dialog": true,
+          "at": 83.69999998807907
+        },
+        {
+          "type": "focusout",
+          "tag": "DIV",
+          "dialog": true,
+          "at": 83.80000001192093
+        },
+        {
+          "type": "focusin",
+          "tag": "BUTTON",
+          "dialog": true,
+          "at": 83.80000001192093
+        },
+        {
+          "type": "keydown",
+          "key": "Escape",
+          "tag": "BUTTON",
+          "dialog": true,
+          "at": 84
+        },
+        {
+          "type": "focusout",
+          "tag": "BUTTON",
+          "dialog": true,
+          "at": 84.5
+        }
+      ]
+    },
+    {
+      "run": 2,
+      "bringToFront": false,
+      "observations": [
+        {
+          "tag": "BODY",
+          "className": "",
+          "documentHasFocus": true,
+          "dialogs": 0
+        },
+        {
+          "tag": "BODY",
+          "className": "",
+          "documentHasFocus": true,
+          "dialogs": 0
+        },
+        {
+          "tag": "BODY",
+          "className": "",
+          "documentHasFocus": true,
+          "dialogs": 0
+        },
+        {
+          "tag": "BODY",
+          "className": "",
+          "documentHasFocus": true,
+          "dialogs": 0
+        },
+        {
+          "tag": "BODY",
+          "className": "",
+          "documentHasFocus": true,
+          "dialogs": 0
+        }
+      ],
+      "events": [
+        {
+          "type": "focusin",
+          "tag": "BUTTON",
+          "card": "card-b1-content",
+          "dialog": false,
+          "at": 74.09999996423721
+        },
+        {
+          "type": "keydown",
+          "key": "Enter",
+          "tag": "BUTTON",
+          "card": "card-b1-content",
+          "dialog": false,
+          "at": 77.5
+        },
+        {
+          "type": "focusout",
+          "tag": "BUTTON",
+          "card": "card-b1-content",
+          "dialog": false,
+          "at": 78.89999997615814
+        },
+        {
+          "type": "focusin",
+          "tag": "DIV",
+          "dialog": true,
+          "at": 80.89999997615814
+        },
+        {
+          "type": "keydown",
+          "key": "Tab",
+          "tag": "DIV",
+          "dialog": true,
+          "at": 83.30000001192093
+        },
+        {
+          "type": "focusout",
+          "tag": "DIV",
+          "dialog": true,
+          "at": 83.39999997615814
+        },
+        {
+          "type": "focusin",
+          "tag": "BUTTON",
+          "dialog": true,
+          "at": 83.5
+        },
+        {
+          "type": "keydown",
+          "key": "Escape",
+          "tag": "BUTTON",
+          "dialog": true,
+          "at": 83.69999998807907
+        },
+        {
+          "type": "focusout",
+          "tag": "BUTTON",
+          "dialog": true,
+          "at": 84.09999996423721
+        }
+      ]
+    },
+    {
+      "run": 3,
+      "bringToFront": true,
+      "observations": [
+        {
+          "tag": "BODY",
+          "className": "",
+          "documentHasFocus": true,
+          "dialogs": 0
+        },
+        {
+          "tag": "BODY",
+          "className": "",
+          "documentHasFocus": true,
+          "dialogs": 0
+        },
+        {
+          "tag": "BODY",
+          "className": "",
+          "documentHasFocus": true,
+          "dialogs": 0
+        },
+        {
+          "tag": "BODY",
+          "className": "",
+          "documentHasFocus": true,
+          "dialogs": 0
+        },
+        {
+          "tag": "BODY",
+          "className": "",
+          "documentHasFocus": true,
+          "dialogs": 0
+        }
+      ],
+      "events": [
+        {
+          "type": "focusin",
+          "tag": "BUTTON",
+          "card": "card-b1-content",
+          "dialog": false,
+          "at": 78.69999998807907
+        },
+        {
+          "type": "keydown",
+          "key": "Enter",
+          "tag": "BUTTON",
+          "card": "card-b1-content",
+          "dialog": false,
+          "at": 81.59999996423721
+        },
+        {
+          "type": "focusout",
+          "tag": "BUTTON",
+          "card": "card-b1-content",
+          "dialog": false,
+          "at": 83
+        },
+        {
+          "type": "focusin",
+          "tag": "DIV",
+          "dialog": true,
+          "at": 84.89999997615814
+        },
+        {
+          "type": "keydown",
+          "key": "Tab",
+          "tag": "DIV",
+          "dialog": true,
+          "at": 87.19999998807907
+        },
+        {
+          "type": "focusout",
+          "tag": "DIV",
+          "dialog": true,
+          "at": 87.19999998807907
+        },
+        {
+          "type": "focusin",
+          "tag": "BUTTON",
+          "dialog": true,
+          "at": 87.29999995231628
+        },
+        {
+          "type": "keydown",
+          "key": "Escape",
+          "tag": "BUTTON",
+          "dialog": true,
+          "at": 87.5
+        },
+        {
+          "type": "focusout",
+          "tag": "BUTTON",
+          "dialog": true,
+          "at": 87.89999997615814
+        }
+      ]
+    }
+  ]
+}

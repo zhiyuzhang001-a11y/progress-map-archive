@@ -1,0 +1,15 @@
+$ tsx --test tests/*.test.ts
+✔ four progress states and unknown propagation (0.452708ms)
+✔ collapse hides descendants but preserves all anomaly and acceptance summaries (0.112875ms)
+✔ weighted acceptance, invalidated evidence and near 100% (0.049125ms)
+✔ layout is deterministic, full tree leaves do not overlap, sides remain stable (7.25025ms)
+✔ unique acceptance IDs are counted once (0.067416ms)
+✔ focus filters the tree without changing business data (0.094958ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 91.106208

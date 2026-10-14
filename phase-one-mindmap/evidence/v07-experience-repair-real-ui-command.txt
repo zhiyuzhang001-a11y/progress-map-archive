@@ -1,0 +1,109 @@
+{
+  "kind": "real main read-only business GET experience check",
+  "humanAcceptance": false,
+  "cases": [
+    {
+      "device": "desktop",
+      "allItems": 9,
+      "eachItemLocatedAndReturned": true,
+      "originalCameraRestored": true,
+      "sourceLabels": true,
+      "leafSummarySpecific": true,
+      "changeChecks": [
+        {
+          "id": "map-goal",
+          "hasChange": true,
+          "before": "进行中",
+          "after": "待验收",
+          "text": "完整计划地图：进行中→待验收；现在：已分清此前已验收、上一轮成果和这次改版，中心与四个分计划可以展开查看具体工作。；仍待你确认",
+          "affected": 6
+        },
+        {
+          "id": "map-planning",
+          "hasChange": true,
+          "before": "进行中",
+          "after": "待验收",
+          "text": "完整计划地图：进行中→待验收；现在：已分清此前已验收、上一轮成果和这次改版，中心与四个分计划可以展开查看具体工作。；仍待你确认",
+          "affected": 3
+        },
+        {
+          "id": "map-problems",
+          "hasChange": true,
+          "before": "进行中",
+          "after": "待验收",
+          "text": "本轮难题与处理：进行中→待验收；现在：已解决大分支连线难辨和关闭详情后焦点丢失：现在可追踪所属计划，关闭后回到原卡。已报告的开发事项当前无受阻记录；下一步是检查实际阅读与操作体验。；仍待你确认",
+          "affected": 1
+        },
+        {
+          "id": "map-results",
+          "hasChange": false,
+          "factOnly": true,
+          "text": "上一轮成果 · 一起确认做好了什么：六项成果可以一起核对，也能分别确认通过或需要修改。\n上一轮成果 · 点开能了解实际成果：成果先显示简明说明；相关内容可以只读查看，其中的操作不会自动执行。",
+          "affected": 0
+        },
+        {
+          "id": "map-follow",
+          "hasChange": true,
+          "before": "进行中",
+          "after": "待验收",
+          "text": "重要变化：进行中→待验收；现在：已把笼统的变化提示改为具体事项与前后状态，点选可以追到对应工作；刷新或改写说明不会产生新的进度事件。；仍待你确认",
+          "affected": 2
+        }
+      ]
+    },
+    {
+      "device": "390x844 actual touch",
+      "allItems": 9,
+      "eachItemLocatedAndReturned": true,
+      "originalCameraRestored": true,
+      "sourceLabels": true,
+      "leafSummarySpecific": true,
+      "touchPinchAndPan": true,
+      "changeChecks": [
+        {
+          "id": "map-goal",
+          "hasChange": true,
+          "before": "进行中",
+          "after": "待验收",
+          "text": "完整计划地图：进行中→待验收；现在：已分清此前已验收、上一轮成果和这次改版，中心与四个分计划可以展开查看具体工作。；仍待你确认",
+          "affected": 6
+        },
+        {
+          "id": "map-planning",
+          "hasChange": true,
+          "before": "进行中",
+          "after": "待验收",
+          "text": "完整计划地图：进行中→待验收；现在：已分清此前已验收、上一轮成果和这次改版，中心与四个分计划可以展开查看具体工作。；仍待你确认",
+          "affected": 3
+        },
+        {
+          "id": "map-problems",
+          "hasChange": true,
+          "before": "进行中",
+          "after": "待验收",
+          "text": "本轮难题与处理：进行中→待验收；现在：已解决大分支连线难辨和关闭详情后焦点丢失：现在可追踪所属计划，关闭后回到原卡。已报告的开发事项当前无受阻记录；下一步是检查实际阅读与操作体验。；仍待你确认",
+          "affected": 1
+        },
+        {
+          "id": "map-results",
+          "hasChange": false,
+          "factOnly": true,
+          "text": "上一轮成果 · 一起确认做好了什么：六项成果可以一起核对，也能分别确认通过或需要修改。\n上一轮成果 · 点开能了解实际成果：成果先显示简明说明；相关内容可以只读查看，其中的操作不会自动执行。",
+          "affected": 0
+        },
+        {
+          "id": "map-follow",
+          "hasChange": true,
+          "before": "进行中",
+          "after": "待验收",
+          "text": "重要变化：进行中→待验收；现在：已把笼统的变化提示改为具体事项与前后状态，点选可以追到对应工作；刷新或改写说明不会产生新的进度事件。；仍待你确认",
+          "affected": 2
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "mainStateUnchanged": true,
+  "passed": true
+}
+{"passed":true,"groupsPerDevice":5,"itemsPerDevice":9,"artifactVersion":"sha256-51ef51807d637519e0d6ce61225396ef7516cc018a0fde4821c1e851ba810b4f","revision":196}

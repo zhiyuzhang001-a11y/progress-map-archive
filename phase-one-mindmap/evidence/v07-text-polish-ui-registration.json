@@ -1,0 +1,97 @@
+{
+  "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+  "records": 6,
+  "receipt": {
+    "action": {
+      "type": "register-evidence",
+      "records": [
+        {
+          "id": "v07-text-polish-ui-v07-plan-db99773ff8",
+          "projectId": "progress-mindmap-self",
+          "baselineVersion": 3,
+          "candidateId": "v07-c-v07-plan-db99773ff8",
+          "evidenceId": "v07-e-v07-plan-db99773ff8",
+          "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+          "relativePath": "evidence/v07-text-polish-real-ui.json",
+          "sha256": "1995bdb06b566a3b0e716c154ffca457504dc795e92f216801509ed2bb12d98f",
+          "bytes": 4348,
+          "mediaType": "application/json",
+          "title": "体验补修真实页面、具体变化及全部事项定位核对"
+        },
+        {
+          "id": "v07-text-polish-ui-v07-clean-db99773ff8",
+          "projectId": "progress-mindmap-self",
+          "baselineVersion": 3,
+          "candidateId": "v07-c-v07-clean-db99773ff8",
+          "evidenceId": "v07-e-v07-clean-db99773ff8",
+          "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+          "relativePath": "evidence/v07-text-polish-real-ui.json",
+          "sha256": "1995bdb06b566a3b0e716c154ffca457504dc795e92f216801509ed2bb12d98f",
+          "bytes": 4348,
+          "mediaType": "application/json",
+          "title": "体验补修真实页面、具体变化及全部事项定位核对"
+        },
+        {
+          "id": "v07-text-polish-ui-v07-truth-db99773ff8",
+          "projectId": "progress-mindmap-self",
+          "baselineVersion": 3,
+          "candidateId": "v07-c-v07-truth-db99773ff8",
+          "evidenceId": "v07-e-v07-truth-db99773ff8",
+          "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+          "relativePath": "evidence/v07-text-polish-real-ui.json",
+          "sha256": "1995bdb06b566a3b0e716c154ffca457504dc795e92f216801509ed2bb12d98f",
+          "bytes": 4348,
+          "mediaType": "application/json",
+          "title": "体验补修真实页面、具体变化及全部事项定位核对"
+        },
+        {
+          "id": "v07-text-polish-ui-v07-problems-db99773ff8",
+          "projectId": "progress-mindmap-self",
+          "baselineVersion": 3,
+          "candidateId": "v07-c-v07-problems-db99773ff8",
+          "evidenceId": "v07-e-v07-problems-db99773ff8",
+          "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+          "relativePath": "evidence/v07-text-polish-real-ui.json",
+          "sha256": "1995bdb06b566a3b0e716c154ffca457504dc795e92f216801509ed2bb12d98f",
+          "bytes": 4348,
+          "mediaType": "application/json",
+          "title": "体验补修真实页面、具体变化及全部事项定位核对"
+        },
+        {
+          "id": "v07-text-polish-ui-v07-changes-db99773ff8",
+          "projectId": "progress-mindmap-self",
+          "baselineVersion": 3,
+          "candidateId": "v07-c-v07-changes-db99773ff8",
+          "evidenceId": "v07-e-v07-changes-db99773ff8",
+          "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+          "relativePath": "evidence/v07-text-polish-real-ui.json",
+          "sha256": "1995bdb06b566a3b0e716c154ffca457504dc795e92f216801509ed2bb12d98f",
+          "bytes": 4348,
+          "mediaType": "application/json",
+          "title": "体验补修真实页面、具体变化及全部事项定位核对"
+        },
+        {
+          "id": "v07-text-polish-ui-v07-maintain-db99773ff8",
+          "projectId": "progress-mindmap-self",
+          "baselineVersion": 3,
+          "candidateId": "v07-c-v07-maintain-db99773ff8",
+          "evidenceId": "v07-e-v07-maintain-db99773ff8",
+          "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+          "relativePath": "evidence/v07-text-polish-real-ui.json",
+          "sha256": "1995bdb06b566a3b0e716c154ffca457504dc795e92f216801509ed2bb12d98f",
+          "bytes": 4348,
+          "mediaType": "application/json",
+          "title": "体验补修真实页面、具体变化及全部事项定位核对"
+        }
+      ],
+      "reason": "登记相同最终产物的真实主页面核对，不产生用户决定。"
+    },
+    "receipt": {
+      "operationId": "d9906408-c80d-499a-a366-2b7f2d1e6044",
+      "committedRevision": 209,
+      "currentRevision": 209,
+      "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+      "replayed": false
+    }
+  }
+}

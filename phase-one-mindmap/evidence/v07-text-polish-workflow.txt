@@ -1,0 +1,17 @@
+✔ checkpoint is fixed, restart durable, wording/refresh do not manufacture changes, actual progress does (139.301708ms)
+✔ historical acceptance preserves pending fixed original chain; no CLI privilege; selected partial receipt retries (106.927917ms)
+✔ historical return and stale/hash/changed-version requests reject or preserve exact old scope (129.912834ms)
+✔ checkpoint and both view slots exported; recovery invalidates comparison, view, old CLI and user retry before receipt (281.0375ms)
+✔ all-paused/cancelled branch and paused project are not called active (16.048459ms)
+✔ historical successful retry is refused after restore before receipt lookup (188.639917ms)
+✔ checkpoint project and source range validated; new scope is never compared with old scope (136.023042ms)
+✔ historical pack keeps original delivered evidence; later pass cannot replace it and later failure invalidates (159.655875ms)
+✔ legacy B1 and B2 run ranges remain legal when B3 activates without modifying their outcomes (3.000125ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1304.903958

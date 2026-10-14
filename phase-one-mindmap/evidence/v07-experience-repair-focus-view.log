@@ -1,0 +1,11 @@
+
+Running 4 tests using 1 worker
+
+(node:17824) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/browser/pure-map.spec.ts:11:1 › keyboard opens closes and returns focus; arrows navigate and plus zooms without a toolbar (287ms)
+  ✓  2 tests/browser/pure-map.spec.ts:15:1 › phone overview keeps readable card text, touch detail and close work without default panels (453ms)
+  ✓  3 tests/browser/pure-map.spec.ts:17:1 › rapid open-close cancels obsolete fit and pointer panning stays available without controls (726ms)
+  ✓  4 tests/browser/pure-map.spec.ts:19:1 › a delayed initial saved view cannot overwrite a branch the user already expanded (625ms)
+
+  4 passed (2.9s)

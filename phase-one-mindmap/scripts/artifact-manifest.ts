@@ -1,0 +1,11 @@
+import * as fs from 'node:fs/promises';
+import {join,relative} from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {createHash} from 'node:crypto';
+const root=fileURLToPath(new URL('../',import.meta.url));const digest=(raw:Buffer|string)=>createHash('sha256').update(raw).digest('hex');
+const files:{path:string;bytes:number;sha256:string}[]=[];
+async function add(p:string){const s=await fs.lstat(p);if(s.isSymbolicLink())throw new Error('摘要不跟随符号链接');if(s.isDirectory()){for(const name of (await fs.readdir(p)).sort())await add(join(p,name));}else if(s.isFile()){const b=await fs.readFile(p);files.push({path:relative(root,p),bytes:b.length,sha256:digest(b)});}}
+for(const name of ['backend','src','scripts','tests','dist','package.json','pnpm-lock.yaml','tsconfig.json','index.html','Start.command','Stop.command','project.config.json','demo.config.json','self-project-initial.json','README.md','CLI_GUIDE.md','MAINTENANCE.md','PERFORMANCE.md','SELF_PROJECT_BASELINE.md'])await add(join(root,name));
+files.sort((a,b)=>a.path.localeCompare(b.path));const artifactVersion='sha256-'+digest(JSON.stringify(files));const checkNames=['v04-camera-final-build.txt','v04-camera-final-model.txt','v04-backend-final.txt','v04-camera-final-browser.txt','v04-launcher-tests.txt','v04-recovery-real-tests.txt','v04-camera-final-benchmark.txt','v04-camera-final-performance.json','v04-stage1-preview.json','v04-stage1-activation.json'];const checks=[];
+for(const name of checkNames){const p=join(root,'evidence',name),b=await fs.readFile(p);checks.push({path:'evidence/'+name,bytes:b.length,sha256:digest(b),recordLastModifiedAt:(await fs.stat(p)).mtime.toISOString()});}
+const output={manifestVersion:1,recordedAt:new Date().toISOString(),artifactVersion,scope:'仅本项目代码、测试、产物、初始基线和固定交付说明；不包括运行状态、会话凭据、运行日志或其他项目。历史52项未补造绑定。本轮验证记录独立核对；文件mtime是记录完成时间，不伪称精确测试开始时间。',files,checks};await fs.writeFile(join(root,'evidence/v04-artifact-manifest.json'),JSON.stringify(output,null,2),{mode:0o600});await fs.mkdir(join(root,'evidence/artifact-manifests'),{recursive:true});await fs.writeFile(join(root,'evidence/artifact-manifests',artifactVersion+'.json'),JSON.stringify(output,null,2),{flag:'wx',mode:0o600});console.log(JSON.stringify({artifactVersion,files:files.length,checks:checks.length}));

@@ -1,0 +1,28 @@
+{
+  "kind": "isolated actual project clone experience check",
+  "humanAcceptance": false,
+  "cases": [
+    {
+      "device": "desktop",
+      "allItems": 9,
+      "eachItemLocatedAndReturned": true,
+      "originalCameraRestored": true,
+      "sourceLabels": true,
+      "leafSummarySpecific": true,
+      "changeChecks": []
+    },
+    {
+      "device": "390x844 actual touch",
+      "allItems": 9,
+      "eachItemLocatedAndReturned": true,
+      "originalCameraRestored": true,
+      "sourceLabels": true,
+      "leafSummarySpecific": true,
+      "touchPinchAndPan": true,
+      "changeChecks": []
+    }
+  ],
+  "errors": [],
+  "mainStateUnchanged": true,
+  "passed": true
+}

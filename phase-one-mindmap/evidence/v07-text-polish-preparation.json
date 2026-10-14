@@ -1,0 +1,10 @@
+{
+  "recordedAt": "2026-10-12T13:07:40.749831+00:00",
+  "revision": 197,
+  "stateSha256": "2b09bc2abbe3eb470d3b08f3bbea7488050611b0b434654a544f0b6fbbd672f5",
+  "priorArtifact": "sha256-51ef51807d637519e0d6ce61225396ef7516cc018a0fde4821c1e851ba810b4f",
+  "priorRecords": 472,
+  "scope": "Approved short complete card facts and deduplicated detail only; preserve layout, full facts, decisions and checkpoint. Human final acceptance not recorded.",
+  "authorization": "Trusted transcript of user 同意 to two text repairs; scope authorization only.",
+  "backupId": "snapshot-e2385c75-afbc-4821-af53-6051f3582e45"
+}

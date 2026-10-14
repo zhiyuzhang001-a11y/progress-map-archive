@@ -1,0 +1,14 @@
+✔ carry legally references original decision/candidate/evidence; snapshot frozen despite current review (147.566625ms)
+✔ added scope starts pending, changed goals prevent carry and explanations distinguish return and review (158.256542ms)
+✔ activation crash points restart consistently before or after complete atomic switch (462.248416ms)
+✔ concurrent decision survives stale activation; invalid original chain or copied cross-baseline decision rejects (162.69225ms)
+✔ historical evidence failure invalidates current carry without rewriting historical conclusion (126.515875ms)
+✔ new user acceptance decision during activation is not overwritten by a stale preparation (146.661458ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1304.085042

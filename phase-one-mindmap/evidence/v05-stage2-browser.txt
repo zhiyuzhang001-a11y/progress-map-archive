@@ -1,0 +1,22 @@
+
+Running 14 tests using 1 worker
+
+(node:44024) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/browser/real-project.spec.ts:16:1 › real preview uses explicit project content without fake decisions or demo report controls (393ms)
+  ✓   2 tests/browser/real-project.spec.ts:17:1 › real writable channel records local-user decision while drafts stay on the page and capacities are complete (678ms)
+  ✓   3 tests/browser/real-project.spec.ts:18:1 › views are keyed by project and recovery epoch and never replay legacy demo cache (302ms)
+  ✓   4 tests/browser/real-project.spec.ts:20:1 › restoration discards server view from old epoch when a fresh browser session reopens (258ms)
+  ✓   5 tests/browser/real-project.spec.ts:22:1 › missing project metadata fails closed without rendering demo content or crashing (202ms)
+隔离真实配置闭环：原文意见→真实CLI读取轮次→候选/provenance→回应落实→打开页r3轮询→关页再报告r4重开→模拟验收/退回/新增意见；真实主项目未写模拟决定。
+  ✓   6 tests/browser/real-project.spec.ts:25:1 › isolated real-project opinion loop uses actual CLI subprocesses and browser synchronization without touching main decisions (3.9s)
+  ✓   7 tests/browser/real-project.spec.ts:41:1 › desktop saved camera adapts on narrow reload while manual positions and collapse remain intact (1.2s)
+  ✓   8 tests/browser/real-project.spec.ts:43:1 › fresh narrow browser fits desktop server camera without losing custom node positions (2.0s)
+  ✓   9 tests/browser/real-project.spec.ts:45:1 › desktop reload rejects camera changed by another narrow window while keeping server positions (3.0s)
+  ✓  10 tests/browser/real-project.spec.ts:49:1 › v05 package supports selected partial acceptance then whole closure without repeated decisions (1.1s)
+  ✓  11 tests/browser/real-project.spec.ts:50:1 › v05 package blocks a changed version and requires a new preview without applying old selection (3.2s)
+  ✓  12 tests/browser/real-project.spec.ts:52:1 › v05 returned and reviewed results override stale report next-step text (944ms)
+  ✓  13 tests/browser/real-project.spec.ts:62:1 › v05 current iteration counts six pending while history keeps original sixteen and read-only chains (914ms)
+  ✓  14 tests/browser/real-project.spec.ts:64:1 › v05 progress explanation separates failed evidence from a user return and preserves closure (6.0s)
+
+  14 passed (25.0s)

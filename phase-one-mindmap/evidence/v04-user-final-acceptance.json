@@ -1,0 +1,409 @@
+{
+  "recordedAt": "2026-10-11T13:44:01.930Z",
+  "userStatement": "通过",
+  "decisionSource": "本Codex聊天中的真实用户最终决定；由Codex通过受控网页渠道代为录入",
+  "artifactVersion": "sha256-11d2f6d0a065efd8cd09ca947a617294f05e48003718171f16fd99ef7d3b4752",
+  "baselineVersion": 1,
+  "records": [
+    {
+      "request": {
+        "schemaVersion": 2,
+        "projectId": "progress-mindmap-self",
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "expectedRevision": 76,
+        "baselineVersion": 1,
+        "operationId": "16169617-8f08-4c80-8ff5-ac8123345adb",
+        "action": {
+          "type": "accept",
+          "acceptanceId": "accept-goal-map",
+          "candidateId": "v04-candidate-goal-map-ef7d3b4752",
+          "evidenceId": "v04-evidence-goal-map-ef7d3b4752",
+          "version": "sha256-11d2f6d0a065efd8cd09ca947a617294f05e48003718171f16fd99ef7d3b4752",
+          "reason": "用户在本Codex聊天完成最终验收，明确回复“通过”。Codex依用户这一真实决定通过受控本地网页用户入口代为录入；不是用户点击网页，不是AI自评或模拟验收。确认本轮B1基线、当前交付成果与使用体验。"
+        }
+      },
+      "receipt": {
+        "operationId": "16169617-8f08-4c80-8ff5-ac8123345adb",
+        "committedRevision": 77,
+        "currentRevision": 77,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "request": {
+        "schemaVersion": 2,
+        "projectId": "progress-mindmap-self",
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "expectedRevision": 77,
+        "baselineVersion": 1,
+        "operationId": "2dfb9866-65d0-4be8-b25e-06b712747367",
+        "action": {
+          "type": "accept",
+          "acceptanceId": "accept-edge-progress",
+          "candidateId": "v04-candidate-edge-progress-ef7d3b4752",
+          "evidenceId": "v04-evidence-edge-progress-ef7d3b4752",
+          "version": "sha256-11d2f6d0a065efd8cd09ca947a617294f05e48003718171f16fd99ef7d3b4752",
+          "reason": "用户在本Codex聊天完成最终验收，明确回复“通过”。Codex依用户这一真实决定通过受控本地网页用户入口代为录入；不是用户点击网页，不是AI自评或模拟验收。确认本轮B1基线、当前交付成果与使用体验。"
+        }
+      },
+      "receipt": {
+        "operationId": "2dfb9866-65d0-4be8-b25e-06b712747367",
+        "committedRevision": 78,
+        "currentRevision": 78,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "request": {
+        "schemaVersion": 2,
+        "projectId": "progress-mindmap-self",
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "expectedRevision": 78,
+        "baselineVersion": 1,
+        "operationId": "cd93db53-16f3-4631-a8be-2336cfa72941",
+        "action": {
+          "type": "accept",
+          "acceptanceId": "accept-node-details",
+          "candidateId": "v04-candidate-node-details-ef7d3b4752",
+          "evidenceId": "v04-evidence-node-details-ef7d3b4752",
+          "version": "sha256-11d2f6d0a065efd8cd09ca947a617294f05e48003718171f16fd99ef7d3b4752",
+          "reason": "用户在本Codex聊天完成最终验收，明确回复“通过”。Codex依用户这一真实决定通过受控本地网页用户入口代为录入；不是用户点击网页，不是AI自评或模拟验收。确认本轮B1基线、当前交付成果与使用体验。"
+        }
+      },
+      "receipt": {
+        "operationId": "cd93db53-16f3-4631-a8be-2336cfa72941",
+        "committedRevision": 79,
+        "currentRevision": 79,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "request": {
+        "schemaVersion": 2,
+        "projectId": "progress-mindmap-self",
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "expectedRevision": 79,
+        "baselineVersion": 1,
+        "operationId": "c7ef190f-4049-4c15-8d6c-c5c2ddc2629e",
+        "action": {
+          "type": "accept",
+          "acceptanceId": "accept-readability",
+          "candidateId": "v04-candidate-readability-ef7d3b4752",
+          "evidenceId": "v04-evidence-readability-ef7d3b4752",
+          "version": "sha256-11d2f6d0a065efd8cd09ca947a617294f05e48003718171f16fd99ef7d3b4752",
+          "reason": "用户在本Codex聊天完成最终验收，明确回复“通过”。Codex依用户这一真实决定通过受控本地网页用户入口代为录入；不是用户点击网页，不是AI自评或模拟验收。确认本轮B1基线、当前交付成果与使用体验。"
+        }
+      },
+      "receipt": {
+        "operationId": "c7ef190f-4049-4c15-8d6c-c5c2ddc2629e",
+        "committedRevision": 80,
+        "currentRevision": 80,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "request": {
+        "schemaVersion": 2,
+        "projectId": "progress-mindmap-self",
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "expectedRevision": 80,
+        "baselineVersion": 1,
+        "operationId": "6fd72e7e-3c74-4459-9326-0f8e53d9ee49",
+        "action": {
+          "type": "accept",
+          "acceptanceId": "accept-atomic-state",
+          "candidateId": "v04-candidate-atomic-state-ef7d3b4752",
+          "evidenceId": "v04-evidence-atomic-state-ef7d3b4752",
+          "version": "sha256-11d2f6d0a065efd8cd09ca947a617294f05e48003718171f16fd99ef7d3b4752",
+          "reason": "用户在本Codex聊天完成最终验收，明确回复“通过”。Codex依用户这一真实决定通过受控本地网页用户入口代为录入；不是用户点击网页，不是AI自评或模拟验收。确认本轮B1基线、当前交付成果与使用体验。"
+        }
+      },
+      "receipt": {
+        "operationId": "6fd72e7e-3c74-4459-9326-0f8e53d9ee49",
+        "committedRevision": 81,
+        "currentRevision": 81,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "request": {
+        "schemaVersion": 2,
+        "projectId": "progress-mindmap-self",
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "expectedRevision": 81,
+        "baselineVersion": 1,
+        "operationId": "90462e43-19bd-4580-ade2-46092786fb3c",
+        "action": {
+          "type": "accept",
+          "acceptanceId": "accept-epoch-safety",
+          "candidateId": "v04-candidate-epoch-safety-ef7d3b4752",
+          "evidenceId": "v04-evidence-epoch-safety-ef7d3b4752",
+          "version": "sha256-11d2f6d0a065efd8cd09ca947a617294f05e48003718171f16fd99ef7d3b4752",
+          "reason": "用户在本Codex聊天完成最终验收，明确回复“通过”。Codex依用户这一真实决定通过受控本地网页用户入口代为录入；不是用户点击网页，不是AI自评或模拟验收。确认本轮B1基线、当前交付成果与使用体验。"
+        }
+      },
+      "receipt": {
+        "operationId": "90462e43-19bd-4580-ade2-46092786fb3c",
+        "committedRevision": 82,
+        "currentRevision": 82,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "request": {
+        "schemaVersion": 2,
+        "projectId": "progress-mindmap-self",
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "expectedRevision": 82,
+        "baselineVersion": 1,
+        "operationId": "fa74d3dd-3565-40cc-bfc9-4198a9b9225b",
+        "action": {
+          "type": "accept",
+          "acceptanceId": "accept-project-isolation",
+          "candidateId": "v04-candidate-project-isolation-ef7d3b4752",
+          "evidenceId": "v04-evidence-project-isolation-ef7d3b4752",
+          "version": "sha256-11d2f6d0a065efd8cd09ca947a617294f05e48003718171f16fd99ef7d3b4752",
+          "reason": "用户在本Codex聊天完成最终验收，明确回复“通过”。Codex依用户这一真实决定通过受控本地网页用户入口代为录入；不是用户点击网页，不是AI自评或模拟验收。确认本轮B1基线、当前交付成果与使用体验。"
+        }
+      },
+      "receipt": {
+        "operationId": "fa74d3dd-3565-40cc-bfc9-4198a9b9225b",
+        "committedRevision": 83,
+        "currentRevision": 83,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "request": {
+        "schemaVersion": 2,
+        "projectId": "progress-mindmap-self",
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "expectedRevision": 83,
+        "baselineVersion": 1,
+        "operationId": "dbf51a9f-c197-4071-a62f-0762fb58d7ba",
+        "action": {
+          "type": "accept",
+          "acceptanceId": "accept-capacity-export",
+          "candidateId": "v04-candidate-capacity-export-ef7d3b4752",
+          "evidenceId": "v04-evidence-capacity-export-ef7d3b4752",
+          "version": "sha256-11d2f6d0a065efd8cd09ca947a617294f05e48003718171f16fd99ef7d3b4752",
+          "reason": "用户在本Codex聊天完成最终验收，明确回复“通过”。Codex依用户这一真实决定通过受控本地网页用户入口代为录入；不是用户点击网页，不是AI自评或模拟验收。确认本轮B1基线、当前交付成果与使用体验。"
+        }
+      },
+      "receipt": {
+        "operationId": "dbf51a9f-c197-4071-a62f-0762fb58d7ba",
+        "committedRevision": 84,
+        "currentRevision": 84,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "request": {
+        "schemaVersion": 2,
+        "projectId": "progress-mindmap-self",
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "expectedRevision": 84,
+        "baselineVersion": 1,
+        "operationId": "6c9d74c6-0e5b-43ad-9af1-2ccf59c3b953",
+        "action": {
+          "type": "accept",
+          "acceptanceId": "accept-opinion-loop",
+          "candidateId": "v04-candidate-opinion-loop-ef7d3b4752",
+          "evidenceId": "v04-evidence-opinion-loop-ef7d3b4752",
+          "version": "sha256-11d2f6d0a065efd8cd09ca947a617294f05e48003718171f16fd99ef7d3b4752",
+          "reason": "用户在本Codex聊天完成最终验收，明确回复“通过”。Codex依用户这一真实决定通过受控本地网页用户入口代为录入；不是用户点击网页，不是AI自评或模拟验收。确认本轮B1基线、当前交付成果与使用体验。"
+        }
+      },
+      "receipt": {
+        "operationId": "6c9d74c6-0e5b-43ad-9af1-2ccf59c3b953",
+        "committedRevision": 85,
+        "currentRevision": 85,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "request": {
+        "schemaVersion": 2,
+        "projectId": "progress-mindmap-self",
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "expectedRevision": 85,
+        "baselineVersion": 1,
+        "operationId": "2cab2e9e-08be-4429-8c69-55c9226294dd",
+        "action": {
+          "type": "accept",
+          "acceptanceId": "accept-evidence-version",
+          "candidateId": "v04-candidate-evidence-version-ef7d3b4752",
+          "evidenceId": "v04-evidence-evidence-version-ef7d3b4752",
+          "version": "sha256-11d2f6d0a065efd8cd09ca947a617294f05e48003718171f16fd99ef7d3b4752",
+          "reason": "用户在本Codex聊天完成最终验收，明确回复“通过”。Codex依用户这一真实决定通过受控本地网页用户入口代为录入；不是用户点击网页，不是AI自评或模拟验收。确认本轮B1基线、当前交付成果与使用体验。"
+        }
+      },
+      "receipt": {
+        "operationId": "2cab2e9e-08be-4429-8c69-55c9226294dd",
+        "committedRevision": 86,
+        "currentRevision": 86,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "request": {
+        "schemaVersion": 2,
+        "projectId": "progress-mindmap-self",
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "expectedRevision": 86,
+        "baselineVersion": 1,
+        "operationId": "5a429d5a-bc7d-445e-8722-997584b00465",
+        "action": {
+          "type": "accept",
+          "acceptanceId": "accept-decision-boundary",
+          "candidateId": "v04-candidate-decision-boundary-ef7d3b4752",
+          "evidenceId": "v04-evidence-decision-boundary-ef7d3b4752",
+          "version": "sha256-11d2f6d0a065efd8cd09ca947a617294f05e48003718171f16fd99ef7d3b4752",
+          "reason": "用户在本Codex聊天完成最终验收，明确回复“通过”。Codex依用户这一真实决定通过受控本地网页用户入口代为录入；不是用户点击网页，不是AI自评或模拟验收。确认本轮B1基线、当前交付成果与使用体验。"
+        }
+      },
+      "receipt": {
+        "operationId": "5a429d5a-bc7d-445e-8722-997584b00465",
+        "committedRevision": 87,
+        "currentRevision": 87,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "request": {
+        "schemaVersion": 2,
+        "projectId": "progress-mindmap-self",
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "expectedRevision": 87,
+        "baselineVersion": 1,
+        "operationId": "fab6f7d0-9f8a-446f-bff3-4eab4ba17b6d",
+        "action": {
+          "type": "accept",
+          "acceptanceId": "accept-priority-next",
+          "candidateId": "v04-candidate-priority-next-ef7d3b4752",
+          "evidenceId": "v04-evidence-priority-next-ef7d3b4752",
+          "version": "sha256-11d2f6d0a065efd8cd09ca947a617294f05e48003718171f16fd99ef7d3b4752",
+          "reason": "用户在本Codex聊天完成最终验收，明确回复“通过”。Codex依用户这一真实决定通过受控本地网页用户入口代为录入；不是用户点击网页，不是AI自评或模拟验收。确认本轮B1基线、当前交付成果与使用体验。"
+        }
+      },
+      "receipt": {
+        "operationId": "fab6f7d0-9f8a-446f-bff3-4eab4ba17b6d",
+        "committedRevision": 88,
+        "currentRevision": 88,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "request": {
+        "schemaVersion": 2,
+        "projectId": "progress-mindmap-self",
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "expectedRevision": 88,
+        "baselineVersion": 1,
+        "operationId": "bd7d948a-7439-40fe-a3ea-2e5016f6acc0",
+        "action": {
+          "type": "accept",
+          "acceptanceId": "accept-project-content",
+          "candidateId": "v04-candidate-project-content-ef7d3b4752",
+          "evidenceId": "v04-evidence-project-content-ef7d3b4752",
+          "version": "sha256-11d2f6d0a065efd8cd09ca947a617294f05e48003718171f16fd99ef7d3b4752",
+          "reason": "用户在本Codex聊天完成最终验收，明确回复“通过”。Codex依用户这一真实决定通过受控本地网页用户入口代为录入；不是用户点击网页，不是AI自评或模拟验收。确认本轮B1基线、当前交付成果与使用体验。"
+        }
+      },
+      "receipt": {
+        "operationId": "bd7d948a-7439-40fe-a3ea-2e5016f6acc0",
+        "committedRevision": 89,
+        "currentRevision": 89,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "request": {
+        "schemaVersion": 2,
+        "projectId": "progress-mindmap-self",
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "expectedRevision": 89,
+        "baselineVersion": 1,
+        "operationId": "0a0cdea4-c33f-4de8-b550-ac61e708b51b",
+        "action": {
+          "type": "accept",
+          "acceptanceId": "accept-launch-service",
+          "candidateId": "v04-candidate-launch-service-ef7d3b4752",
+          "evidenceId": "v04-evidence-launch-service-ef7d3b4752",
+          "version": "sha256-11d2f6d0a065efd8cd09ca947a617294f05e48003718171f16fd99ef7d3b4752",
+          "reason": "用户在本Codex聊天完成最终验收，明确回复“通过”。Codex依用户这一真实决定通过受控本地网页用户入口代为录入；不是用户点击网页，不是AI自评或模拟验收。确认本轮B1基线、当前交付成果与使用体验。"
+        }
+      },
+      "receipt": {
+        "operationId": "0a0cdea4-c33f-4de8-b550-ac61e708b51b",
+        "committedRevision": 90,
+        "currentRevision": 90,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "request": {
+        "schemaVersion": 2,
+        "projectId": "progress-mindmap-self",
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "expectedRevision": 90,
+        "baselineVersion": 1,
+        "operationId": "684edb0a-d473-4c99-9b0d-3ce84ca568b7",
+        "action": {
+          "type": "accept",
+          "acceptanceId": "accept-delivery-role",
+          "candidateId": "v04-candidate-delivery-role-ef7d3b4752",
+          "evidenceId": "v04-evidence-delivery-role-ef7d3b4752",
+          "version": "sha256-11d2f6d0a065efd8cd09ca947a617294f05e48003718171f16fd99ef7d3b4752",
+          "reason": "用户在本Codex聊天完成最终验收，明确回复“通过”。Codex依用户这一真实决定通过受控本地网页用户入口代为录入；不是用户点击网页，不是AI自评或模拟验收。确认本轮B1基线、当前交付成果与使用体验。"
+        }
+      },
+      "receipt": {
+        "operationId": "684edb0a-d473-4c99-9b0d-3ce84ca568b7",
+        "committedRevision": 91,
+        "currentRevision": 91,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "request": {
+        "schemaVersion": 2,
+        "projectId": "progress-mindmap-self",
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "expectedRevision": 91,
+        "baselineVersion": 1,
+        "operationId": "fe1c5eec-c5f1-42f0-8ac4-d56ecf238a5c",
+        "action": {
+          "type": "accept",
+          "acceptanceId": "accept-handoff",
+          "candidateId": "v04-candidate-handoff-ef7d3b4752",
+          "evidenceId": "v04-evidence-handoff-ef7d3b4752",
+          "version": "sha256-11d2f6d0a065efd8cd09ca947a617294f05e48003718171f16fd99ef7d3b4752",
+          "reason": "用户在本Codex聊天完成最终验收，明确回复“通过”。Codex依用户这一真实决定通过受控本地网页用户入口代为录入；不是用户点击网页，不是AI自评或模拟验收。确认本轮B1基线、当前交付成果与使用体验。"
+        }
+      },
+      "receipt": {
+        "operationId": "fe1c5eec-c5f1-42f0-8ac4-d56ecf238a5c",
+        "committedRevision": 92,
+        "currentRevision": 92,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    }
+  ]
+}

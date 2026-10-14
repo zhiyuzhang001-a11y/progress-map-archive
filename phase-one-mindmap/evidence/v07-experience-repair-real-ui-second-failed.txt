@@ -1,0 +1,36 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+ExpectError: expect(received).toHaveLength(expected)
+
+Expected length: 5
+Received length: 4
+Received array:  [{"affected": 6, "id": "map-goal", "text": "完整计划地图：进行中→待验收；现在：已分清此前已验收、上一轮成果和这次改版，中心与四个分计划可以展开查看具体工作。；仍待你确认"}, {"affected": 3, "id": "map-planning", "text": "完整计划地图：进行中→待验收；现在：已分清此前已验收、上一轮成果和这次改版，中心与四个分计划可以展开查看具体工作。；仍待你确认"}, {"affected": 1, "id": "map-problems", "text": "本轮难题与处理：进行中→待验收；现在：已解决大分支连线难辨和关闭详情后焦点丢失：现在可追踪所属计划，关闭后回到原卡。已报告的开发事项当前无受阻记录；下一步是检查实际阅读与操作体验。；仍待你确认"}, {"affected": 2, "id": "map-follow", "text": "重要变化：进行中→待验收；现在：已把笼统的变化提示改为具体事项与前后状态，点选可以追到对应工作；刷新或改写说明不会产生新的进度事件。；仍待你确认"}]
+    at captureRawStack (/Users/zhiyu/Documents/ChatGPT/progress map/phase-one-mindmap/node_modules/.pnpm/playwright-core@1.64.0/node_modules/playwright-core/lib/coreBundle.js:9282:17)
+    at callMatcherAsStep (/Users/zhiyu/Documents/ChatGPT/progress map/phase-one-mindmap/node_modules/.pnpm/playwright@1.64.0/node_modules/playwright/lib/matchers/expect.js:13316:57)
+    at Object.toHaveLength (/Users/zhiyu/Documents/ChatGPT/progress map/phase-one-mindmap/node_modules/.pnpm/playwright@1.64.0/node_modules/playwright/lib/matchers/expect.js:13308:23)
+    at /Users/zhiyu/Documents/ChatGPT/progress map/phase-one-mindmap/scripts/v07-experience-repair-ui.ts:6:31 {
+  matcherResult: {
+    message: 'expect(received).toHaveLength(expected)\n' +
+      '\n' +
+      'Expected length: 5\n' +
+      'Received length: 4\n' +
+      'Received array:  [{"affected": 6, "id": "map-goal", "text": "完整计划地图：进行中→待验收；现在：已分清此前已验收、上一轮成果和这次改版，中心与四个分计划可以展开查看具体工作。；仍待你确认"}, {"affected": 3, "id": "map-planning", "text": "完整计划地图：进行中→待验收；现在：已分清此前已验收、上一轮成果和这次改版，中心与四个分计划可以展开查看具体工作。；仍待你确认"}, {"affected": 1, "id": "map-problems", "text": "本轮难题与处理：进行中→待验收；现在：已解决大分支连线难辨和关闭详情后焦点丢失：现在可追踪所属计划，关闭后回到原卡。已报告的开发事项当前无受阻记录；下一步是检查实际阅读与操作体验。；仍待你确认"}, {"affected": 2, "id": "map-follow", "text": "重要变化：进行中→待验收；现在：已把笼统的变化提示改为具体事项与前后状态，点选可以追到对应工作；刷新或改写说明不会产生新的进度事件。；仍待你确认"}]',
+    pass: false,
+    name: 'toHaveLength'
+  }
+}
+
+Node.js v24.19.0
+file:///private/tmp/v07-experience-main-run.mts:8
+await new Promise      ((resolve,reject)=>{const child=spawn(process.execPath,['scripts/v07-experience-repair-ui.ts','--main'],{cwd:root,stdio:'inherit'});child.once('error',reject);child.once('exit',code=>code===0?resolve():reject(new Error('Actual experience UI failed')));});
+                                                                                                                                                                                                                                        ^
+
+Error: Actual experience UI failed
+    at ChildProcess.<anonymous> (file:///private/tmp/v07-experience-main-run.mts:8:233)
+    at Object.onceWrapper (node:events:631:26)
+    at ChildProcess.emit (node:events:509:28)
+    at ChildProcess._handle.onexit (node:internal/child_process:295:12)
+
+Node.js v24.19.0

@@ -1,0 +1,40 @@
+$ tsx --test tests/backend/*.test.ts
+✔ loopback bridge protects reads, origins, headers, methods and report capabilities (138.627167ms)
+✔ view saves do not change business revision and browser restores invalidate session (150.440833ms)
+✔ offline restoration invalidates an active web session, restart still rejects old envelope (131.266ms)
+✔ graceful shutdown waits for an accepted write to finish and preserves its receipt (3091.277125ms)
+✔ real independent CLI processes serialize equal revision requests without losing state (982.632ms)
+✔ offline CLI recovery persists epoch and rejects pre-recovery request in a new process (468.854166ms)
+✔ snapshot-only corrupt and missing authority require explicit recovery and retain unknown loss warning (75.489916ms)
+✔ capability is checked before privileged receipt replay (31.148792ms)
+✔ history limit refuses full transaction without dropping receipts or prior state (60.350334ms)
+✔ permission failure refuses writes and preserves validated authority (10.370959ms)
+✔ unrelated acceptance evidence and duplicate automatic rule are invalid state (10.622583ms)
+✔ synthetic ENOSPC and EACCES at file write preserve main and release lock (73.234ms)
+✔ backup cap refuses new snapshot without deleting history or existing snapshots (402.52175ms)
+✔ automatic acceptance requires approved fixed check and rule version; ordinary passing evidence does not count (85.3105ms)
+✔ failed checks supersede earlier passed evidence; old candidate failure cannot invalidate newer accepted version (295.972791ms)
+✔ exact-byte validation cache never trusts modified files or consumer-mutated returned state (41.635292ms)
+✔ baseline branch direction invariant rejects malformed direct state and proposals (31.475375ms)
+✔ shared schema, exact identity, private permissions and protected fields (86.565292ms)
+✔ revision conflict, same-ID retries and response-loss receipt (151.692875ms)
+✔ CLI/service contenders at same revision serialize: one wins, one conflicts (78.881708ms)
+✔ restore changes durable epoch; old operation IDs rejected before receipts, even after restart (201.104458ms)
+✔ bad JSON keeps backup readonly; explicit recovery quarantines corruption (88.611625ms)
+✔ faults before replace preserve primary, after replace expose uncertain committed receipt (122.753791ms)
+✔ unknown future schema, external edit, orphan, cycle, duplicate and invalid weights are rejected (86.978583ms)
+✔ symlinks and backup path traversal are denied (19.907875ms)
+✔ active and PID-reused locks are not stolen; definitely exited lock can be recovered (2055.644083ms)
+✔ multi-node run ends only after every report, interruption remains explicit (168.182583ms)
+✔ wrong-node returns and unrelated/stale implemented responses are rejected (174.505417ms)
+✔ synthetic feedback loop separates acknowledgement, response, implementation and acceptance (168.075833ms)
+✔ new opinions survive old report conflict; stale approvals rejected and evidence changes remove validity (117.37225ms)
+✔ scope proposal protects old baseline, changed conditions do not inherit acceptance (64.876334ms)
+ℹ tests 31
+ℹ suites 0
+ℹ pass 31
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3706.373875

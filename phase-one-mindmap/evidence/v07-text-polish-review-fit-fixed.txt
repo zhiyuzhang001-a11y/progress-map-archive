@@ -1,0 +1,17 @@
+
+Running 6 tests using 1 worker
+
+(node:27395) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/browser/pure-map.spec.ts:13:1 › meaningful changes survive reload while text-only edits and refresh produce no false change (6.2s)
+  ✓  2 tests/browser/pure-map.spec.ts:17:1 › rapid open-close cancels obsolete fit and pointer panning stays available without controls (710ms)
+(node:27464) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  3 tests/browser/pure-map.spec.ts:13:1 › meaningful changes survive reload while text-only edits and refresh produce no false change (6.3s)
+  ✓  4 tests/browser/pure-map.spec.ts:17:1 › rapid open-close cancels obsolete fit and pointer panning stays available without controls (727ms)
+(node:27516) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  5 tests/browser/pure-map.spec.ts:13:1 › meaningful changes survive reload while text-only edits and refresh produce no false change (6.3s)
+  ✓  6 tests/browser/pure-map.spec.ts:17:1 › rapid open-close cancels obsolete fit and pointer panning stays available without controls (731ms)
+
+  6 passed (22.7s)

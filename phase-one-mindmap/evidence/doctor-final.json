@@ -1,0 +1,15 @@
+{
+  "status": "ready",
+  "projectId": "synthetic-field-guide-01",
+  "revision": 0,
+  "baselineVersion": 1,
+  "recoveryEpoch": "505480a1-dc73-4b44-983b-925361349f04",
+  "limits": {
+    "fileBytes": 2000000,
+    "bodyBytes": 131072,
+    "history": 2000,
+    "backups": 32,
+    "lockWaitMs": 2000
+  },
+  "canonicalRootVerified": true
+}

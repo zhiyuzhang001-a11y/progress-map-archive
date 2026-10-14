@@ -1,0 +1,102 @@
+{
+  "isolatedOnly": true,
+  "artifact": "production before measured-preservation fix",
+  "frames": [
+    {
+      "active": "BODY",
+      "documentFocus": true,
+      "wrapperVisibility": "hidden",
+      "wrapperInlineVisibility": "hidden",
+      "dimensions": {
+        "width": 250,
+        "height": 176
+      },
+      "all": [
+        {
+          "id": "map-goal",
+          "visibility": "hidden"
+        },
+        {
+          "id": "b1-research",
+          "visibility": "hidden"
+        },
+        {
+          "id": "b1-content",
+          "visibility": "hidden"
+        },
+        {
+          "id": "b1-experience",
+          "visibility": "hidden"
+        },
+        {
+          "id": "b1-release",
+          "visibility": "hidden"
+        }
+      ]
+    },
+    {
+      "active": "BODY",
+      "documentFocus": true,
+      "wrapperVisibility": "visible",
+      "wrapperInlineVisibility": "visible",
+      "dimensions": {
+        "width": 250,
+        "height": 176
+      },
+      "all": [
+        {
+          "id": "map-goal",
+          "visibility": "visible"
+        },
+        {
+          "id": "b1-research",
+          "visibility": "visible"
+        },
+        {
+          "id": "b1-content",
+          "visibility": "visible"
+        },
+        {
+          "id": "b1-experience",
+          "visibility": "visible"
+        },
+        {
+          "id": "b1-release",
+          "visibility": "visible"
+        }
+      ]
+    },
+    {
+      "active": "BODY",
+      "documentFocus": true,
+      "wrapperVisibility": "visible",
+      "wrapperInlineVisibility": "visible",
+      "dimensions": {
+        "width": 250,
+        "height": 176
+      },
+      "all": [
+        {
+          "id": "map-goal",
+          "visibility": "visible"
+        },
+        {
+          "id": "b1-research",
+          "visibility": "visible"
+        },
+        {
+          "id": "b1-content",
+          "visibility": "visible"
+        },
+        {
+          "id": "b1-experience",
+          "visibility": "visible"
+        },
+        {
+          "id": "b1-release",
+          "visibility": "visible"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+node:internal/modules/run_main:107
+    triggerUncaughtException(
+    ^
+
+ExpectError: expect(received).toBeLessThanOrEqual(expected)
+
+Expected: <= 43.875
+Received:    58.875
+    at captureRawStack (/Users/zhiyu/Documents/ChatGPT/progress map/phase-one-mindmap/node_modules/.pnpm/playwright-core@1.64.0/node_modules/playwright-core/lib/coreBundle.js:9282:17)
+    at callMatcherAsStep (/Users/zhiyu/Documents/ChatGPT/progress map/phase-one-mindmap/node_modules/.pnpm/playwright@1.64.0/node_modules/playwright/lib/matchers/expect.js:13316:57)
+    at Object.toBeLessThanOrEqual (/Users/zhiyu/Documents/ChatGPT/progress map/phase-one-mindmap/node_modules/.pnpm/playwright@1.64.0/node_modules/playwright/lib/matchers/expect.js:13308:23)
+    at checkText (/Users/zhiyu/Documents/ChatGPT/progress map/phase-one-mindmap/scripts/v07-text-polish-ui.ts:4:1098)
+    at async file:///Users/zhiyu/Documents/ChatGPT/progress%20map/phase-one-mindmap/scripts/v07-text-polish-ui.ts:6:539 {
+  matcherResult: {
+    message: 'expect(received).toBeLessThanOrEqual(expected)\n' +
+      '\n' +
+      'Expected: <= 43.875\n' +
+      'Received:    58.875',
+    pass: false,
+    name: 'toBeLessThanOrEqual'
+  }
+}
+
+Node.js v24.19.0

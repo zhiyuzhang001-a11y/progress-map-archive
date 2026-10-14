@@ -1,0 +1,104 @@
+{
+  "kind": "isolated actual project clone experience check",
+  "humanAcceptance": false,
+  "cases": [
+    {
+      "device": "desktop",
+      "allItems": 9,
+      "eachItemLocatedAndReturned": true,
+      "originalCameraRestored": true,
+      "sourceLabels": true,
+      "twoCompleteLinesWithoutEllipsis": true,
+      "fullProblemResultOnce": true,
+      "leafSummarySpecific": true,
+      "changeChecks": [
+        {
+          "id": "map-goal",
+          "hasChange": false,
+          "factOnly": true,
+          "text": "这次改版 · 完整计划地图：已分清此前已验收、上一轮成果和这次改版，中心与四个分计划可以展开查看具体工作。\n这次改版 · 纯导图页面：首页只保留导图，点击看详情；卡片正文写具体成果，关闭后回到原卡。\n这次改版 · 真实进度与完成：旧成果保留原验收结论，上一轮和这次交付仍待确认，技术检查没有算成用户通过。\n这次改版 · 本轮难题与处理：已解决大分支连线难辨和关闭详情后焦点丢失：现在可追踪所属计划，关闭后回到原卡。已报告的开发事项当前无受阻记录；下一步是检查实际阅读与操作体验。\n这次改版 · 重要变化：已把笼统的变化提示改为具体事项与前后状态，点选可以追到对应工作；刷新或改写说明不会产生新的进度事件。\n这次改版 · 持续更新与维护：窄屏分计划详情列出全部事项，点选可定位并返回；记录和相关资料继续由Codex更新及核对保留。",
+          "affected": 0
+        },
+        {
+          "id": "map-planning",
+          "hasChange": false,
+          "factOnly": true,
+          "text": "这次改版 · 完整计划地图：已分清此前已验收、上一轮成果和这次改版，中心与四个分计划可以展开查看具体工作。\n这次改版 · 纯导图页面：首页只保留导图，点击看详情；卡片正文写具体成果，关闭后回到原卡。\n这次改版 · 真实进度与完成：旧成果保留原验收结论，上一轮和这次交付仍待确认，技术检查没有算成用户通过。",
+          "affected": 0
+        },
+        {
+          "id": "map-problems",
+          "hasChange": false,
+          "factOnly": true,
+          "text": "这次改版 · 本轮难题与处理：已解决大分支连线难辨和关闭详情后焦点丢失：现在可追踪所属计划，关闭后回到原卡。已报告的开发事项当前无受阻记录；下一步是检查实际阅读与操作体验。",
+          "affected": 0
+        },
+        {
+          "id": "map-results",
+          "hasChange": false,
+          "factOnly": true,
+          "text": "上一轮成果 · 一起确认做好了什么：六项成果可以一起核对，也能分别确认通过或需要修改。\n上一轮成果 · 点开能了解实际成果：成果先显示简明说明；相关内容可以只读查看，其中的操作不会自动执行。",
+          "affected": 0
+        },
+        {
+          "id": "map-follow",
+          "hasChange": false,
+          "factOnly": true,
+          "text": "这次改版 · 重要变化：已把笼统的变化提示改为具体事项与前后状态，点选可以追到对应工作；刷新或改写说明不会产生新的进度事件。\n这次改版 · 持续更新与维护：窄屏分计划详情列出全部事项，点选可定位并返回；记录和相关资料继续由Codex更新及核对保留。",
+          "affected": 0
+        }
+      ]
+    },
+    {
+      "device": "390x844 actual touch",
+      "allItems": 9,
+      "eachItemLocatedAndReturned": true,
+      "originalCameraRestored": true,
+      "sourceLabels": true,
+      "twoCompleteLinesWithoutEllipsis": true,
+      "fullProblemResultOnce": true,
+      "leafSummarySpecific": true,
+      "touchPinchAndPan": true,
+      "changeChecks": [
+        {
+          "id": "map-goal",
+          "hasChange": false,
+          "factOnly": true,
+          "text": "这次改版 · 完整计划地图：已分清此前已验收、上一轮成果和这次改版，中心与四个分计划可以展开查看具体工作。\n这次改版 · 纯导图页面：首页只保留导图，点击看详情；卡片正文写具体成果，关闭后回到原卡。\n这次改版 · 真实进度与完成：旧成果保留原验收结论，上一轮和这次交付仍待确认，技术检查没有算成用户通过。\n这次改版 · 本轮难题与处理：已解决大分支连线难辨和关闭详情后焦点丢失：现在可追踪所属计划，关闭后回到原卡。已报告的开发事项当前无受阻记录；下一步是检查实际阅读与操作体验。\n这次改版 · 重要变化：已把笼统的变化提示改为具体事项与前后状态，点选可以追到对应工作；刷新或改写说明不会产生新的进度事件。\n这次改版 · 持续更新与维护：窄屏分计划详情列出全部事项，点选可定位并返回；记录和相关资料继续由Codex更新及核对保留。",
+          "affected": 0
+        },
+        {
+          "id": "map-planning",
+          "hasChange": false,
+          "factOnly": true,
+          "text": "这次改版 · 完整计划地图：已分清此前已验收、上一轮成果和这次改版，中心与四个分计划可以展开查看具体工作。\n这次改版 · 纯导图页面：首页只保留导图，点击看详情；卡片正文写具体成果，关闭后回到原卡。\n这次改版 · 真实进度与完成：旧成果保留原验收结论，上一轮和这次交付仍待确认，技术检查没有算成用户通过。",
+          "affected": 0
+        },
+        {
+          "id": "map-problems",
+          "hasChange": false,
+          "factOnly": true,
+          "text": "这次改版 · 本轮难题与处理：已解决大分支连线难辨和关闭详情后焦点丢失：现在可追踪所属计划，关闭后回到原卡。已报告的开发事项当前无受阻记录；下一步是检查实际阅读与操作体验。",
+          "affected": 0
+        },
+        {
+          "id": "map-results",
+          "hasChange": false,
+          "factOnly": true,
+          "text": "上一轮成果 · 一起确认做好了什么：六项成果可以一起核对，也能分别确认通过或需要修改。\n上一轮成果 · 点开能了解实际成果：成果先显示简明说明；相关内容可以只读查看，其中的操作不会自动执行。",
+          "affected": 0
+        },
+        {
+          "id": "map-follow",
+          "hasChange": false,
+          "factOnly": true,
+          "text": "这次改版 · 重要变化：已把笼统的变化提示改为具体事项与前后状态，点选可以追到对应工作；刷新或改写说明不会产生新的进度事件。\n这次改版 · 持续更新与维护：窄屏分计划详情列出全部事项，点选可定位并返回；记录和相关资料继续由Codex更新及核对保留。",
+          "affected": 0
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "mainStateUnchanged": true,
+  "passed": true
+}

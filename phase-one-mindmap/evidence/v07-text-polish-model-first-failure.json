@@ -1,0 +1,20 @@
+{
+  "kind": "observed-check-correction",
+  "source": "本次工具输出中的初次限定文本检查失败；不是保存的完整原始日志",
+  "failures": [
+    {
+      "case": "保守保留长限制",
+      "expected": "只保留尚未验证手机返回",
+      "actual": "还保留了原句中的仍需要逐项核对限制",
+      "correction": "检查改为同时要求两项限制保留且无字符省略，未放宽事实保护"
+    },
+    {
+      "case": "未知完整句的标点",
+      "expected": "备份恢复后，过去的网页和更新请求会被拒绝",
+      "actual": "备份恢复后，过去的网页和更新请求会被拒绝。",
+      "correction": "预期保留完整原句及句号，不把标点差异当作事实失败"
+    }
+  ],
+  "finalCheck": "v07-text-polish-model.txt：20/20通过",
+  "mainDataModified": false
+}

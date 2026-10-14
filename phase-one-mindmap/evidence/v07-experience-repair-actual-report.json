@@ -1,0 +1,25 @@
+{
+  "provenance": "Codex actual progress report, grounded in registered prior technical review and current independent experience review; not human acceptance",
+  "priorRevision": 173,
+  "receipt": {
+    "action": {
+      "type": "report",
+      "nodeId": "v07-problems",
+      "status": "进行中",
+      "result": "已解决大分支连线难辨和关闭详情后焦点丢失：现在可追踪所属计划，关闭后回到原卡。目前正在补充具体变化说明和窄屏余项定位。",
+      "reason": "上一版已登记独立实际检查确认前两项处理结果；本次代理体验审阅另发现表达及窄屏可发现性问题，仍在原范围内修补，不是用户验收。",
+      "remaining": [
+        "完成具体变化及窄屏余项定位补修",
+        "体验复验和用户最后确认"
+      ],
+      "flags": []
+    },
+    "receipt": {
+      "operationId": "4e0d33e9-e7c1-4d0e-b861-fcea3da97c82",
+      "committedRevision": 174,
+      "currentRevision": 174,
+      "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+      "replayed": false
+    }
+  }
+}

@@ -1,0 +1,693 @@
+{
+  "scenario": "P3 A-C execution checks",
+  "recordedAt": "2026-10-13T14:41:46.745Z",
+  "sourceRevision": 218,
+  "artifactVersion": "p3-verify-v01",
+  "productionAssets": [
+    {
+      "path": "/assets/index-CWsNH03F.js",
+      "sha256": "40a8e00c6f5fb03f12fbeeb7b8750c172f8da58ae654fa7823bc3d3c20f1e961"
+    },
+    {
+      "path": "/assets/index-DBP_oz6U.css",
+      "sha256": "5f607176998a8ff7b2e72fd0d70e43c962f81f9e5089f74494ee095694e7012e"
+    }
+  ],
+  "controlledApproval": {
+    "taskId": "progress-mindmap-self/P3-continuous-update",
+    "scopeProposalId": "p3-continuous-b4-v01",
+    "actualApprover": "dot review task 01a13546-b721-740a-a227-562e01e79004 acting within Owner continuous project delegation",
+    "approvalMethod": "Native Chrome UI existing restricted local approve-proposal; no new actor/schema or bypass",
+    "operationId": "6fec6e98-98a9-46dd-9eb9-348da5461211",
+    "revision": 211,
+    "baselineVersion": 4,
+    "actualIterationId": "baseline-4",
+    "newTasks": [
+      "p3-record",
+      "p3-update",
+      "p3-verify"
+    ],
+    "sourceIngress": "web-local-user",
+    "sourceIngressMeaning": "Local ingress channel, not claim of a fresh human approval",
+    "reason": "dot审核任务01a13546-b721-740a-a227-562e01e79004依据Owner连续授权（Sentinel_e86e8bb5b3908191b5f0d9c3b29b8ea4）批准P3限定B4范围；版本P3_TASK_BRIEF_v0.1，依据P3_CP1_RELEASE_v0.1.md；由审核方经既有本地入口代录，非Owner重新逐项批准，非用户验收。保留原16验收与12待定。",
+    "at": "2026-10-13T14:26:08.363Z",
+    "ownerSourceMessageId": "Sentinel_e86e8bb5b3908191b5f0d9c3b29b8ea4",
+    "newUserAcceptanceDecisions": 0,
+    "preservationChecks": {
+      "originalAcceptanceExact": true,
+      "originalClosuresPreserved": true,
+      "originalCandidatesPreserved": true,
+      "originalEvidencePreserved": true,
+      "originalEvidenceRecordsExact": true,
+      "originalComparisonExact": true
+    },
+    "B3Closure": {
+      "id": "4c1ec6dd-397b-44c0-8b2b-9b11e2a5405b",
+      "entries": 6
+    },
+    "oldAccepted": 16,
+    "oldPending": 12,
+    "evidenceRecords": 538,
+    "budgetMinutes": {
+      "execution": 60,
+      "review": 20
+    },
+    "executionPreparationCharged": 12.99,
+    "status": "B4 approved, tasks not started at approval; executor may now use existing controlled report path"
+  },
+  "cp2Review": "# P3 CP2真实更新初版审查\n\n2026-10-13，审核01a13546-b721-740a-a227-562e01e79004。指定初版sha256-5685792c8604246f85d519e4f37a35a2edbbe3b0499419ad2a462951bf0b1fd6，P3_CP2_ARTIFACT_MANIFEST.json中10个受影响文件/产物哈希亲核匹配。CSS与P2最终交付相同，P2视觉证据按范围复用。\n\n本审核独立通过本机Chrome打开正式4173默认首页，实际读取：P3正在推进，记录/更新两项成果待阶段审查，核对任务进行中；原7项支持单列，未将技术通过变阶段完成。已核对真实r217报告请求、回执与实际页面结果一致。执行证据记录同页面由r216经轮询到r217，期间无构建/重启，刷新与手机触摸详情同事实；这是可复现原始执行证据审查，不冒称本审核亲自提交了该CLI报告。\n\nA初版真实报告→摘要→页面链及范围保护审查通过，允许继续B/C及CP3交付，不认定P3已完成。隔离并行受阻解除/返工/细化和新资料导出恢复仍未验证，须明确保留待做。新B4点r212与旧r159范围分别处理，禁止刷新移动点或新点清除旧变化。\n\n为了额外独立端到端观察，本审核当前保持正式页面打开；原执行在B/C实际完成后才可提交p3-verify真实结果，保存提交时点/回执与当时生产资产摘要，本审核后续读页面确认实际变化。若确需修代码/重新构建，如实注明版本变化，不能伪称未重编译；不为了演示额外虚构报告。\n\n预算60执行/20监督持续有效，执行报告约21.04已计，监督主动审查估算约9±2分钟，等待墙钟另记。P4未放行。平台等待工具兼容错误不计实现修复，P2旧图不重载，不重复已通过的视觉测试。\n",
+  "A": {
+    "passed": true,
+    "cases": [
+      {
+        "width": 1440,
+        "before": 216,
+        "after": 217,
+        "livePollWithoutRebuild": true,
+        "reloadSame": true,
+        "detailAndFocus": true
+      },
+      {
+        "width": 390,
+        "touchDetail": true,
+        "sameRealFact": true,
+        "noOverflow": true
+      }
+    ],
+    "errors": [],
+    "executorSelfTest": true,
+    "dotAcceptance": false
+  },
+  "B_C": {
+    "passed": true,
+    "isolationRoot": "/Users/zhiyu/Documents/ChatGPT/progress map/outputs/P3-continuous-update/isolated-B-C-cde1cec9-4e48-4fe0-806d-a043b843b4bb",
+    "executorSelfTest": true,
+    "dotAcceptance": false,
+    "mainUnchanged": true,
+    "stages": [
+      {
+        "label": "parallel",
+        "revision": 223,
+        "scope": 5,
+        "status": "当前阶段 · 正在推进",
+        "tasks": [
+          {
+            "id": "b5-p3-early",
+            "status": "进行中",
+            "tone": "active",
+            "path": [],
+            "result": "",
+            "change": {
+              "kind": "progress",
+              "text": "隔离情景：后段先推进：未开始→进行中",
+              "originIds": [
+                "b5-p3-early"
+              ],
+              "before": "未开始",
+              "after": "进行中"
+            }
+          },
+          {
+            "id": "b5-p3-shared",
+            "status": "未开始",
+            "tone": "idle",
+            "path": [],
+            "result": ""
+          },
+          {
+            "id": "b5-p3-child-a",
+            "status": "未开始",
+            "tone": "idle",
+            "path": [
+              "隔离情景：细化检查"
+            ],
+            "result": ""
+          },
+          {
+            "id": "b5-p3-child-b",
+            "status": "未开始",
+            "tone": "idle",
+            "path": [
+              "隔离情景：细化检查"
+            ],
+            "result": ""
+          }
+        ],
+        "issues": []
+      },
+      {
+        "label": "blocked",
+        "revision": 224,
+        "scope": 5,
+        "status": "正在推进 · 有问题待处理",
+        "tasks": [
+          {
+            "id": "b5-p3-early",
+            "status": "受阻",
+            "tone": "active",
+            "path": [],
+            "result": "隔离情景：待核对结果来源",
+            "change": {
+              "kind": "problem",
+              "text": "隔离情景：后段先推进：未开始→受阻",
+              "originIds": [
+                "b5-p3-early"
+              ],
+              "before": "未开始",
+              "after": "受阻"
+            }
+          },
+          {
+            "id": "b5-p3-shared",
+            "status": "未开始",
+            "tone": "idle",
+            "path": [],
+            "result": ""
+          },
+          {
+            "id": "b5-p3-child-a",
+            "status": "未开始",
+            "tone": "idle",
+            "path": [
+              "隔离情景：细化检查"
+            ],
+            "result": ""
+          },
+          {
+            "id": "b5-p3-child-b",
+            "status": "未开始",
+            "tone": "idle",
+            "path": [
+              "隔离情景：细化检查"
+            ],
+            "result": ""
+          }
+        ],
+        "issues": [
+          {
+            "text": "隔离情景：来源暂时无法核对",
+            "sourceId": "b5-p3-early",
+            "kind": "blocked"
+          }
+        ]
+      },
+      {
+        "label": "flag-only",
+        "revision": 226,
+        "scope": 5,
+        "status": "当前阶段 · 正在推进",
+        "tasks": [
+          {
+            "id": "b5-p3-early",
+            "status": "进行中",
+            "tone": "active",
+            "path": [],
+            "result": "隔离情景：移去标记但没有检查结果",
+            "change": {
+              "kind": "progress",
+              "text": "隔离情景：后段先推进：受阻→进行中",
+              "originIds": [
+                "b5-p3-early"
+              ],
+              "before": "受阻",
+              "after": "进行中"
+            }
+          },
+          {
+            "id": "b5-p3-shared",
+            "status": "未开始",
+            "tone": "idle",
+            "path": [],
+            "result": ""
+          },
+          {
+            "id": "b5-p3-child-a",
+            "status": "未开始",
+            "tone": "idle",
+            "path": [
+              "隔离情景：细化检查"
+            ],
+            "result": ""
+          },
+          {
+            "id": "b5-p3-child-b",
+            "status": "未开始",
+            "tone": "idle",
+            "path": [
+              "隔离情景：细化检查"
+            ],
+            "result": ""
+          }
+        ],
+        "issues": []
+      },
+      {
+        "label": "resolved",
+        "revision": 227,
+        "scope": 5,
+        "status": "当前阶段 · 正在推进",
+        "tasks": [
+          {
+            "id": "b5-p3-early",
+            "status": "待验收",
+            "tone": "pending",
+            "path": [],
+            "result": "隔离情景：来源已核对，结果与记录对应",
+            "change": {
+              "kind": "resolved",
+              "text": "隔离情景：后段先推进：受阻→待验收",
+              "originIds": [
+                "b5-p3-early"
+              ],
+              "before": "受阻",
+              "after": "待验收"
+            }
+          },
+          {
+            "id": "b5-p3-shared",
+            "status": "未开始",
+            "tone": "idle",
+            "path": [],
+            "result": ""
+          },
+          {
+            "id": "b5-p3-child-a",
+            "status": "未开始",
+            "tone": "idle",
+            "path": [
+              "隔离情景：细化检查"
+            ],
+            "result": ""
+          },
+          {
+            "id": "b5-p3-child-b",
+            "status": "未开始",
+            "tone": "idle",
+            "path": [
+              "隔离情景：细化检查"
+            ],
+            "result": ""
+          }
+        ],
+        "issues": [],
+        "resolved": {
+          "text": "隔离情景：后段先推进：隔离情景：来源已核对，结果与记录对应",
+          "sourceId": "b5-p3-early"
+        }
+      },
+      {
+        "label": "returned",
+        "revision": 228,
+        "scope": 5,
+        "status": "正在推进 · 有问题待处理",
+        "tasks": [
+          {
+            "id": "b5-p3-early",
+            "status": "返工",
+            "tone": "review",
+            "path": [],
+            "result": "隔离情景：来源已核对，结果与记录对应",
+            "change": {
+              "kind": "problem",
+              "text": "隔离情景：后段先推进：受阻→返工",
+              "originIds": [
+                "b5-p3-early"
+              ],
+              "before": "受阻",
+              "after": "返工"
+            }
+          },
+          {
+            "id": "b5-p3-shared",
+            "status": "未开始",
+            "tone": "idle",
+            "path": [],
+            "result": ""
+          },
+          {
+            "id": "b5-p3-child-a",
+            "status": "未开始",
+            "tone": "idle",
+            "path": [
+              "隔离情景：细化检查"
+            ],
+            "result": ""
+          },
+          {
+            "id": "b5-p3-child-b",
+            "status": "未开始",
+            "tone": "idle",
+            "path": [
+              "隔离情景：细化检查"
+            ],
+            "result": ""
+          }
+        ],
+        "issues": [
+          {
+            "text": "隔离情景：结果需要补充，不代表真人退回",
+            "sourceId": "b5-p3-early",
+            "kind": "return"
+          }
+        ]
+      },
+      {
+        "label": "refined-shared",
+        "revision": 231,
+        "scope": 5,
+        "status": "正在推进 · 有问题待处理",
+        "tasks": [
+          {
+            "id": "b5-p3-early",
+            "status": "返工",
+            "tone": "review",
+            "path": [],
+            "result": "隔离情景：来源已核对，结果与记录对应",
+            "change": {
+              "kind": "problem",
+              "text": "隔离情景：后段先推进：受阻→返工",
+              "originIds": [
+                "b5-p3-early"
+              ],
+              "before": "受阻",
+              "after": "返工"
+            }
+          },
+          {
+            "id": "b5-p3-shared",
+            "status": "进行中",
+            "tone": "active",
+            "path": [],
+            "result": "隔离情景：共享结果 shared-result-01，只登记一次",
+            "change": {
+              "kind": "progress",
+              "text": "隔离情景：共享成果：未开始→进行中",
+              "originIds": [
+                "b5-p3-shared"
+              ],
+              "before": "未开始",
+              "after": "进行中"
+            }
+          },
+          {
+            "id": "b5-p3-child-a",
+            "status": "进行中",
+            "tone": "active",
+            "path": [
+              "隔离情景：细化检查"
+            ],
+            "result": "隔离情景：引用 shared-result-01，不复制共享候选或验收",
+            "change": {
+              "kind": "progress",
+              "text": "隔离情景：核对记录：未开始→进行中",
+              "originIds": [
+                "b5-p3-child-a"
+              ],
+              "before": "未开始",
+              "after": "进行中"
+            }
+          },
+          {
+            "id": "b5-p3-child-b",
+            "status": "进行中",
+            "tone": "active",
+            "path": [
+              "隔离情景：细化检查"
+            ],
+            "result": "隔离情景：引用 shared-result-01，不复制共享候选或验收",
+            "change": {
+              "kind": "progress",
+              "text": "隔离情景：核对显示：未开始→进行中",
+              "originIds": [
+                "b5-p3-child-b"
+              ],
+              "before": "未开始",
+              "after": "进行中"
+            }
+          }
+        ],
+        "issues": [
+          {
+            "text": "隔离情景：结果需要补充，不代表真人退回",
+            "sourceId": "b5-p3-early",
+            "kind": "return"
+          }
+        ]
+      },
+      {
+        "label": "interrupted",
+        "revision": 233,
+        "scope": 5,
+        "status": "正在推进 · 有问题待处理",
+        "tasks": [
+          {
+            "id": "b5-p3-early",
+            "status": "返工",
+            "tone": "review",
+            "path": [],
+            "result": "隔离情景：来源已核对，结果与记录对应",
+            "change": {
+              "kind": "problem",
+              "text": "隔离情景：后段先推进：受阻→返工",
+              "originIds": [
+                "b5-p3-early"
+              ],
+              "before": "受阻",
+              "after": "返工"
+            }
+          },
+          {
+            "id": "b5-p3-shared",
+            "status": "进行中",
+            "tone": "active",
+            "path": [],
+            "result": "隔离情景：共享结果 shared-result-01，只登记一次",
+            "change": {
+              "kind": "progress",
+              "text": "隔离情景：共享成果：未开始→进行中",
+              "originIds": [
+                "b5-p3-shared"
+              ],
+              "before": "未开始",
+              "after": "进行中"
+            }
+          },
+          {
+            "id": "b5-p3-child-a",
+            "status": "待核对",
+            "tone": "review",
+            "path": [
+              "隔离情景：细化检查"
+            ],
+            "result": "隔离情景：引用 shared-result-01，不复制共享候选或验收",
+            "change": {
+              "kind": "problem",
+              "text": "隔离情景：核对记录：未开始→待核对",
+              "originIds": [
+                "b5-p3-child-a"
+              ],
+              "before": "未开始",
+              "after": "待核对"
+            }
+          },
+          {
+            "id": "b5-p3-child-b",
+            "status": "进行中",
+            "tone": "active",
+            "path": [
+              "隔离情景：细化检查"
+            ],
+            "result": "隔离情景：引用 shared-result-01，不复制共享候选或验收",
+            "change": {
+              "kind": "progress",
+              "text": "隔离情景：核对显示：未开始→进行中",
+              "originIds": [
+                "b5-p3-child-b"
+              ],
+              "before": "未开始",
+              "after": "进行中"
+            }
+          }
+        ],
+        "issues": [
+          {
+            "text": "隔离情景：结果需要补充，不代表真人退回",
+            "sourceId": "b5-p3-early",
+            "kind": "return"
+          },
+          {
+            "text": "工作曾中断，最新进展还需补齐",
+            "sourceId": "b5-p3-child-a",
+            "kind": "unknown"
+          }
+        ]
+      },
+      {
+        "label": "resumed",
+        "revision": 234,
+        "scope": 5,
+        "status": "正在推进 · 有问题待处理",
+        "tasks": [
+          {
+            "id": "b5-p3-early",
+            "status": "返工",
+            "tone": "review",
+            "path": [],
+            "result": "隔离情景：来源已核对，结果与记录对应",
+            "change": {
+              "kind": "problem",
+              "text": "隔离情景：后段先推进：受阻→返工",
+              "originIds": [
+                "b5-p3-early"
+              ],
+              "before": "受阻",
+              "after": "返工"
+            }
+          },
+          {
+            "id": "b5-p3-shared",
+            "status": "进行中",
+            "tone": "active",
+            "path": [],
+            "result": "隔离情景：共享结果 shared-result-01，只登记一次",
+            "change": {
+              "kind": "progress",
+              "text": "隔离情景：共享成果：未开始→进行中",
+              "originIds": [
+                "b5-p3-shared"
+              ],
+              "before": "未开始",
+              "after": "进行中"
+            }
+          },
+          {
+            "id": "b5-p3-child-a",
+            "status": "进行中",
+            "tone": "active",
+            "path": [
+              "隔离情景：细化检查"
+            ],
+            "result": "隔离情景：中断后重新核对并接续",
+            "change": {
+              "kind": "progress",
+              "text": "隔离情景：核对记录：未开始→进行中",
+              "originIds": [
+                "b5-p3-child-a"
+              ],
+              "before": "未开始",
+              "after": "进行中"
+            }
+          },
+          {
+            "id": "b5-p3-child-b",
+            "status": "进行中",
+            "tone": "active",
+            "path": [
+              "隔离情景：细化检查"
+            ],
+            "result": "隔离情景：引用 shared-result-01，不复制共享候选或验收",
+            "change": {
+              "kind": "progress",
+              "text": "隔离情景：核对显示：未开始→进行中",
+              "originIds": [
+                "b5-p3-child-b"
+              ],
+              "before": "未开始",
+              "after": "进行中"
+            }
+          }
+        ],
+        "issues": [
+          {
+            "text": "隔离情景：结果需要补充，不代表真人退回",
+            "sourceId": "b5-p3-early",
+            "kind": "return"
+          }
+        ]
+      },
+      {
+        "label": "restored-uncertain",
+        "revision": 235,
+        "scope": 5,
+        "status": "正在推进 · 有问题待处理",
+        "tasks": [
+          {
+            "id": "b5-p3-early",
+            "status": "返工",
+            "tone": "review",
+            "path": [],
+            "result": "隔离情景：来源已核对，结果与记录对应"
+          },
+          {
+            "id": "b5-p3-shared",
+            "status": "进行中",
+            "tone": "active",
+            "path": [],
+            "result": "隔离情景：共享结果 shared-result-01，只登记一次"
+          },
+          {
+            "id": "b5-p3-child-a",
+            "status": "进行中",
+            "tone": "active",
+            "path": [
+              "隔离情景：细化检查"
+            ],
+            "result": "隔离情景：中断后重新核对并接续"
+          },
+          {
+            "id": "b5-p3-child-b",
+            "status": "进行中",
+            "tone": "active",
+            "path": [
+              "隔离情景：细化检查"
+            ],
+            "result": "隔离情景：引用 shared-result-01，不复制共享候选或验收"
+          }
+        ],
+        "issues": [
+          {
+            "text": "隔离情景：结果需要补充，不代表真人退回",
+            "sourceId": "b5-p3-early",
+            "kind": "return"
+          }
+        ]
+      }
+    ],
+    "exported": {
+      "directory": "/Users/zhiyu/Documents/ChatGPT/progress map/outputs/P3-continuous-update/P3-export-bbe035ee-a623-433e-8cfb-d06c50032e52",
+      "manifestHash": "7d85593daabddd4f64931a2df230a604dd8f37f9bade1e739538d2cfa3025ff0",
+      "files": 513,
+      "exportReclaimsCapacity": false
+    },
+    "verified": {
+      "verified": true,
+      "projectId": "progress-mindmap-self",
+      "files": 513,
+      "manifestHash": "7d85593daabddd4f64931a2df230a604dd8f37f9bade1e739538d2cfa3025ff0"
+    },
+    "backup": {
+      "id": "snapshot-34742363-b724-4784-94c5-5f30ae374c2e",
+      "revision": 234,
+      "recoveryEpoch": "e7fe5e62-39ea-4dcf-8d66-8a3b43d465af",
+      "evidenceRecords": 540,
+      "evidenceCoverage": "registered-records-only"
+    },
+    "restored": {
+      "operationId": "ca85a596-a0ec-4fe1-a2a3-79bbf330d843",
+      "committedRevision": 235,
+      "currentRevision": 235,
+      "recoveryEpoch": "11bf9c74-10b8-4935-be5e-2300f666e96e",
+      "previousEpoch": "e7fe5e62-39ea-4dcf-8d66-8a3b43d465af",
+      "knownRolledBack": 0
+    },
+    "oldCLIRejected": true,
+    "oldWebRejected": true,
+    "oldSessionRejected": true,
+    "newEvidenceReadable": true,
+    "originalDecisionsPreserved": true,
+    "sharedReference": "same stable result shared-result-01 cited by two child reports, registered once, not a general DAG",
+    "limitations": "390px touch emulation; isolated writes and response-only UI snapshots are not real user decisions or main project progress"
+  },
+  "modelChecks": "✔ B4 is current, three real tasks distinct from 28 historical supports, without user acceptance (4.374292ms)\n✔ reporting a later task never fills earlier stages, and unproved completion remains uncertain (3.519916ms)\n✔ restored epoch makes comparisons uncertain and withdraws trusted completion fill (2.343125ms)\n✔ refresh and presentation projection neither move checkpoints nor mutate records (5.457583ms)\n✔ nested leaves show their parent path and a shared stable leaf appears exactly once (2.132875ms)\n✔ four real stages uniquely reference all 28 original tasks without inferring stage pass (4.102667ms)\n✔ projection is read-only and grouping does not reset the original comparison (2.306916ms)\n✔ current result in progress does not receive full accepted or pending fill (2.285584ms)\n✔ negation or missing proof cannot declare an old layout problem recently resolved (2.556ms)\n✔ unknown reading removes completed color even from historical accepted task (1.487834ms)\n✔ a real blocker stays attached to its task and aggregate stage (5.813208ms)\n✔ later technical completion cannot fill earlier stages or become user acceptance (2.276458ms)\n✔ withdrawn isolated decision removes completed fill without clearing old history (2.982167ms)\nℹ tests 13\nℹ suites 0\nℹ pass 13\nℹ fail 0\nℹ cancelled 0\nℹ skipped 0\nℹ todo 0\nℹ duration_ms 141.109083\n",
+  "limits": "Isolated scenarios and touch emulation; executor self-test, not dot terminal acceptance or Owner final receiving."
+}

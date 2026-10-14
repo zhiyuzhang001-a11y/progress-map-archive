@@ -1,0 +1,14 @@
+✔ registered historical version remains readable across baseline and record content is inert text (169.253625ms)
+✔ registration rejects digest,size,identity,version,duplicate and path escapes without changing authority (102.910333ms)
+✔ source and copied blob symlinks, missing files and content changes fail closed (69.730209ms)
+✔ backup/export/clone contain registry and actual evidence; isolated restore repairs missing blob and reads old version (159.421416ms)
+✔ missing snapshot evidence refuses restore before authority changes; legacy backup states no evidence coverage (95.791458ms)
+✔ actual isolated CLI export, clone, backup and recovery read registered historical evidence and reject stale request (1028.87075ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1815.470375

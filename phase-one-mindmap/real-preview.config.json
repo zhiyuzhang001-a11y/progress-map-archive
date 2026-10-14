@@ -1,0 +1,10 @@
+{
+  "configVersion": 1,
+  "projectId": "progress-mindmap-self",
+  "name": "项目进度思维导图工具",
+  "kind": "real",
+  "dataDirectory": "project-data",
+  "port": 4173,
+  "readOnly": true,
+  "initialState": "self-project-initial.json"
+}

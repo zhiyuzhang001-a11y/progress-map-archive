@@ -1,0 +1,30 @@
+{
+  "status": "source-review-passed-final-delivery-pending",
+  "date": "2026-10-12",
+  "scope": "independent frozen source and isolated UI checks, not user acceptance",
+  "sourceHashes": {
+    "src/ProjectMapScreen.tsx": "56e60c830c16ae6faeba23d15e65351422bf9c3ebb2b6336fd66ad0fe486dd45",
+    "src/project-map.ts": "877a2ea6e95e83270b7496111986b6a62f9869f53c86bc9c302998dbdecb4e9b",
+    "src/map-layout.ts": "2ed0d3e2b4fe67496685738394b10c6584599d47e9f2fcbac189beb9b5e6534e",
+    "src/map-comparison.ts": "af2d486dd83f02e054fb6a12e530a3e4115fd1a2c9c8c4f2098bdee281b41969",
+    "src/scope-evidence.ts": "c92faed17052c7a585c264f993eca13acb16ff6ce04771c9db7841c2de628dc9",
+    "scripts/v07-relationship-ui.ts": "d573d0dab949d18f7b900273752ff2c04857c2aa88e1a4fd7e6b26747540cc38",
+    "tests/browser/pure-map.spec.ts": "0f2ce81e9b72f11422c5b76ef84c13f8ccdbf30c19a3ff9dbedc8f73aa9f833b"
+  },
+  "checkHashes": {
+    "evidence/v07-review-latest-browser.txt": "21452bb1c0c2f06bcae2c8d5fad2cfd928a604c5e9b615d345491d935e083767",
+    "evidence/v07-review-fixed-focus.json": "e2ce8e388b0f1f323750a417e6c4d7777e41933e3e649dad87e04c58377b3805",
+    "evidence/v07-relationship-ui.json": "10d35fcd0d0bfa6a23a5e59a99a2797c8c7328b1592f38c5cf377dc97ee6d195",
+    "evidence/v07-review-relationship-check.txt": "4f9284757ec35883ab9530431e687bbc6c4fdca37a83d1fe035e83361f6d129b",
+    "evidence/v07-stage3-code-review.md": "4b183710c893c3feed41736721e2d4b9970951c03dc85e77ab4ac8f9929ff5d6"
+  },
+  "newBrowserCasesPassed": 3,
+  "focusCyclesPassed": 10,
+  "pausedRafCloseAndNativeArrowPassed": true,
+  "actualEightAndStress49RelationsPassed": true,
+  "diagnosticOutputRemoved": true,
+  "measuredFromActualInternalNode": true,
+  "strictModeRetained": true,
+  "noRealUserDecisionsWritten": true,
+  "finalArtifactRegistrationRecoveryAndMainDeliveryStillPending": true
+}

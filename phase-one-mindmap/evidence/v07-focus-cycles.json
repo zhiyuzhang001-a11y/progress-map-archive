@@ -1,0 +1,72 @@
+{
+  "kind": "isolated native keyboard repetition, not user acceptance",
+  "cycles": [
+    {
+      "cycle": 1,
+      "keys": "Enter / Tab / Escape",
+      "openerRestored": true,
+      "documentFocus": true
+    },
+    {
+      "cycle": 2,
+      "keys": "Enter / Tab / Escape",
+      "openerRestored": true,
+      "documentFocus": true
+    },
+    {
+      "cycle": 3,
+      "keys": "Enter / Tab / Escape",
+      "openerRestored": true,
+      "documentFocus": true
+    },
+    {
+      "cycle": 4,
+      "keys": "Enter / Tab / Escape",
+      "openerRestored": true,
+      "documentFocus": true
+    },
+    {
+      "cycle": 5,
+      "keys": "Enter / Tab / Escape",
+      "openerRestored": true,
+      "documentFocus": true
+    },
+    {
+      "cycle": 6,
+      "keys": "Enter / Tab / Escape",
+      "openerRestored": true,
+      "documentFocus": true
+    },
+    {
+      "cycle": 7,
+      "keys": "Enter / Tab / Escape",
+      "openerRestored": true,
+      "documentFocus": true
+    },
+    {
+      "cycle": 8,
+      "keys": "Enter / Tab / Escape",
+      "openerRestored": true,
+      "documentFocus": true
+    },
+    {
+      "cycle": 9,
+      "keys": "Enter / Tab / Escape",
+      "openerRestored": true,
+      "documentFocus": true
+    },
+    {
+      "cycle": 10,
+      "keys": "Enter / Tab / Escape",
+      "openerRestored": true,
+      "documentFocus": true
+    }
+  ],
+  "errors": [],
+  "frameStalledClose": {
+    "requestAnimationFrame": "intentionally not invoked in isolated fixture",
+    "actualEscape": true,
+    "openerRestored": true
+  },
+  "passed": true
+}

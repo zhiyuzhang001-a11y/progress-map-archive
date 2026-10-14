@@ -1,0 +1,904 @@
+{
+  "recordedAt": "2026-10-11T08:58:32.078Z",
+  "method": "真实Node CLI子进程read/make-request/submit",
+  "log": [
+    {
+      "action": {
+        "type": "run-start",
+        "runId": "v04-visual-correction-001",
+        "nodeIds": [
+          "readability"
+        ],
+        "opinionIds": [],
+        "reason": "最终实际截图与独立复核发现跨屏幕尺寸视角问题，修复后更新当前成果绑定；旧版资料完整保留，不代填用户决定。"
+      },
+      "receipt": {
+        "operationId": "38453da0-6d2a-4091-889f-d86b969c8cc0",
+        "committedRevision": 27,
+        "currentRevision": 27,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "goal-map",
+        "status": "已完成",
+        "result": "中心目标与左右分支：本轮实际实现和对应技术检查完成；成果版本sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33。",
+        "reason": "Codex按v0.4提交当前实际成果；技术通过不构成用户决定。",
+        "remaining": [
+          "等待用户最终验收；可在本节点核对候选、条件与证据后通过或退回"
+        ],
+        "flags": [],
+        "candidate": {
+          "id": "v04-candidate-goal-map-ab53fc2d33",
+          "version": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+          "result": "能看到本项目中心目标、左右分支及对应验收项。"
+        },
+        "evidence": [
+          {
+            "id": "v04-evidence-goal-map-ab53fc2d33",
+            "candidateId": "v04-candidate-goal-map-ab53fc2d33",
+            "acceptanceIds": [
+              "accept-goal-map"
+            ],
+            "version": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+            "check": "本轮定向技术检查及实际产物核对；不是用户体验验收",
+            "result": "pass",
+            "reference": "evidence/v04-narrow-correction-regression.txt；evidence/v04-corrected-model-final.txt；evidence/artifact-manifests/sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33.json",
+            "at": "2026-10-11T08:57:33.993Z",
+            "provenance": {
+              "command": "pnpm build; tsx --test tests/*.test.ts tests/backend/*.test.ts; playwright test（对应实际分开执行日志）",
+              "scenario": "中心目标与左右分支的隔离技术验证，条件：能看到本项目中心目标、左右分支及对应验收项。；所有测试用户决定仅在隔离副本",
+              "artifactVersion": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+              "record": "evidence/v04-narrow-correction-regression.txt；evidence/v04-corrected-model-final.txt；记录完成时间来自原文件mtime，精确开始时间未补造"
+            }
+          }
+        ]
+      },
+      "receipt": {
+        "operationId": "3b34749d-96ea-4fff-969f-30b59e5cbfce",
+        "committedRevision": 28,
+        "currentRevision": 28,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "edge-progress",
+        "status": "已完成",
+        "result": "连线进度与折叠：本轮实际实现和对应技术检查完成；成果版本sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33。",
+        "reason": "Codex按v0.4提交当前实际成果；技术通过不构成用户决定。",
+        "remaining": [
+          "等待用户最终验收；可在本节点核对候选、条件与证据后通过或退回"
+        ],
+        "flags": [],
+        "candidate": {
+          "id": "v04-candidate-edge-progress-ab53fc2d33",
+          "version": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+          "result": "进度按唯一叶子验收项计量，折叠后汇总仍一致。"
+        },
+        "evidence": [
+          {
+            "id": "v04-evidence-edge-progress-ab53fc2d33",
+            "candidateId": "v04-candidate-edge-progress-ab53fc2d33",
+            "acceptanceIds": [
+              "accept-edge-progress"
+            ],
+            "version": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+            "check": "本轮定向技术检查及实际产物核对；不是用户体验验收",
+            "result": "pass",
+            "reference": "evidence/v04-narrow-correction-regression.txt；evidence/v04-corrected-model-final.txt；evidence/artifact-manifests/sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33.json",
+            "at": "2026-10-11T08:57:33.993Z",
+            "provenance": {
+              "command": "pnpm build; tsx --test tests/*.test.ts tests/backend/*.test.ts; playwright test（对应实际分开执行日志）",
+              "scenario": "连线进度与折叠的隔离技术验证，条件：进度按唯一叶子验收项计量，折叠后汇总仍一致。；所有测试用户决定仅在隔离副本",
+              "artifactVersion": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+              "record": "evidence/v04-narrow-correction-regression.txt；evidence/v04-corrected-model-final.txt；记录完成时间来自原文件mtime，精确开始时间未补造"
+            }
+          }
+        ]
+      },
+      "receipt": {
+        "operationId": "a97beee1-17ec-4379-9f30-17d1755055a7",
+        "committedRevision": 29,
+        "currentRevision": 29,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "node-details",
+        "status": "已完成",
+        "result": "节点详情与偏差：本轮实际实现和对应技术检查完成；成果版本sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33。",
+        "reason": "Codex按v0.4提交当前实际成果；技术通过不构成用户决定。",
+        "remaining": [
+          "等待用户最终验收；可在本节点核对候选、条件与证据后通过或退回"
+        ],
+        "flags": [],
+        "candidate": {
+          "id": "v04-candidate-node-details-ab53fc2d33",
+          "version": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+          "result": "点击节点可查看目标、剩余事项和偏差提示。"
+        },
+        "evidence": [
+          {
+            "id": "v04-evidence-node-details-ab53fc2d33",
+            "candidateId": "v04-candidate-node-details-ab53fc2d33",
+            "acceptanceIds": [
+              "accept-node-details"
+            ],
+            "version": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+            "check": "本轮定向技术检查及实际产物核对；不是用户体验验收",
+            "result": "pass",
+            "reference": "evidence/v04-narrow-correction-regression.txt；evidence/v04-corrected-model-final.txt；evidence/artifact-manifests/sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33.json",
+            "at": "2026-10-11T08:57:33.993Z",
+            "provenance": {
+              "command": "pnpm build; tsx --test tests/*.test.ts tests/backend/*.test.ts; playwright test（对应实际分开执行日志）",
+              "scenario": "节点详情与偏差的隔离技术验证，条件：点击节点可查看目标、剩余事项和偏差提示。；所有测试用户决定仅在隔离副本",
+              "artifactVersion": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+              "record": "evidence/v04-narrow-correction-regression.txt；evidence/v04-corrected-model-final.txt；记录完成时间来自原文件mtime，精确开始时间未补造"
+            }
+          }
+        ]
+      },
+      "receipt": {
+        "operationId": "0cd12611-6e6f-44c1-a3ff-051b90ddc79f",
+        "committedRevision": 30,
+        "currentRevision": 30,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "readability",
+        "status": "已完成",
+        "result": "阅读与定位：本轮实际实现和对应技术检查完成；成果版本sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33。",
+        "reason": "Codex按v0.4提交当前实际成果；技术通过不构成用户决定。",
+        "remaining": [
+          "等待用户最终验收；可在本节点核对候选、条件与证据后通过或退回"
+        ],
+        "flags": [],
+        "runId": "v04-visual-correction-001",
+        "candidate": {
+          "id": "v04-candidate-readability-ab53fc2d33",
+          "version": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+          "result": "搜索、分支聚焦和窄屏阅读可用，长标题可读。"
+        },
+        "evidence": [
+          {
+            "id": "v04-evidence-readability-ab53fc2d33",
+            "candidateId": "v04-candidate-readability-ab53fc2d33",
+            "acceptanceIds": [
+              "accept-readability"
+            ],
+            "version": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+            "check": "本轮定向技术检查及实际产物核对；不是用户体验验收",
+            "result": "pass",
+            "reference": "evidence/v04-narrow-correction-regression.txt；evidence/v04-corrected-model-final.txt；evidence/v04-narrow-fresh-context-browser.txt；evidence/artifact-manifests/sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33.json",
+            "at": "2026-10-11T08:57:33.993Z",
+            "provenance": {
+              "command": "pnpm build; tsx --test tests/*.test.ts tests/backend/*.test.ts; playwright test（对应实际分开执行日志）",
+              "scenario": "阅读与定位的隔离技术验证，条件：搜索、分支聚焦和窄屏阅读可用，长标题可读。；所有测试用户决定仅在隔离副本",
+              "artifactVersion": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+              "record": "evidence/v04-narrow-correction-regression.txt；evidence/v04-corrected-model-final.txt；evidence/v04-narrow-fresh-context-browser.txt；记录完成时间来自原文件mtime，精确开始时间未补造"
+            }
+          }
+        ]
+      },
+      "receipt": {
+        "operationId": "31600f6f-20f1-41b1-bb94-6271a616ec4a",
+        "committedRevision": 31,
+        "currentRevision": 31,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "atomic-state",
+        "status": "已完成",
+        "result": "可靠写入与诊断：本轮实际实现和对应技术检查完成；成果版本sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33。",
+        "reason": "Codex按v0.4提交当前实际成果；技术通过不构成用户决定。",
+        "remaining": [
+          "等待用户最终验收；可在本节点核对候选、条件与证据后通过或退回"
+        ],
+        "flags": [],
+        "candidate": {
+          "id": "v04-candidate-atomic-state-ab53fc2d33",
+          "version": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+          "result": "原子写入、并发冲突、故障与摘要校验会保护权威状态。"
+        },
+        "evidence": [
+          {
+            "id": "v04-evidence-atomic-state-ab53fc2d33",
+            "candidateId": "v04-candidate-atomic-state-ab53fc2d33",
+            "acceptanceIds": [
+              "accept-atomic-state"
+            ],
+            "version": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+            "check": "本轮定向技术检查及实际产物核对；不是用户体验验收",
+            "result": "pass",
+            "reference": "evidence/v04-backend-final.txt；evidence/v04-recovery-real-tests.txt；evidence/artifact-manifests/sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33.json",
+            "at": "2026-10-11T08:50:38.562Z",
+            "provenance": {
+              "command": "pnpm build; tsx --test tests/*.test.ts tests/backend/*.test.ts; playwright test（对应实际分开执行日志）",
+              "scenario": "可靠写入与诊断的隔离技术验证，条件：原子写入、并发冲突、故障与摘要校验会保护权威状态。；所有测试用户决定仅在隔离副本",
+              "artifactVersion": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+              "record": "evidence/v04-backend-final.txt；evidence/v04-recovery-real-tests.txt；记录完成时间来自原文件mtime，精确开始时间未补造"
+            }
+          }
+        ]
+      },
+      "receipt": {
+        "operationId": "f9fa5ceb-a174-4204-95e5-6c25271bc184",
+        "committedRevision": 32,
+        "currentRevision": 32,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "epoch-safety",
+        "status": "已完成",
+        "result": "恢复代次与旧请求：本轮实际实现和对应技术检查完成；成果版本sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33。",
+        "reason": "Codex按v0.4提交当前实际成果；技术通过不构成用户决定。",
+        "remaining": [
+          "等待用户最终验收；可在本节点核对候选、条件与证据后通过或退回"
+        ],
+        "flags": [],
+        "candidate": {
+          "id": "v04-candidate-epoch-safety-ab53fc2d33",
+          "version": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+          "result": "恢复、离线恢复和重启后，网页与CLI旧请求均被拒绝。"
+        },
+        "evidence": [
+          {
+            "id": "v04-evidence-epoch-safety-ab53fc2d33",
+            "candidateId": "v04-candidate-epoch-safety-ab53fc2d33",
+            "acceptanceIds": [
+              "accept-epoch-safety"
+            ],
+            "version": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+            "check": "本轮定向技术检查及实际产物核对；不是用户体验验收",
+            "result": "pass",
+            "reference": "evidence/v04-backend-final.txt；evidence/v04-recovery-real-tests.txt；evidence/artifact-manifests/sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33.json",
+            "at": "2026-10-11T08:50:38.562Z",
+            "provenance": {
+              "command": "pnpm build; tsx --test tests/*.test.ts tests/backend/*.test.ts; playwright test（对应实际分开执行日志）",
+              "scenario": "受控真实配置副本；含服务关闭期间实际CLI恢复与重启旧请求拒绝",
+              "artifactVersion": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+              "record": "evidence/v04-backend-final.txt；evidence/v04-recovery-real-tests.txt；记录完成时间来自原文件mtime，精确开始时间未补造"
+            }
+          }
+        ]
+      },
+      "receipt": {
+        "operationId": "eee48947-fa91-4c37-ba80-fff379b952db",
+        "committedRevision": 33,
+        "currentRevision": 33,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "project-isolation",
+        "status": "已完成",
+        "result": "配置与演示隔离：本轮实际实现和对应技术检查完成；成果版本sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33。",
+        "reason": "Codex按v0.4提交当前实际成果；技术通过不构成用户决定。",
+        "remaining": [
+          "等待用户最终验收；可在本节点核对候选、条件与证据后通过或退回"
+        ],
+        "flags": [],
+        "candidate": {
+          "id": "v04-candidate-project-isolation-ab53fc2d33",
+          "version": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+          "result": "真实项目与合成演示身份、目录、端口、来源和视图隔离。"
+        },
+        "evidence": [
+          {
+            "id": "v04-evidence-project-isolation-ab53fc2d33",
+            "candidateId": "v04-candidate-project-isolation-ab53fc2d33",
+            "acceptanceIds": [
+              "accept-project-isolation"
+            ],
+            "version": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+            "check": "本轮定向技术检查及实际产物核对；不是用户体验验收",
+            "result": "pass",
+            "reference": "evidence/v04-backend-final.txt；evidence/v04-recovery-real-tests.txt；evidence/artifact-manifests/sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33.json",
+            "at": "2026-10-11T08:50:38.562Z",
+            "provenance": {
+              "command": "pnpm build; tsx --test tests/*.test.ts tests/backend/*.test.ts; playwright test（对应实际分开执行日志）",
+              "scenario": "配置与演示隔离的隔离技术验证，条件：真实项目与合成演示身份、目录、端口、来源和视图隔离。；所有测试用户决定仅在隔离副本",
+              "artifactVersion": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+              "record": "evidence/v04-backend-final.txt；evidence/v04-recovery-real-tests.txt；记录完成时间来自原文件mtime，精确开始时间未补造"
+            }
+          }
+        ]
+      },
+      "receipt": {
+        "operationId": "20882e4b-9701-4352-ac15-3317ba7ef8a1",
+        "committedRevision": 34,
+        "currentRevision": 34,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "capacity-export",
+        "status": "已完成",
+        "result": "备份导出与容量：本轮实际实现和对应技术检查完成；成果版本sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33。",
+        "reason": "Codex按v0.4提交当前实际成果；技术通过不构成用户决定。",
+        "remaining": [
+          "等待用户最终验收；可在本节点核对候选、条件与证据后通过或退回"
+        ],
+        "flags": [],
+        "candidate": {
+          "id": "v04-candidate-capacity-export-ab53fc2d33",
+          "version": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+          "result": "受控副本可恢复；导出可核对；容量提示覆盖有界集合且不误称释放容量。"
+        },
+        "evidence": [
+          {
+            "id": "v04-evidence-capacity-export-ab53fc2d33",
+            "candidateId": "v04-candidate-capacity-export-ab53fc2d33",
+            "acceptanceIds": [
+              "accept-capacity-export"
+            ],
+            "version": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+            "check": "本轮定向技术检查及实际产物核对；不是用户体验验收",
+            "result": "pass",
+            "reference": "evidence/v04-backend-final.txt；evidence/v04-recovery-real-tests.txt；evidence/artifact-manifests/sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33.json",
+            "at": "2026-10-11T08:50:38.562Z",
+            "provenance": {
+              "command": "pnpm build; tsx --test tests/*.test.ts tests/backend/*.test.ts; playwright test（对应实际分开执行日志）",
+              "scenario": "备份导出与容量的隔离技术验证，条件：受控副本可恢复；导出可核对；容量提示覆盖有界集合且不误称释放容量。；所有测试用户决定仅在隔离副本",
+              "artifactVersion": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+              "record": "evidence/v04-backend-final.txt；evidence/v04-recovery-real-tests.txt；记录完成时间来自原文件mtime，精确开始时间未补造"
+            }
+          }
+        ]
+      },
+      "receipt": {
+        "operationId": "16f69e37-5030-4dde-b00e-f6c1d3a3a26d",
+        "committedRevision": 35,
+        "currentRevision": 35,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "opinion-loop",
+        "status": "已完成",
+        "result": "意见到落实：本轮实际实现和对应技术检查完成；成果版本sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33。",
+        "reason": "Codex按v0.4提交当前实际成果；技术通过不构成用户决定。",
+        "remaining": [
+          "等待用户最终验收；可在本节点核对候选、条件与证据后通过或退回"
+        ],
+        "flags": [],
+        "candidate": {
+          "id": "v04-candidate-opinion-loop-ab53fc2d33",
+          "version": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+          "result": "真实意见保留原文及出处，CLI轮次、回应和落实证据可追溯。"
+        },
+        "evidence": [
+          {
+            "id": "v04-evidence-opinion-loop-ab53fc2d33",
+            "candidateId": "v04-candidate-opinion-loop-ab53fc2d33",
+            "acceptanceIds": [
+              "accept-opinion-loop"
+            ],
+            "version": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+            "check": "本轮定向技术检查及实际产物核对；不是用户体验验收",
+            "result": "pass",
+            "reference": "evidence/v04-narrow-correction-regression.txt；evidence/v04-backend-final.txt；evidence/artifact-manifests/sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33.json",
+            "at": "2026-10-11T08:57:33.993Z",
+            "provenance": {
+              "command": "pnpm build; tsx --test tests/*.test.ts tests/backend/*.test.ts; playwright test（对应实际分开执行日志）",
+              "scenario": "意见到落实的隔离技术验证，条件：真实意见保留原文及出处，CLI轮次、回应和落实证据可追溯。；所有测试用户决定仅在隔离副本",
+              "artifactVersion": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+              "record": "evidence/v04-narrow-correction-regression.txt；evidence/v04-backend-final.txt；记录完成时间来自原文件mtime，精确开始时间未补造"
+            }
+          }
+        ]
+      },
+      "receipt": {
+        "operationId": "2d6b8171-64ba-4219-997c-8a9584faa6a1",
+        "committedRevision": 36,
+        "currentRevision": 36,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "evidence-version",
+        "status": "已完成",
+        "result": "成果与证据绑定：本轮实际实现和对应技术检查完成；成果版本sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33。",
+        "reason": "Codex按v0.4提交当前实际成果；技术通过不构成用户决定。",
+        "remaining": [
+          "等待用户最终验收；可在本节点核对候选、条件与证据后通过或退回"
+        ],
+        "flags": [],
+        "candidate": {
+          "id": "v04-candidate-evidence-version-ab53fc2d33",
+          "version": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+          "result": "新检查记录保留场景、命令、执行记录及可复查产物摘要。"
+        },
+        "evidence": [
+          {
+            "id": "v04-evidence-evidence-version-ab53fc2d33",
+            "candidateId": "v04-candidate-evidence-version-ab53fc2d33",
+            "acceptanceIds": [
+              "accept-evidence-version"
+            ],
+            "version": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+            "check": "本轮定向技术检查及实际产物核对；不是用户体验验收",
+            "result": "pass",
+            "reference": "evidence/v04-narrow-correction-regression.txt；evidence/v04-backend-final.txt；evidence/artifact-manifests/sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33.json",
+            "at": "2026-10-11T08:57:33.993Z",
+            "provenance": {
+              "command": "pnpm build; tsx --test tests/*.test.ts tests/backend/*.test.ts; playwright test（对应实际分开执行日志）",
+              "scenario": "成果与证据绑定的隔离技术验证，条件：新检查记录保留场景、命令、执行记录及可复查产物摘要。；所有测试用户决定仅在隔离副本",
+              "artifactVersion": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+              "record": "evidence/v04-narrow-correction-regression.txt；evidence/v04-backend-final.txt；记录完成时间来自原文件mtime，精确开始时间未补造"
+            }
+          }
+        ]
+      },
+      "receipt": {
+        "operationId": "a0956ec3-3fd0-446c-9eff-11013f221ff7",
+        "committedRevision": 37,
+        "currentRevision": 37,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "decision-boundary",
+        "status": "已完成",
+        "result": "用户决定边界：本轮实际实现和对应技术检查完成；成果版本sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33。",
+        "reason": "Codex按v0.4提交当前实际成果；技术通过不构成用户决定。",
+        "remaining": [
+          "等待用户最终验收；可在本节点核对候选、条件与证据后通过或退回"
+        ],
+        "flags": [],
+        "candidate": {
+          "id": "v04-candidate-decision-boundary-ab53fc2d33",
+          "version": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+          "result": "CLI不能代为验收；真实用户决定为空时进度保持0%，旧来源保持原值。"
+        },
+        "evidence": [
+          {
+            "id": "v04-evidence-decision-boundary-ab53fc2d33",
+            "candidateId": "v04-candidate-decision-boundary-ab53fc2d33",
+            "acceptanceIds": [
+              "accept-decision-boundary"
+            ],
+            "version": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+            "check": "本轮定向技术检查及实际产物核对；不是用户体验验收",
+            "result": "pass",
+            "reference": "evidence/v04-narrow-correction-regression.txt；evidence/v04-backend-final.txt；evidence/artifact-manifests/sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33.json",
+            "at": "2026-10-11T08:57:33.993Z",
+            "provenance": {
+              "command": "pnpm build; tsx --test tests/*.test.ts tests/backend/*.test.ts; playwright test（对应实际分开执行日志）",
+              "scenario": "用户决定边界的隔离技术验证，条件：CLI不能代为验收；真实用户决定为空时进度保持0%，旧来源保持原值。；所有测试用户决定仅在隔离副本",
+              "artifactVersion": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+              "record": "evidence/v04-narrow-correction-regression.txt；evidence/v04-backend-final.txt；记录完成时间来自原文件mtime，精确开始时间未补造"
+            }
+          }
+        ]
+      },
+      "receipt": {
+        "operationId": "cfce222c-f86f-4942-ba09-ac8040b0c29b",
+        "committedRevision": 38,
+        "currentRevision": 38,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "priority-next",
+        "status": "已完成",
+        "result": "优先级、退回与下一步：本轮实际实现和对应技术检查完成；成果版本sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33。",
+        "reason": "Codex按v0.4提交当前实际成果；技术通过不构成用户决定。",
+        "remaining": [
+          "等待用户最终验收；可在本节点核对候选、条件与证据后通过或退回"
+        ],
+        "flags": [],
+        "candidate": {
+          "id": "v04-candidate-priority-next-ab53fc2d33",
+          "version": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+          "result": "节点详情显示有效优先级、退回原因和下一步，草稿提示清楚。"
+        },
+        "evidence": [
+          {
+            "id": "v04-evidence-priority-next-ab53fc2d33",
+            "candidateId": "v04-candidate-priority-next-ab53fc2d33",
+            "acceptanceIds": [
+              "accept-priority-next"
+            ],
+            "version": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+            "check": "本轮定向技术检查及实际产物核对；不是用户体验验收",
+            "result": "pass",
+            "reference": "evidence/v04-narrow-correction-regression.txt；evidence/v04-backend-final.txt；evidence/artifact-manifests/sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33.json",
+            "at": "2026-10-11T08:57:33.993Z",
+            "provenance": {
+              "command": "pnpm build; tsx --test tests/*.test.ts tests/backend/*.test.ts; playwright test（对应实际分开执行日志）",
+              "scenario": "优先级、退回与下一步的隔离技术验证，条件：节点详情显示有效优先级、退回原因和下一步，草稿提示清楚。；所有测试用户决定仅在隔离副本",
+              "artifactVersion": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+              "record": "evidence/v04-narrow-correction-regression.txt；evidence/v04-backend-final.txt；记录完成时间来自原文件mtime，精确开始时间未补造"
+            }
+          }
+        ]
+      },
+      "receipt": {
+        "operationId": "06f07a67-52ae-4680-a19e-d94eaadd96b1",
+        "committedRevision": 39,
+        "currentRevision": 39,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "project-content",
+        "status": "已完成",
+        "result": "页面对应我们的项目：本轮实际实现和对应技术检查完成；成果版本sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33。",
+        "reason": "Codex按v0.4提交当前实际成果；技术通过不构成用户决定。",
+        "remaining": [
+          "等待用户最终验收；可在本节点核对候选、条件与证据后通过或退回"
+        ],
+        "flags": [],
+        "candidate": {
+          "id": "v04-candidate-project-content-ab53fc2d33",
+          "version": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+          "result": "默认页面反映工具自身，显示原成果、本轮工作及待验收事项。"
+        },
+        "evidence": [
+          {
+            "id": "v04-evidence-project-content-ab53fc2d33",
+            "candidateId": "v04-candidate-project-content-ab53fc2d33",
+            "acceptanceIds": [
+              "accept-project-content"
+            ],
+            "version": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+            "check": "本轮定向技术检查及实际产物核对；不是用户体验验收",
+            "result": "pass",
+            "reference": "evidence/v04-narrow-correction-regression.txt；evidence/v04-stage1-activation.json；evidence/artifact-manifests/sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33.json",
+            "at": "2026-10-11T08:57:33.993Z",
+            "provenance": {
+              "command": "pnpm build; tsx --test tests/*.test.ts tests/backend/*.test.ts; playwright test（对应实际分开执行日志）",
+              "scenario": "页面对应我们的项目的隔离技术验证，条件：默认页面反映工具自身，显示原成果、本轮工作及待验收事项。；所有测试用户决定仅在隔离副本",
+              "artifactVersion": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+              "record": "evidence/v04-narrow-correction-regression.txt；evidence/v04-stage1-activation.json；记录完成时间来自原文件mtime，精确开始时间未补造"
+            }
+          }
+        ]
+      },
+      "receipt": {
+        "operationId": "477583c9-4ad4-4d15-be70-9f91a8feeb86",
+        "committedRevision": 40,
+        "currentRevision": 40,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "launch-service",
+        "status": "已完成",
+        "result": "可直接打开的入口：本轮实际实现和对应技术检查完成；成果版本sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33。",
+        "reason": "Codex按v0.4提交当前实际成果；技术通过不构成用户决定。",
+        "remaining": [
+          "等待用户最终验收；可在本节点核对候选、条件与证据后通过或退回"
+        ],
+        "flags": [],
+        "candidate": {
+          "id": "v04-candidate-launch-service-ab53fc2d33",
+          "version": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+          "result": "服务已启动；重复启动、端口占用和停止可诊断，关闭启动窗口不终止服务。"
+        },
+        "evidence": [
+          {
+            "id": "v04-evidence-launch-service-ab53fc2d33",
+            "candidateId": "v04-candidate-launch-service-ab53fc2d33",
+            "acceptanceIds": [
+              "accept-launch-service"
+            ],
+            "version": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+            "check": "本轮定向技术检查及实际产物核对；不是用户体验验收",
+            "result": "pass",
+            "reference": "evidence/v04-launcher-tests.txt；evidence/artifact-manifests/sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33.json",
+            "at": "2026-10-11T08:50:21.177Z",
+            "provenance": {
+              "command": "pnpm build; tsx --test tests/*.test.ts tests/backend/*.test.ts; playwright test（对应实际分开执行日志）",
+              "scenario": "父进程退出后服务保持、重复启动、foreignport拒绝、停止；浏览器失败为明确合成OS故障注入",
+              "artifactVersion": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+              "record": "evidence/v04-launcher-tests.txt；记录完成时间来自原文件mtime，精确开始时间未补造"
+            }
+          }
+        ]
+      },
+      "receipt": {
+        "operationId": "35361357-cf48-49dc-b709-3864167abae2",
+        "committedRevision": 41,
+        "currentRevision": 41,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "delivery-role",
+        "status": "已完成",
+        "result": "只需最终验收：本轮实际实现和对应技术检查完成；成果版本sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33。",
+        "reason": "Codex按v0.4提交当前实际成果；技术通过不构成用户决定。",
+        "remaining": [
+          "等待用户最终验收；可在本节点核对候选、条件与证据后通过或退回"
+        ],
+        "flags": [],
+        "candidate": {
+          "id": "v04-candidate-delivery-role-ab53fc2d33",
+          "version": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+          "result": "Codex负责实施、启动、CLI报告、备份恢复与核对，用户只负责最终验收。"
+        },
+        "evidence": [
+          {
+            "id": "v04-evidence-delivery-role-ab53fc2d33",
+            "candidateId": "v04-candidate-delivery-role-ab53fc2d33",
+            "acceptanceIds": [
+              "accept-delivery-role"
+            ],
+            "version": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+            "check": "本轮定向技术检查及实际产物核对；不是用户体验验收",
+            "result": "pass",
+            "reference": "evidence/v04-narrow-correction-regression.txt；evidence/artifact-manifests/sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33.json",
+            "at": "2026-10-11T08:57:33.993Z",
+            "provenance": {
+              "command": "pnpm build; tsx --test tests/*.test.ts tests/backend/*.test.ts; playwright test（对应实际分开执行日志）",
+              "scenario": "只需最终验收的隔离技术验证，条件：Codex负责实施、启动、CLI报告、备份恢复与核对，用户只负责最终验收。；所有测试用户决定仅在隔离副本",
+              "artifactVersion": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+              "record": "evidence/v04-narrow-correction-regression.txt；记录完成时间来自原文件mtime，精确开始时间未补造"
+            }
+          }
+        ]
+      },
+      "receipt": {
+        "operationId": "6b73f408-760f-43fd-9107-978326c60a18",
+        "committedRevision": 42,
+        "currentRevision": 42,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "handoff",
+        "status": "已完成",
+        "result": "交付说明与复核：本轮实际实现和对应技术检查完成；成果版本sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33。",
+        "reason": "Codex按v0.4提交当前实际成果；技术通过不构成用户决定。",
+        "remaining": [
+          "等待用户最终验收；可在本节点核对候选、条件与证据后通过或退回"
+        ],
+        "flags": [],
+        "candidate": {
+          "id": "v04-candidate-handoff-ab53fc2d33",
+          "version": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+          "result": "四阶段检查与独立审核可查，限制和维护边界清楚，最终验收由用户决定。"
+        },
+        "evidence": [
+          {
+            "id": "v04-evidence-handoff-ab53fc2d33",
+            "candidateId": "v04-candidate-handoff-ab53fc2d33",
+            "acceptanceIds": [
+              "accept-handoff"
+            ],
+            "version": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+            "check": "本轮定向技术检查及实际产物核对；不是用户体验验收",
+            "result": "pass",
+            "reference": "evidence/v04-backend-final.txt；evidence/v04-launcher-tests.txt；evidence/artifact-manifests/sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33.json",
+            "at": "2026-10-11T08:50:38.562Z",
+            "provenance": {
+              "command": "pnpm build; tsx --test tests/*.test.ts tests/backend/*.test.ts; playwright test（对应实际分开执行日志）",
+              "scenario": "交付说明与复核的隔离技术验证，条件：四阶段检查与独立审核可查，限制和维护边界清楚，最终验收由用户决定。；所有测试用户决定仅在隔离副本",
+              "artifactVersion": "sha256-92c137ab041fe66f3dbf12797add87d82a801b41200f26b0ac1c39ab53fc2d33",
+              "record": "evidence/v04-backend-final.txt；evidence/v04-launcher-tests.txt；记录完成时间来自原文件mtime，精确开始时间未补造"
+            }
+          }
+        ]
+      },
+      "receipt": {
+        "operationId": "bb05595d-b35b-4d7b-a58b-22bec5732dce",
+        "committedRevision": 43,
+        "currentRevision": 43,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "respond",
+        "id": "v04-response-project-content-ab53fc2d33",
+        "opinionId": "conversation-content",
+        "text": "默认内容已切换为工具自身，原演示完整保全并显式隔离。 当前仅技术落实，等待你最终验收。",
+        "candidateId": "v04-candidate-project-content-ab53fc2d33",
+        "evidenceId": "v04-evidence-project-content-ab53fc2d33",
+        "implemented": true
+      },
+      "receipt": {
+        "operationId": "3207fa76-dfbb-4ae0-aa6e-f9c49c78e927",
+        "committedRevision": 44,
+        "currentRevision": 44,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "respond",
+        "id": "v04-response-launch-service-ab53fc2d33",
+        "opinionId": "conversation-open",
+        "text": "启动改为按需独立进程，启动终端退出不停止服务；端口、重复启动、关闭和打开失败处理已经验证。 当前仅技术落实，等待你最终验收。",
+        "candidateId": "v04-candidate-launch-service-ab53fc2d33",
+        "evidenceId": "v04-evidence-launch-service-ab53fc2d33",
+        "implemented": true
+      },
+      "receipt": {
+        "operationId": "62e222f5-b529-4667-a7cc-2dcd308710ff",
+        "committedRevision": 45,
+        "currentRevision": 45,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "respond",
+        "id": "v04-response-delivery-role-ab53fc2d33",
+        "opinionId": "conversation-role",
+        "text": "技术实施、启动、CLI报告、备份恢复与复核均由Codex完成，你只负责最终验收。 当前仅技术落实，等待你最终验收。",
+        "candidateId": "v04-candidate-delivery-role-ab53fc2d33",
+        "evidenceId": "v04-evidence-delivery-role-ab53fc2d33",
+        "implemented": true
+      },
+      "receipt": {
+        "operationId": "b125eb73-622b-417f-9673-c6e1928e3a46",
+        "committedRevision": 46,
+        "currentRevision": 46,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "goal",
+        "status": "已完成",
+        "result": "本轮范围内技术实现、自测和交付准备完成，原成果与本轮工作均有候选和证据。",
+        "reason": "技术状态与用户验收分别计量；最终独立结论见实施记录。",
+        "remaining": [
+          "等待用户最终验收"
+        ],
+        "flags": [
+          {
+            "kind": "待决定",
+            "text": "用户只负责最终验收；当前有效验收0/16，技术检查不计入分子。"
+          }
+        ]
+      },
+      "receipt": {
+        "operationId": "23321ef7-988f-4d1f-89a2-0ebe802a343a",
+        "committedRevision": 47,
+        "currentRevision": 47,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "visual",
+        "status": "已完成",
+        "result": "本轮范围内技术实现、自测和交付准备完成，原成果与本轮工作均有候选和证据。",
+        "reason": "技术状态与用户验收分别计量；最终独立结论见实施记录。",
+        "remaining": [
+          "等待用户最终验收"
+        ],
+        "flags": []
+      },
+      "receipt": {
+        "operationId": "6dac9cf0-6d5a-4ff9-a595-105e549930d2",
+        "committedRevision": 48,
+        "currentRevision": 48,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "reliability",
+        "status": "已完成",
+        "result": "本轮范围内技术实现、自测和交付准备完成，原成果与本轮工作均有候选和证据。",
+        "reason": "技术状态与用户验收分别计量；最终独立结论见实施记录。",
+        "remaining": [
+          "等待用户最终验收"
+        ],
+        "flags": []
+      },
+      "receipt": {
+        "operationId": "5583747d-bb71-47fc-901e-974219300806",
+        "committedRevision": 49,
+        "currentRevision": 49,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "feedback",
+        "status": "已完成",
+        "result": "本轮范围内技术实现、自测和交付准备完成，原成果与本轮工作均有候选和证据。",
+        "reason": "技术状态与用户验收分别计量；最终独立结论见实施记录。",
+        "remaining": [
+          "等待用户最终验收"
+        ],
+        "flags": []
+      },
+      "receipt": {
+        "operationId": "727aabbf-5b11-4c7a-965a-2a41d061109d",
+        "committedRevision": 50,
+        "currentRevision": 50,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "delivery",
+        "status": "已完成",
+        "result": "本轮范围内技术实现、自测和交付准备完成，原成果与本轮工作均有候选和证据。",
+        "reason": "技术状态与用户验收分别计量；最终独立结论见实施记录。",
+        "remaining": [
+          "等待用户最终验收"
+        ],
+        "flags": []
+      },
+      "receipt": {
+        "operationId": "56a29b0a-66c7-4134-80fb-2574b26ab06a",
+        "committedRevision": 51,
+        "currentRevision": 51,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    }
+  ]
+}

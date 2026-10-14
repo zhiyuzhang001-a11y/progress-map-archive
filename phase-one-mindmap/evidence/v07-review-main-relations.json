@@ -1,0 +1,37 @@
+{
+  "actualMain": true,
+  "viewWritesSuppressed": true,
+  "stateUnchanged": true,
+  "viewUnchanged": true,
+  "checks": [
+    {
+      "id": "map-planning",
+      "title": "看清计划与进展",
+      "expandedDOM": 13,
+      "leaf": "看清目标与分计划",
+      "parentReturn": true
+    },
+    {
+      "id": "map-problems",
+      "title": "及时发现并处理难题",
+      "expandedDOM": 10,
+      "leaf": "点开了解具体情况",
+      "parentReturn": true
+    },
+    {
+      "id": "map-results",
+      "title": "点开了解并确认成果",
+      "expandedDOM": 11,
+      "leaf": "成果有依据",
+      "parentReturn": true
+    },
+    {
+      "id": "map-follow",
+      "title": "持续跟进每一步",
+      "expandedDOM": 14,
+      "leaf": "更新记录能保存",
+      "parentReturn": true
+    }
+  ],
+  "errors": []
+}

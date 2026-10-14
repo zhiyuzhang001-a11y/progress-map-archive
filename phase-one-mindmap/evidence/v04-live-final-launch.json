@@ -1,0 +1,9 @@
+{
+  "status": "ready",
+  "started": true,
+  "url": "http://127.0.0.1:4173",
+  "projectId": "progress-mindmap-self",
+  "revision": 76,
+  "browserOpened": true,
+  "serviceLifecycle": "按需启动的独立进程；启动终端退出不停止服务。没有登录启动项。"
+}

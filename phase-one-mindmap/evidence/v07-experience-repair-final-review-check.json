@@ -1,0 +1,18 @@
+{
+  "verified": true,
+  "revision": 197,
+  "manifestFiles": 87,
+  "fixedChecks": 11,
+  "original19ChecksPreserved": true,
+  "original328RecordsPreserved": 328,
+  "allEvidenceRecordsVerified": 472,
+  "originalAcceptanceDecisions": 16,
+  "checkpoint": 159,
+  "exportFiles": 370,
+  "archiveFiles": 800,
+  "pendingPacks": [
+    2,
+    3
+  ],
+  "assetsMatched": true
+}

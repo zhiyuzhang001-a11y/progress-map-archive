@@ -1,0 +1,8 @@
+{
+  "headedMacChrome": true,
+  "desktop": "1440x900",
+  "mobile": "390x844 Chrome touch emulation, not physical phone",
+  "stateAndViewUnchanged": true,
+  "humanAcceptance": false,
+  "passed": true
+}

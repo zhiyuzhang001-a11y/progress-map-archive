@@ -1,0 +1,105 @@
+{
+  "version": 3,
+  "nodes": [
+    {
+      "id": "goal",
+      "side": "center",
+      "color": "#163f3b",
+      "title": "一眼看清计划、进展和难题",
+      "goal": "做一个给你看的项目导图，让总计划清楚、进展真实、难题不会藏起来。"
+    },
+    {
+      "id": "v07-plan",
+      "parent": "goal",
+      "side": "left",
+      "color": "#518574",
+      "title": "总计划看得懂",
+      "goal": "打开能理解最终目标、分计划和当前重点。"
+    },
+    {
+      "id": "v07-clean",
+      "parent": "goal",
+      "side": "left",
+      "color": "#518574",
+      "title": "页面简洁好用",
+      "goal": "默认只有导图，桌面与手机可点击详情和收展。"
+    },
+    {
+      "id": "v07-truth",
+      "parent": "goal",
+      "side": "left",
+      "color": "#518574",
+      "title": "进展与完成真实",
+      "goal": "工作做好、待验收、已验收分别呈现。"
+    },
+    {
+      "id": "v07-problems",
+      "parent": "goal",
+      "side": "right",
+      "color": "#8b755e",
+      "title": "难题不会藏住",
+      "goal": "折叠仍能注意重要问题，两步内找到原因。"
+    },
+    {
+      "id": "v07-changes",
+      "parent": "goal",
+      "side": "right",
+      "color": "#8b755e",
+      "title": "看见重要变化",
+      "goal": "可信推进与返工可见，刷新不制造变化。"
+    },
+    {
+      "id": "v07-maintain",
+      "parent": "goal",
+      "side": "right",
+      "color": "#8b755e",
+      "title": "不用你维护地图",
+      "goal": "Codex负责连续更新和核对，历史与恢复保护保留。"
+    }
+  ],
+  "acceptance": [
+    {
+      "id": "v07-accept-plan",
+      "nodeId": "v07-plan",
+      "condition": "打开能理解最终目标、分计划和当前重点。",
+      "weight": 1,
+      "method": "user"
+    },
+    {
+      "id": "v07-accept-clean",
+      "nodeId": "v07-clean",
+      "condition": "默认只有导图，桌面与手机可点击详情和收展。",
+      "weight": 1,
+      "method": "user"
+    },
+    {
+      "id": "v07-accept-truth",
+      "nodeId": "v07-truth",
+      "condition": "工作做好、待验收、已验收分别呈现。",
+      "weight": 1,
+      "method": "user"
+    },
+    {
+      "id": "v07-accept-problems",
+      "nodeId": "v07-problems",
+      "condition": "折叠仍能注意重要问题，两步内找到原因。",
+      "weight": 1,
+      "method": "user"
+    },
+    {
+      "id": "v07-accept-changes",
+      "nodeId": "v07-changes",
+      "condition": "可信推进与返工可见，刷新不制造变化。",
+      "weight": 1,
+      "method": "user"
+    },
+    {
+      "id": "v07-accept-maintain",
+      "nodeId": "v07-maintain",
+      "condition": "Codex负责连续更新和核对，历史与恢复保护保留。",
+      "weight": 1,
+      "method": "user"
+    }
+  ],
+  "autoRules": []
+}

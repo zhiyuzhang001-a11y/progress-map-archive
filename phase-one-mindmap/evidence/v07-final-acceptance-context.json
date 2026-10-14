@@ -1,0 +1,198 @@
+{
+  "recordedAt": "2026-10-12T10:27:44.681Z",
+  "purpose": "只读准备上一轮六项与本次六项明确范围及原成果版本，供最终聊天决定后受控录入；没有用户决定，不保存会话凭据。任何决定时仍须读取最新pack核对，不能自动换版本重放。",
+  "packs": [
+    {
+      "projectId": "progress-mindmap-self",
+      "baselineVersion": 2,
+      "revision": 173,
+      "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+      "items": [
+        {
+          "acceptanceId": "v05-accept-closure-state",
+          "nodeId": "closure-state",
+          "condition": "页眉、节点详情、下一步与待决定提示在待验收、部分通过、全部通过及退回场景一致，没有错误待决定提示。",
+          "weight": 1,
+          "state": "pending",
+          "candidateId": "v05-candidate-closure-state-e150188f9a",
+          "version": "sha256-31e976552222c101f36f2ba2acaef5bf00ab635935fb58d16629b6e150188f9a",
+          "evidenceId": "v05-evidence-closure-state-e150188f9a",
+          "check": "本轮实际技术检查和分阶段独立复核；历史76项没有当成本轮检查，用户体验留待真实最终验收。",
+          "result": "页面结项、下一步和待决定按有效状态一致显示，保留工作完成与用户验收的区别。",
+          "ready": true
+        },
+        {
+          "acceptanceId": "v05-accept-acceptance-pack",
+          "nodeId": "acceptance-pack",
+          "condition": "整体、部分、冲突拒绝及同请求重试有可核对结果，未选项不改变，旧恢复代次不能重放。",
+          "weight": 1,
+          "state": "pending",
+          "candidateId": "v05-candidate-acceptance-pack-e150188f9a",
+          "version": "sha256-31e976552222c101f36f2ba2acaef5bf00ab635935fb58d16629b6e150188f9a",
+          "evidenceId": "v05-evidence-acceptance-pack-e150188f9a",
+          "check": "本轮实际技术检查和分阶段独立复核；历史76项没有当成本轮检查，用户体验留待真实最终验收。",
+          "result": "权威验收包支持整体或选定部分原子通过、明确回执和原请求重试；冲突和旧代次拒绝。",
+          "ready": true
+        },
+        {
+          "acceptanceId": "v05-accept-iteration-history",
+          "nodeId": "iteration-history",
+          "condition": "本轮六项初始未验收，B1结项快照保留16/16，原决定、候选和证据可查，后续复核不改写历史结项。",
+          "weight": 1,
+          "state": "pending",
+          "candidateId": "v05-candidate-iteration-history-e150188f9a",
+          "version": "sha256-31e976552222c101f36f2ba2acaef5bf00ab635935fb58d16629b6e150188f9a",
+          "evidenceId": "v05-evidence-iteration-history-e150188f9a",
+          "check": "本轮实际技术检查和分阶段独立复核；历史76项没有当成本轮检查，用户体验留待真实最终验收。",
+          "result": "本工具已进入六项当前工作，B1固定16/16及原验收链可查；不变事项合法引用原链，新范围不自动验收。",
+          "ready": true
+        },
+        {
+          "acceptanceId": "v05-accept-progress-explanation",
+          "nodeId": "progress-explanation",
+          "condition": "新增任务、条件变更、证据失效及用户退回分别显示范围和原因，范围增加不误称旧成果失败。",
+          "weight": 1,
+          "state": "pending",
+          "candidateId": "v05-candidate-progress-explanation-e150188f9a",
+          "version": "sha256-31e976552222c101f36f2ba2acaef5bf00ab635935fb58d16629b6e150188f9a",
+          "evidenceId": "v05-evidence-progress-explanation-e150188f9a",
+          "check": "本轮实际技术检查和分阶段独立复核；历史76项没有当成本轮检查，用户体验留待真实最终验收。",
+          "result": "新增范围、条件变更、证据复核与用户退回分别说明，不把范围增加显示为旧成果失败。",
+          "ready": true
+        },
+        {
+          "acceptanceId": "v05-accept-readable-evidence",
+          "nodeId": "readable-evidence",
+          "condition": "节点与验收包可理解成果，登记记录可只读展开；越界、内容不符、版本不符、缺失和可执行内容按规定处理。",
+          "weight": 1,
+          "state": "pending",
+          "candidateId": "v05-candidate-readable-evidence-e150188f9a",
+          "version": "sha256-31e976552222c101f36f2ba2acaef5bf00ab635935fb58d16629b6e150188f9a",
+          "evidenceId": "v05-evidence-readable-evidence-e150188f9a",
+          "check": "本轮实际技术检查和分阶段独立复核；历史76项没有当成本轮检查，用户体验留待真实最终验收。",
+          "result": "成果先显示简明说明，登记记录可安全只读展开；内容、路径、大小和版本校验，命令及脚本不执行、外部资源不自动加载。",
+          "ready": true
+        },
+        {
+          "acceptanceId": "v05-accept-continuous-use",
+          "nodeId": "continuous-use",
+          "condition": "真实CLI报告、网页同步、产物证据绑定与最终验收包可串联核对；含必要证据文件的导出及隔离恢复可核对，技术完成不代填用户验收。",
+          "weight": 1,
+          "state": "pending",
+          "candidateId": "v05-candidate-continuous-use-e150188f9a",
+          "version": "sha256-31e976552222c101f36f2ba2acaef5bf00ab635935fb58d16629b6e150188f9a",
+          "evidenceId": "v05-evidence-continuous-use-e150188f9a",
+          "check": "本轮实际技术检查和分阶段独立复核；历史76项没有当成本轮检查，用户体验留待真实最终验收。",
+          "result": "真实CLI读取六项目标、记录成果与证据、网页同步和最终验收包已串联；必要证据随备份导出及隔离恢复核对。",
+          "ready": true
+        }
+      ],
+      "acceptedIds": [],
+      "pendingIds": [
+        "v05-accept-closure-state",
+        "v05-accept-acceptance-pack",
+        "v05-accept-iteration-history",
+        "v05-accept-progress-explanation",
+        "v05-accept-readable-evidence",
+        "v05-accept-continuous-use"
+      ],
+      "packId": "856eee19b8eec1f8a02405e6eb28300be9df8e7d32349c9a1f3e5668b083fca8"
+    },
+    {
+      "projectId": "progress-mindmap-self",
+      "baselineVersion": 3,
+      "revision": 173,
+      "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+      "items": [
+        {
+          "acceptanceId": "v07-accept-plan",
+          "nodeId": "v07-plan",
+          "condition": "打开能理解最终目标、分计划和当前重点。",
+          "weight": 1,
+          "state": "pending",
+          "candidateId": "v07-c-v07-plan-dfd931b844",
+          "version": "sha256-d078bf06eeb5c55347afe3594d592a979ee3492179609375ac4870dfd931b844",
+          "evidenceId": "v07-e-v07-plan-dfd931b844",
+          "check": "本次实际模型、后端、浏览器、布局与隔离恢复检查；模拟验收不写主项目，体验结论待用户。",
+          "result": "总图把已有成果、待确认事项和本次改进放在同一份计划中，点开可以了解各项要完成什么。",
+          "ready": true
+        },
+        {
+          "acceptanceId": "v07-accept-clean",
+          "nodeId": "v07-clean",
+          "condition": "默认只有导图，桌面与手机可点击详情和收展。",
+          "weight": 1,
+          "state": "pending",
+          "candidateId": "v07-c-v07-clean-dfd931b844",
+          "version": "sha256-d078bf06eeb5c55347afe3594d592a979ee3492179609375ac4870dfd931b844",
+          "evidenceId": "v07-e-v07-clean-dfd931b844",
+          "check": "本次实际模型、后端、浏览器、布局与隔离恢复检查；模拟验收不写主项目，体验结论待用户。",
+          "result": "默认页面只保留导图；卡片可点击查看详情、展开分计划，关闭后回到原位置。",
+          "ready": true
+        },
+        {
+          "acceptanceId": "v07-accept-truth",
+          "nodeId": "v07-truth",
+          "condition": "工作做好、待验收、已验收分别呈现。",
+          "weight": 1,
+          "state": "pending",
+          "candidateId": "v07-c-v07-truth-dfd931b844",
+          "version": "sha256-d078bf06eeb5c55347afe3594d592a979ee3492179609375ac4870dfd931b844",
+          "evidenceId": "v07-e-v07-truth-dfd931b844",
+          "check": "本次实际模型、后端、浏览器、布局与隔离恢复检查；模拟验收不写主项目，体验结论待用户。",
+          "result": "工作做好、等待验收和已经验收分别呈现；尚未确认的成果没有算成已通过。",
+          "ready": true
+        },
+        {
+          "acceptanceId": "v07-accept-problems",
+          "nodeId": "v07-problems",
+          "condition": "折叠仍能注意重要问题，两步内找到原因。",
+          "weight": 1,
+          "state": "pending",
+          "candidateId": "v07-c-v07-problems-dfd931b844",
+          "version": "sha256-d078bf06eeb5c55347afe3594d592a979ee3492179609375ac4870dfd931b844",
+          "evidenceId": "v07-e-v07-problems-dfd931b844",
+          "check": "本次实际模型、后端、浏览器、布局与隔离恢复检查；模拟验收不写主项目，体验结论待用户。",
+          "result": "难题、返工及待确认事项在收起分支后仍能注意到，点开可以找到受影响的具体工作。",
+          "ready": true
+        },
+        {
+          "acceptanceId": "v07-accept-changes",
+          "nodeId": "v07-changes",
+          "condition": "可信推进与返工可见，刷新不制造变化。",
+          "weight": 1,
+          "state": "pending",
+          "candidateId": "v07-c-v07-changes-dfd931b844",
+          "version": "sha256-d078bf06eeb5c55347afe3594d592a979ee3492179609375ac4870dfd931b844",
+          "evidenceId": "v07-e-v07-changes-dfd931b844",
+          "check": "本次实际模型、后端、浏览器、布局与隔离恢复检查；模拟验收不写主项目，体验结论待用户。",
+          "result": "地图可以显示有依据的重要推进和回退，刷新、重新打开及改写说明不会制造新进展。",
+          "ready": true
+        },
+        {
+          "acceptanceId": "v07-accept-maintain",
+          "nodeId": "v07-maintain",
+          "condition": "Codex负责连续更新和核对，历史与恢复保护保留。",
+          "weight": 1,
+          "state": "pending",
+          "candidateId": "v07-c-v07-maintain-dfd931b844",
+          "version": "sha256-d078bf06eeb5c55347afe3594d592a979ee3492179609375ac4870dfd931b844",
+          "evidenceId": "v07-e-v07-maintain-dfd931b844",
+          "check": "本次实际模型、后端、浏览器、布局与隔离恢复检查；模拟验收不写主项目，体验结论待用户。",
+          "result": "Codex负责记录与更新；旧成果和依据保留，已在隔离副本核对备份恢复与旧请求保护。",
+          "ready": true
+        }
+      ],
+      "acceptedIds": [],
+      "pendingIds": [
+        "v07-accept-plan",
+        "v07-accept-clean",
+        "v07-accept-truth",
+        "v07-accept-problems",
+        "v07-accept-changes",
+        "v07-accept-maintain"
+      ],
+      "packId": "78c2b86784d9288b19ec37319c106ab1a075707c4801671434b8f03f2f103a53"
+    }
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "status": "ready",
+  "projectId": "progress-mindmap-self",
+  "revision": 76,
+  "baselineVersion": 1,
+  "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+  "limits": {
+    "fileBytes": 2000000,
+    "bodyBytes": 131072,
+    "history": 2000,
+    "backups": 32,
+    "lockWaitMs": 2000
+  },
+  "capacity": {
+    "collections": {
+      "nodes": {
+        "used": 21,
+        "limit": 1000
+      },
+      "acceptanceConditions": {
+        "used": 16,
+        "limit": 4000
+      },
+      "autoRules": {
+        "used": 0,
+        "limit": 100
+      },
+      "reportNodes": {
+        "used": 21,
+        "limit": 1000
+      },
+      "candidates": {
+        "used": 48,
+        "limit": 2000
+      },
+      "evidence": {
+        "used": 48,
+        "limit": 4000
+      },
+      "runs": {
+        "used": 3,
+        "limit": 2000
+      },
+      "opinions": {
+        "used": 3,
+        "limit": 2000
+      },
+      "acknowledgements": {
+        "used": 3,
+        "limit": 4000
+      },
+      "responses": {
+        "used": 9,
+        "limit": 2000
+      },
+      "acceptanceDecisions": {
+        "used": 0,
+        "limit": 4000
+      },
+      "priorities": {
+        "used": 0,
+        "limit": 2000
+      },
+      "proposals": {
+        "used": 0,
+        "limit": 500
+      },
+      "baselineHistory": {
+        "used": 0,
+        "limit": 100
+      },
+      "history": {
+        "used": 77,
+        "limit": 2000
+      },
+      "operations": {
+        "used": 76,
+        "limit": 2000
+      },
+      "snapshots": {
+        "used": 1,
+        "limit": 32
+      },
+      "fileBytes": {
+        "used": 125196,
+        "limit": 2000000
+      }
+    },
+    "nearLimit": [],
+    "exportReclaimsCapacity": false
+  },
+  "config": {
+    "configVersion": 1,
+    "projectId": "progress-mindmap-self",
+    "name": "项目进度思维导图工具",
+    "kind": "real",
+    "dataDirectory": "project-data",
+    "port": 4173,
+    "readOnly": false
+  },
+  "root": "/Users/zhiyu/Documents/ChatGPT/progress map/phase-one-mindmap"
+}

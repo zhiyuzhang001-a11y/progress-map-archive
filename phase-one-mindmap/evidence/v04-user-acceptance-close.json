@@ -1,0 +1,218 @@
+{
+  "recordedAt": "2026-10-11T13:45:34.803Z",
+  "revision": 113,
+  "accepted": 16,
+  "baselineVersion": 1,
+  "log": [
+    {
+      "nodeId": "goal",
+      "receipt": {
+        "operationId": "a9ce0e04-f927-413b-94be-45c54ff726cb",
+        "committedRevision": 93,
+        "currentRevision": 93,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "nodeId": "visual",
+      "receipt": {
+        "operationId": "15d695a6-d955-4405-b026-712317669033",
+        "committedRevision": 94,
+        "currentRevision": 94,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "nodeId": "reliability",
+      "receipt": {
+        "operationId": "fdd60700-a2d2-4e7f-ad49-8f728b55fa16",
+        "committedRevision": 95,
+        "currentRevision": 95,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "nodeId": "feedback",
+      "receipt": {
+        "operationId": "f5f0cd6c-a905-431e-9173-2d63dc35f59b",
+        "committedRevision": 96,
+        "currentRevision": 96,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "nodeId": "delivery",
+      "receipt": {
+        "operationId": "a8acfe7f-2588-4bfb-a7a6-400672366f37",
+        "committedRevision": 97,
+        "currentRevision": 97,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "nodeId": "goal-map",
+      "receipt": {
+        "operationId": "4c1f044e-0b33-4cb5-877f-b38a37ff1be7",
+        "committedRevision": 98,
+        "currentRevision": 98,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "nodeId": "edge-progress",
+      "receipt": {
+        "operationId": "f199fbf0-e285-468b-89a1-8c6512b3a036",
+        "committedRevision": 99,
+        "currentRevision": 99,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "nodeId": "node-details",
+      "receipt": {
+        "operationId": "ef2fd4b5-d28d-465d-a0a7-007ce607f25a",
+        "committedRevision": 100,
+        "currentRevision": 100,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "nodeId": "readability",
+      "receipt": {
+        "operationId": "028e97eb-9a76-4420-aba0-8bba3bc16973",
+        "committedRevision": 101,
+        "currentRevision": 101,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "nodeId": "atomic-state",
+      "receipt": {
+        "operationId": "c7498a4c-9be4-4d88-acbd-22adc651ee08",
+        "committedRevision": 102,
+        "currentRevision": 102,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "nodeId": "epoch-safety",
+      "receipt": {
+        "operationId": "d12fe5b5-9755-468a-b7e3-ee837e2dac02",
+        "committedRevision": 103,
+        "currentRevision": 103,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "nodeId": "project-isolation",
+      "receipt": {
+        "operationId": "38657a40-96bc-4b6b-ada3-2e6df21d8671",
+        "committedRevision": 104,
+        "currentRevision": 104,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "nodeId": "capacity-export",
+      "receipt": {
+        "operationId": "bf10b4b7-5ea5-40d0-91d8-6aa4815d234d",
+        "committedRevision": 105,
+        "currentRevision": 105,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "nodeId": "opinion-loop",
+      "receipt": {
+        "operationId": "90f7ba8c-c9b4-475f-93d7-0241bc88a874",
+        "committedRevision": 106,
+        "currentRevision": 106,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "nodeId": "evidence-version",
+      "receipt": {
+        "operationId": "eca9be36-2dd5-4032-acff-dfb68f4ad088",
+        "committedRevision": 107,
+        "currentRevision": 107,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "nodeId": "decision-boundary",
+      "receipt": {
+        "operationId": "6d7381a6-9938-4cae-bbfc-5e2782f00389",
+        "committedRevision": 108,
+        "currentRevision": 108,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "nodeId": "priority-next",
+      "receipt": {
+        "operationId": "76794109-b186-481d-b70a-635415691cd8",
+        "committedRevision": 109,
+        "currentRevision": 109,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "nodeId": "project-content",
+      "receipt": {
+        "operationId": "ecc1a133-83ec-4847-8732-2a9d2b043154",
+        "committedRevision": 110,
+        "currentRevision": 110,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "nodeId": "launch-service",
+      "receipt": {
+        "operationId": "421fd480-788d-4798-b02b-766209446db1",
+        "committedRevision": 111,
+        "currentRevision": 111,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "nodeId": "delivery-role",
+      "receipt": {
+        "operationId": "730bf1ed-fcee-4cd3-86d2-8289b9791f72",
+        "committedRevision": 112,
+        "currentRevision": 112,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "nodeId": "handoff",
+      "receipt": {
+        "operationId": "d2a1cedd-4c1c-4be4-b36d-0fdb39e9dd9c",
+        "committedRevision": 113,
+        "currentRevision": 113,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    }
+  ]
+}

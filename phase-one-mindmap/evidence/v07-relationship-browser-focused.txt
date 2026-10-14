@@ -1,0 +1,42 @@
+
+Running 4 tests using 1 worker
+
+(node:7329) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/browser/pure-map.spec.ts:9:1 › public default is only a readable map; details are opt in and internal tools stay absent (312ms)
+  ✓  2 tests/browser/pure-map.spec.ts:15:1 › phone overview keeps readable card text, touch detail and close work without default panels (437ms)
+  ✘  3 tests/browser/pure-map.spec.ts:18:1 › pointer and keyboard make the current card, direct parent and exact relationship clear without changing facts (5.4s)
+(node:7363) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  4 tests/browser/pure-map.spec.ts:19:1 › a delayed initial saved view cannot overwrite a branch the user already expanded (688ms)
+
+
+  1) tests/browser/pure-map.spec.ts:18:1 › pointer and keyboard make the current card, direct parent and exact relationship clear without changing facts 
+
+    Error: expect(locator).toHaveAttribute(expected) failed
+
+    Locator:  getByTestId('edge-b1-experience')
+    Expected: "true"
+    Received: "false"
+    Timeout:  5000ms
+
+    Call log:
+      - Expect "toHaveAttribute" getByTestId('edge-b1-experience') with timeout 5000ms
+      - waiting for getByTestId('edge-b1-experience')
+        11 × locator resolved to <g data-state="进行中" data-related="false" data-source="map-goal" data-target="b1-experience" class="project-link  is-muted" data-testid="edge-b1-experience">…</g>
+           - unexpected value "false"
+
+
+      16 | test('restored project invalidates the old page and old camera; a fresh page rechecks comparison applicability',async({page})=>{await submit({type:'map-checkpoint',reason:'隔离恢复前固定比较点'});const backup=await bridge.store.backup();const before=(await bridge.store.read()).state;const context=await bridge.store.recoveryContext(backup.id);await bridge.store.restore({projectId:before.projectId,recoveryEpoch:before.recoveryEpoch,expectedRevision:before.revision,baselineVersion:before.baseline.version,operationId:crypto.randomUUID(),action:{type:'restore',backupId:backup.id,expectedFileHash:context.fileHash,confirmLoss:true,reason:'隔离恢复，不作用于真实项目'}});await expect(page.getByTestId('card-map-goal')).toHaveAttribute('data-state','待核对',{timeout:10000});await expect(page.getByTestId('card-map-goal')).toContainText('重新打开');await page.reload();await expect(page.getByTestId('card-map-goal')).toContainText('重新核对');const fresh=(await bridge.store.read()).state;expect(fresh.recoveryEpoch).not.toBe(before.recoveryEpoch);await expect.poll(()=>page.evaluate(epoch=>Object.keys(localStorage).some(k=>k.includes(epoch)&&k.includes(':public:v7:')),fresh.recoveryEpoch)).toBeTruthy();});
+      17 | test('rapid open-close cancels obsolete fit and pointer panning stays available without controls',async({page})=>{await page.waitForTimeout(200);const before=await camera(page);await page.getByRole('button',{name:'展开02 · 内容与表达'}).click();await page.getByRole('button',{name:'收起02 · 内容与表达'}).click();await page.waitForTimeout(140);await expect.poll(()=>camera(page)).toBe(before);await page.mouse.move(700,810);await page.mouse.down();await page.mouse.move(780,740,{steps:6});await page.mouse.up();await expect.poll(()=>camera(page)).not.toBe(before);await page.keyboard.press('Home');await expect(page.getByTestId('card-map-goal')).toBeVisible();});
+    > 18 | test('pointer and keyboard make the current card, direct parent and exact relationship clear without changing facts',async({page})=>{const before=(await bridge.store.read()).state;const card=page.getByTestId('card-b1-content');const edge=page.getByTestId('edge-b1-content');await card.hover();await expect(card).toHaveAttribute('data-related','true');await expect(page.getByTestId('card-map-goal')).toHaveAttribute('data-related','true');await expect(edge).toHaveAttribute('data-related','true');await expect(edge).toHaveAttribute('data-source','map-goal');await expect(edge).toHaveAttribute('data-target','b1-content');await expect(page.getByTestId('edge-b1-research')).toHaveClass(/is-muted/);const keyboardCard=page.getByTestId('card-b1-experience');await keyboardCard.locator('.project-card-read').focus();await expect(keyboardCard).toHaveAttribute('data-related','true');await expect(page.getByTestId('edge-b1-experience')).toHaveAttribute('data-related','true');await expect(edge).toHaveClass(/is-muted/);await page.keyboard.press('Enter');await page.getByRole('dialog').getByRole('button',{name:/← 让城市自然观察触手可及/}).click();await expect(page.locator('#map-detail-title')).toHaveText('让城市自然观察触手可及');expect((await bridge.store.read()).state).toEqual(before);});
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ^
+      19 | test('a delayed initial saved view cannot overwrite a branch the user already expanded',async({page})=>{let release!:()=>void;const held=new Promise<void>(r=>{release=r;});await page.route('**/api/map-view',async route=>{if(route.request().method()==='GET'){await held;await route.fulfill({json:{positions:{'map-goal':{x:9000,y:9000}},expanded:['map-goal'],viewport:{x:9000,y:9000,zoom:.4},windowSize:{width:1440,height:1000},compact:false}});}else await route.continue();});await page.evaluate(()=>localStorage.clear());await page.reload();await expect(page.getByTestId('card-map-goal')).toBeVisible();await page.getByRole('button',{name:'展开02 · 内容与表达'}).click();await expect(page.getByTestId('card-b1-facts')).toBeVisible();await page.waitForTimeout(100);const before=await camera(page);release();await page.waitForTimeout(200);await expect(page.getByRole('button',{name:'收起02 · 内容与表达'})).toBeVisible();expect(await camera(page)).toBe(before);await expect.poll(async()=> (await bridge.store.readMapView())?.expanded).toContain('b1-content');});
+      20 |
+        at /Users/zhiyu/Documents/ChatGPT/progress map/phase-one-mindmap/tests/browser/pure-map.spec.ts:18:930
+
+    Error Context: test-results/pure-map-pointer-and-keybo-49927-lear-without-changing-facts/error-context.md
+
+  1 failed
+    tests/browser/pure-map.spec.ts:18:1 › pointer and keyboard make the current card, direct parent and exact relationship clear without changing facts 
+  3 passed (8.1s)

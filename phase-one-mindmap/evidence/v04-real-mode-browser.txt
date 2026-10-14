@@ -1,0 +1,14 @@
+
+Running 6 tests using 1 worker
+
+(node:10650) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/browser/real-project.spec.ts:15:1 › real preview uses explicit project content without fake decisions or demo report controls (399ms)
+  ✓  2 tests/browser/real-project.spec.ts:16:1 › real writable channel records local-user decision while drafts stay on the page and capacities are complete (683ms)
+  ✓  3 tests/browser/real-project.spec.ts:17:1 › views are keyed by project and recovery epoch and never replay legacy demo cache (314ms)
+  ✓  4 tests/browser/real-project.spec.ts:19:1 › restoration discards server view from old epoch when a fresh browser session reopens (288ms)
+  ✓  5 tests/browser/real-project.spec.ts:21:1 › missing project metadata fails closed without rendering demo content or crashing (195ms)
+隔离真实配置闭环：原文意见→真实CLI读取轮次→候选/provenance→回应落实→打开页r3轮询→关页再报告r4重开→模拟验收/退回/新增意见；真实主项目未写模拟决定。
+  ✓  6 tests/browser/real-project.spec.ts:24:1 › isolated real-project opinion loop uses actual CLI subprocesses and browser synchronization without touching main decisions (3.9s)
+
+  6 passed (6.5s)

@@ -1,0 +1,26 @@
+✔ projection is readonly, uses outcome plans, and distinguishes original scope completion (7.692792ms)
+✔ nested blocked item keeps source identity without declaring entire parent blocked (2.057292ms)
+✔ failed latest evidence cannot look ready or accepted (3.177166ms)
+✔ refresh and raw result wording cannot produce artificial change (1.620958ms)
+✔ old accepted fixture does not pretend new ranges were completed (2.4845ms)
+✔ report blocked or cancelled status is preserved even without flags (1.088583ms)
+✔ a genuinely new passing candidate can await acceptance after return; changing ID at same version cannot conceal return (1.181625ms)
+✔ valid baseline storage order does not hide children in the user tree (1.086041ms)
+✔ accepted and returned display remove stale acceptance waiting while keeping original report and return reason (1.449125ms)
+✔ all original and current six-item scopes accepted cannot leave parent summaries awaiting acceptance (6.062875ms)
+✔ a legally activated later scope remains visible with original references and cannot inherit earlier completion (4.878084ms)
+✔ specific changes retain fixed before/after, current outcome and all affected source identities (11.80825ms)
+✔ current concrete issue outcome reaches overview and leaf body without duplicating status or hardcoding an issue (6.169959ms)
+✔ wording alone adds no comparison event; critical current problem takes parent priority without resetting checkpoint (6.453292ms)
+✔ removing a reported problem or rewriting resolution words cannot claim it solved without verified outcome (7.420291ms)
+✔ card facts preserve negation, scope and prerequisites without mechanical clipping (0.077625ms)
+✔ cards show a single complete fact, critical restrictions win, and change never duplicates full result (5.829ms)
+✔ recovery unknown and non-comparable views retain caution instead of a successful card sentence (5.107584ms)
+ℹ tests 18
+ℹ suites 0
+ℹ pass 18
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 167.871584

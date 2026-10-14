@@ -1,0 +1,11 @@
+✔ controlled self-project clone: actual CLI recovery with live bridge preserves opinion/acceptance/withdrawal provenance and rejects old receipts across server restart (862.144708ms)
+✔ actual CLI and API contend on same real-copy revision: exactly one commits, no source data changes (142.624666ms)
+✔ service fully stopped: actual CLI restores real clone, restarted web and CLI reject previously committed requests (515.886375ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1649.6355

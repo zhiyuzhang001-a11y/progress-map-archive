@@ -1,0 +1,64 @@
+{
+  "kind": "isolated synthetic scale, not human acceptance",
+  "devices": {
+    "desktop": "Chrome 1440×900",
+    "mobile": "Chrome touch emulation 390×844"
+  },
+  "pollIntervalMs": 2500,
+  "memoryScope": "single benchmark Node process including Playwright harness, not idle production service",
+  "cases": [
+    {
+      "nodes": 10,
+      "firstMs": 99.4,
+      "branchOpenP95Ms": 73.8,
+      "updateVisibleMs": 2329.8,
+      "samples": 12,
+      "defaultVisible": 5,
+      "parallelExpandedNodes": 5,
+      "parallelOverlaps": 0,
+      "hiddenProblemLocatedInTwoActions": true,
+      "anchorsStable": true,
+      "cameraStable": true,
+      "touchDetail": true,
+      "touchPan": true,
+      "touchPinch": true,
+      "harnessRssMiB": 222.5
+    },
+    {
+      "nodes": 45,
+      "firstMs": 85.5,
+      "branchOpenP95Ms": 69.6,
+      "updateVisibleMs": 1326.7,
+      "samples": 12,
+      "defaultVisible": 5,
+      "parallelExpandedNodes": 45,
+      "parallelOverlaps": 0,
+      "hiddenProblemLocatedInTwoActions": true,
+      "anchorsStable": true,
+      "cameraStable": true,
+      "touchDetail": true,
+      "touchPan": true,
+      "touchPinch": true,
+      "harnessRssMiB": 235.6
+    },
+    {
+      "nodes": 201,
+      "firstMs": 92.8,
+      "branchOpenP95Ms": 84.8,
+      "updateVisibleMs": 1323.3,
+      "samples": 12,
+      "defaultVisible": 5,
+      "parallelExpandedNodes": 201,
+      "parallelOverlaps": 0,
+      "hiddenProblemLocatedInTwoActions": true,
+      "anchorsStable": true,
+      "cameraStable": true,
+      "touchDetail": true,
+      "touchPan": true,
+      "touchPinch": true,
+      "harnessRssMiB": 286.8
+    }
+  ],
+  "errors": [],
+  "passed": true
+}

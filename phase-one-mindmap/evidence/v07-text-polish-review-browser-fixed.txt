@@ -1,0 +1,12 @@
+
+Running 5 tests using 1 worker
+
+(node:26479) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/browser/experience-repair.spec.ts:2:1 › specific parent change reaches affected original item and preserves its source and map return (8.8s)
+  ✓  2 tests/browser/pure-map.spec.ts:11:1 › keyboard opens closes and returns focus; arrows navigate and plus zooms without a toolbar (8.7s)
+  ✓  3 tests/browser/pure-map.spec.ts:13:1 › meaningful changes survive reload while text-only edits and refresh produce no false change (6.3s)
+  ✓  4 tests/browser/pure-map.spec.ts:14:1 › read-only fallback signals uncertainty on the center card instead of claiming current healthy completion (296ms)
+  ✓  5 tests/browser/pure-map.spec.ts:19:1 › a delayed initial saved view cannot overwrite a branch the user already expanded (692ms)
+
+  5 passed (25.5s)

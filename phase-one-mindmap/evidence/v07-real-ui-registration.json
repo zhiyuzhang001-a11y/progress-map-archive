@@ -1,0 +1,97 @@
+{
+  "artifactVersion": "sha256-d078bf06eeb5c55347afe3594d592a979ee3492179609375ac4870dfd931b844",
+  "records": 6,
+  "receipt": {
+    "action": {
+      "type": "register-evidence",
+      "records": [
+        {
+          "id": "v07-ui-v07-plan-dfd931b844",
+          "projectId": "progress-mindmap-self",
+          "baselineVersion": 3,
+          "candidateId": "v07-c-v07-plan-dfd931b844",
+          "evidenceId": "v07-e-v07-plan-dfd931b844",
+          "artifactVersion": "sha256-d078bf06eeb5c55347afe3594d592a979ee3492179609375ac4870dfd931b844",
+          "relativePath": "evidence/v07-final-real-ui.json",
+          "sha256": "eb3727be7eb416478db8e8db1bcf6a6176d14032d8507d2d265370f19e380e4a",
+          "bytes": 3430,
+          "mediaType": "application/json",
+          "title": "真实项目最终主页、详情与收展核对"
+        },
+        {
+          "id": "v07-ui-v07-clean-dfd931b844",
+          "projectId": "progress-mindmap-self",
+          "baselineVersion": 3,
+          "candidateId": "v07-c-v07-clean-dfd931b844",
+          "evidenceId": "v07-e-v07-clean-dfd931b844",
+          "artifactVersion": "sha256-d078bf06eeb5c55347afe3594d592a979ee3492179609375ac4870dfd931b844",
+          "relativePath": "evidence/v07-final-real-ui.json",
+          "sha256": "eb3727be7eb416478db8e8db1bcf6a6176d14032d8507d2d265370f19e380e4a",
+          "bytes": 3430,
+          "mediaType": "application/json",
+          "title": "真实项目最终主页、详情与收展核对"
+        },
+        {
+          "id": "v07-ui-v07-truth-dfd931b844",
+          "projectId": "progress-mindmap-self",
+          "baselineVersion": 3,
+          "candidateId": "v07-c-v07-truth-dfd931b844",
+          "evidenceId": "v07-e-v07-truth-dfd931b844",
+          "artifactVersion": "sha256-d078bf06eeb5c55347afe3594d592a979ee3492179609375ac4870dfd931b844",
+          "relativePath": "evidence/v07-final-real-ui.json",
+          "sha256": "eb3727be7eb416478db8e8db1bcf6a6176d14032d8507d2d265370f19e380e4a",
+          "bytes": 3430,
+          "mediaType": "application/json",
+          "title": "真实项目最终主页、详情与收展核对"
+        },
+        {
+          "id": "v07-ui-v07-problems-dfd931b844",
+          "projectId": "progress-mindmap-self",
+          "baselineVersion": 3,
+          "candidateId": "v07-c-v07-problems-dfd931b844",
+          "evidenceId": "v07-e-v07-problems-dfd931b844",
+          "artifactVersion": "sha256-d078bf06eeb5c55347afe3594d592a979ee3492179609375ac4870dfd931b844",
+          "relativePath": "evidence/v07-final-real-ui.json",
+          "sha256": "eb3727be7eb416478db8e8db1bcf6a6176d14032d8507d2d265370f19e380e4a",
+          "bytes": 3430,
+          "mediaType": "application/json",
+          "title": "真实项目最终主页、详情与收展核对"
+        },
+        {
+          "id": "v07-ui-v07-changes-dfd931b844",
+          "projectId": "progress-mindmap-self",
+          "baselineVersion": 3,
+          "candidateId": "v07-c-v07-changes-dfd931b844",
+          "evidenceId": "v07-e-v07-changes-dfd931b844",
+          "artifactVersion": "sha256-d078bf06eeb5c55347afe3594d592a979ee3492179609375ac4870dfd931b844",
+          "relativePath": "evidence/v07-final-real-ui.json",
+          "sha256": "eb3727be7eb416478db8e8db1bcf6a6176d14032d8507d2d265370f19e380e4a",
+          "bytes": 3430,
+          "mediaType": "application/json",
+          "title": "真实项目最终主页、详情与收展核对"
+        },
+        {
+          "id": "v07-ui-v07-maintain-dfd931b844",
+          "projectId": "progress-mindmap-self",
+          "baselineVersion": 3,
+          "candidateId": "v07-c-v07-maintain-dfd931b844",
+          "evidenceId": "v07-e-v07-maintain-dfd931b844",
+          "artifactVersion": "sha256-d078bf06eeb5c55347afe3594d592a979ee3492179609375ac4870dfd931b844",
+          "relativePath": "evidence/v07-final-real-ui.json",
+          "sha256": "eb3727be7eb416478db8e8db1bcf6a6176d14032d8507d2d265370f19e380e4a",
+          "bytes": 3430,
+          "mediaType": "application/json",
+          "title": "真实项目最终主页、详情与收展核对"
+        }
+      ],
+      "reason": "登记相同最终产物的真实主页面核对，不产生用户决定。"
+    },
+    "receipt": {
+      "operationId": "df7ac0eb-4a0c-4d15-95a4-3f1e5fc818cb",
+      "committedRevision": 173,
+      "currentRevision": 173,
+      "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+      "replayed": false
+    }
+  }
+}

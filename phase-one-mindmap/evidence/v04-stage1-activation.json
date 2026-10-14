@@ -1,0 +1,20 @@
+{
+  "defaultProject": "progress-mindmap-self",
+  "oldSession": {
+    "error": "SESSION_EXPIRED",
+    "message": "会话已过期，请重新读取页面",
+    "details": null
+  },
+  "oldRequest": {
+    "error": "IDENTITY_MISMATCH",
+    "message": "错误 projectId",
+    "details": null
+  },
+  "oldClient": {
+    "error": "OLD_CLIENT",
+    "message": "真实项目仅接受schema2客户端请求",
+    "details": null
+  },
+  "demoStateUnchanged": true,
+  "realDecisions": 0
+}

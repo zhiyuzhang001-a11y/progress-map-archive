@@ -1,0 +1,182 @@
+{
+  "method": "真实CLI提案；受控本地网页入口依据明确六项计划授权批准，未写新验收",
+  "recordedAt": "2026-10-11T14:23:47.216Z",
+  "beforeRevision": 113,
+  "afterRevision": 115,
+  "baselineVersion": 2,
+  "acceptance": 0,
+  "total": 6,
+  "historyAccepted": 16,
+  "log": [
+    {
+      "backup": {
+        "id": "snapshot-e49c6249-1932-4f2a-a4f3-c339a881c043",
+        "revision": 113,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7"
+      }
+    },
+    {
+      "action": {
+        "type": "propose",
+        "id": "v05-approved-six-scope",
+        "nodeId": "goal",
+        "reason": "用户明确批准补充后的v0.5六项实施范围；提案只启动本轮工作，不构成成果验收。",
+        "baseline": {
+          "version": 2,
+          "nodes": [
+            {
+              "id": "goal",
+              "side": "center",
+              "color": "#163f3b",
+              "title": "项目进度思维导图工具 · v0.5",
+              "goal": "让工具持续管理自身后续工作，区分历史成果、当前工作和用户决定。"
+            },
+            {
+              "id": "stage-one",
+              "parent": "goal",
+              "side": "left",
+              "color": "#518574",
+              "title": "结项与验收包",
+              "goal": "结项与验收包；按已批准v0.5计划实施并独立审核。"
+            },
+            {
+              "id": "stage-two",
+              "parent": "goal",
+              "side": "left",
+              "color": "#518574",
+              "title": "轮次与历史保全",
+              "goal": "轮次与历史保全；按已批准v0.5计划实施并独立审核。"
+            },
+            {
+              "id": "stage-three",
+              "parent": "goal",
+              "side": "right",
+              "color": "#8b755e",
+              "title": "易读证据与实际使用",
+              "goal": "易读证据与实际使用；按已批准v0.5计划实施并独立审核。"
+            },
+            {
+              "id": "closure-state",
+              "parent": "stage-one",
+              "side": "left",
+              "color": "#518574",
+              "title": "一致的结项状态",
+              "goal": "页眉、节点详情、下一步与待决定提示在待验收、部分通过、全部通过及退回场景一致，没有错误待决定提示。"
+            },
+            {
+              "id": "acceptance-pack",
+              "parent": "stage-one",
+              "side": "left",
+              "color": "#518574",
+              "title": "可核对的验收包",
+              "goal": "整体、部分、冲突拒绝及同请求重试有可核对结果，未选项不改变，旧恢复代次不能重放。"
+            },
+            {
+              "id": "iteration-history",
+              "parent": "stage-two",
+              "side": "left",
+              "color": "#518574",
+              "title": "当前工作与历史成果",
+              "goal": "本轮六项初始未验收，B1结项快照保留16/16，原决定、候选和证据可查，后续复核不改写历史结项。"
+            },
+            {
+              "id": "progress-explanation",
+              "parent": "stage-two",
+              "side": "left",
+              "color": "#518574",
+              "title": "清楚解释进度变化",
+              "goal": "新增任务、条件变更、证据失效及用户退回分别显示范围和原因，范围增加不误称旧成果失败。"
+            },
+            {
+              "id": "readable-evidence",
+              "parent": "stage-three",
+              "side": "right",
+              "color": "#8b755e",
+              "title": "易读成果与安全证据",
+              "goal": "节点与验收包可理解成果，登记记录可只读展开；越界、内容不符、版本不符、缺失和可执行内容按规定处理。"
+            },
+            {
+              "id": "continuous-use",
+              "parent": "stage-three",
+              "side": "right",
+              "color": "#8b755e",
+              "title": "实际连续使用闭环",
+              "goal": "真实CLI报告、网页同步、产物证据绑定与最终验收包可串联核对；含必要证据文件的导出及隔离恢复可核对，技术完成不代填用户验收。"
+            }
+          ],
+          "acceptance": [
+            {
+              "id": "v05-accept-closure-state",
+              "nodeId": "closure-state",
+              "condition": "页眉、节点详情、下一步与待决定提示在待验收、部分通过、全部通过及退回场景一致，没有错误待决定提示。",
+              "weight": 1,
+              "method": "user"
+            },
+            {
+              "id": "v05-accept-acceptance-pack",
+              "nodeId": "acceptance-pack",
+              "condition": "整体、部分、冲突拒绝及同请求重试有可核对结果，未选项不改变，旧恢复代次不能重放。",
+              "weight": 1,
+              "method": "user"
+            },
+            {
+              "id": "v05-accept-iteration-history",
+              "nodeId": "iteration-history",
+              "condition": "本轮六项初始未验收，B1结项快照保留16/16，原决定、候选和证据可查，后续复核不改写历史结项。",
+              "weight": 1,
+              "method": "user"
+            },
+            {
+              "id": "v05-accept-progress-explanation",
+              "nodeId": "progress-explanation",
+              "condition": "新增任务、条件变更、证据失效及用户退回分别显示范围和原因，范围增加不误称旧成果失败。",
+              "weight": 1,
+              "method": "user"
+            },
+            {
+              "id": "v05-accept-readable-evidence",
+              "nodeId": "readable-evidence",
+              "condition": "节点与验收包可理解成果，登记记录可只读展开；越界、内容不符、版本不符、缺失和可执行内容按规定处理。",
+              "weight": 1,
+              "method": "user"
+            },
+            {
+              "id": "v05-accept-continuous-use",
+              "nodeId": "continuous-use",
+              "condition": "真实CLI报告、网页同步、产物证据绑定与最终验收包可串联核对；含必要证据文件的导出及隔离恢复可核对，技术完成不代填用户验收。",
+              "weight": 1,
+              "method": "user"
+            }
+          ],
+          "autoRules": []
+        }
+      },
+      "receipt": {
+        "operationId": "ac393560-c67a-40d9-92d8-d8949e3ef34d",
+        "committedRevision": 114,
+        "currentRevision": 114,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "approve-proposal",
+        "proposalId": "v05-approved-six-scope",
+        "approve": true,
+        "reason": "用户已授权补充后的v0.5六项连续实施；Codex经受控网页入口代录范围批准，非成果验收，不增加CLI用户权限。",
+        "iteration": {
+          "id": "v05",
+          "title": "v0.5 持续使用"
+        }
+      },
+      "receipt": {
+        "operationId": "e7dedebc-d94a-4f8f-9803-baebcc78943e",
+        "committedRevision": 115,
+        "currentRevision": 115,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    }
+  ]
+}

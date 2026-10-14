@@ -1,0 +1,11 @@
+{
+  "scenario": "A real API state → projected summary → desktop page",
+  "beforeRevision": 216,
+  "baseline": 4,
+  "recordResultObserved": true,
+  "updateInProgressObserved": true,
+  "verifyNoResultYetObserved": true,
+  "errors": [],
+  "executorSelfTest": true,
+  "dotAcceptance": false
+}

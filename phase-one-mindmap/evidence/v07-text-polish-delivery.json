@@ -1,0 +1,1157 @@
+{
+  "recordedAt": "2026-10-12T13:22:56.484Z",
+  "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+  "revision": 208,
+  "registered": 60,
+  "log": [
+    {
+      "action": {
+        "type": "run-start",
+        "runId": "v07-refresh-db99773ff8",
+        "nodeIds": [
+          "v07-plan",
+          "v07-clean",
+          "v07-truth",
+          "v07-problems",
+          "v07-changes",
+          "v07-maintain"
+        ],
+        "opinionIds": [
+          "v07-conversation-clean-map"
+        ],
+        "reason": "实际复验后更新本轮成果版本；不删除旧候选或代填验收。"
+      },
+      "receipt": {
+        "operationId": "9a9d8c92-c741-45fb-8aaa-0127ab35a7be",
+        "committedRevision": 198,
+        "currentRevision": 198,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "v07-plan",
+        "status": "待验收",
+        "result": "已分清此前已验收、上一轮成果和这次改版，中心与四个分计划可以展开查看具体工作。",
+        "reason": "本轮实施、实际检查与独立审核完成；最终阅读和视觉是否合适仍由用户确认。",
+        "remaining": [
+          "等待你最后验收"
+        ],
+        "flags": [],
+        "runId": "v07-refresh-db99773ff8",
+        "candidate": {
+          "id": "v07-c-v07-plan-db99773ff8",
+          "version": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+          "result": "已分清此前已验收、上一轮成果和这次改版，中心与四个分计划可以展开查看具体工作。"
+        },
+        "evidence": [
+          {
+            "id": "v07-e-v07-plan-db99773ff8",
+            "candidateId": "v07-c-v07-plan-db99773ff8",
+            "acceptanceIds": [
+              "v07-accept-plan"
+            ],
+            "version": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "check": "本版本实际定向检查见冻结清单；历史全量检查只作历史依据，后续主页面与隔离恢复另登记；用户验收未代填。",
+            "result": "pass",
+            "reference": "evidence/v07-text-polish-preparation.json；evidence/v07-text-polish-model.txt；evidence/v07-text-polish-workflow.txt；evidence/v07-text-polish-browser.txt；evidence/v07-text-polish-final-build.txt；evidence/v07-text-polish-clone-ui.json；evidence/v07-text-polish-review-limitations.json；evidence/v07-text-polish-source-review.md；evidence/v07-text-polish-source-check.json",
+            "at": "2026-10-12T13:22:52.137Z",
+            "provenance": {
+              "command": "本版本实际Node24构建、定向模型与Playwright交互核对；详见冻结检查记录。未复跑的历史全量及规模检查不计为本版本实测。",
+              "scenario": "打开能理解最终目标、分计划和当前重点。",
+              "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+              "record": "evidence/v07-text-polish-preparation.json；evidence/v07-text-polish-model.txt；evidence/v07-text-polish-workflow.txt；evidence/v07-text-polish-browser.txt；evidence/v07-text-polish-final-build.txt；evidence/v07-text-polish-clone-ui.json；evidence/v07-text-polish-review-limitations.json；evidence/v07-text-polish-source-review.md；evidence/v07-text-polish-source-check.json"
+            }
+          }
+        ]
+      },
+      "receipt": {
+        "operationId": "f3e2c835-bd36-44d9-8689-66b1bc221b0f",
+        "committedRevision": 199,
+        "currentRevision": 199,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "v07-clean",
+        "status": "待验收",
+        "result": "首页只保留导图，点击看详情；卡片正文写具体成果，关闭后回到原卡。",
+        "reason": "本轮实施、实际检查与独立审核完成；最终阅读和视觉是否合适仍由用户确认。",
+        "remaining": [
+          "等待你最后验收"
+        ],
+        "flags": [],
+        "runId": "v07-refresh-db99773ff8",
+        "candidate": {
+          "id": "v07-c-v07-clean-db99773ff8",
+          "version": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+          "result": "首页只保留导图，点击看详情；卡片正文写具体成果，关闭后回到原卡。"
+        },
+        "evidence": [
+          {
+            "id": "v07-e-v07-clean-db99773ff8",
+            "candidateId": "v07-c-v07-clean-db99773ff8",
+            "acceptanceIds": [
+              "v07-accept-clean"
+            ],
+            "version": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "check": "本版本实际定向检查见冻结清单；历史全量检查只作历史依据，后续主页面与隔离恢复另登记；用户验收未代填。",
+            "result": "pass",
+            "reference": "evidence/v07-text-polish-preparation.json；evidence/v07-text-polish-model.txt；evidence/v07-text-polish-workflow.txt；evidence/v07-text-polish-browser.txt；evidence/v07-text-polish-final-build.txt；evidence/v07-text-polish-clone-ui.json；evidence/v07-text-polish-review-limitations.json；evidence/v07-text-polish-source-review.md；evidence/v07-text-polish-source-check.json",
+            "at": "2026-10-12T13:22:52.137Z",
+            "provenance": {
+              "command": "本版本实际Node24构建、定向模型与Playwright交互核对；详见冻结检查记录。未复跑的历史全量及规模检查不计为本版本实测。",
+              "scenario": "默认只有导图，桌面与手机可点击详情和收展。",
+              "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+              "record": "evidence/v07-text-polish-preparation.json；evidence/v07-text-polish-model.txt；evidence/v07-text-polish-workflow.txt；evidence/v07-text-polish-browser.txt；evidence/v07-text-polish-final-build.txt；evidence/v07-text-polish-clone-ui.json；evidence/v07-text-polish-review-limitations.json；evidence/v07-text-polish-source-review.md；evidence/v07-text-polish-source-check.json"
+            }
+          }
+        ]
+      },
+      "receipt": {
+        "operationId": "106906db-e5c7-47ce-a6d4-1435ac94383d",
+        "committedRevision": 200,
+        "currentRevision": 200,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "respond",
+        "id": "v07-opinion-result-db99773ff8",
+        "opinionId": "v07-conversation-clean-map",
+        "text": "已按你的意见清理为纯导图，点击才看简洁详情；具体效果等待你的最终意见。",
+        "implemented": true,
+        "candidateId": "v07-c-v07-clean-db99773ff8",
+        "evidenceId": "v07-e-v07-clean-db99773ff8"
+      },
+      "receipt": {
+        "operationId": "f4d3c57e-6c55-42d7-ba89-27f8eae908e9",
+        "committedRevision": 201,
+        "currentRevision": 201,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "v07-truth",
+        "status": "待验收",
+        "result": "旧成果保留原验收结论，上一轮和这次交付仍待确认，技术检查没有算成用户通过。",
+        "reason": "本轮实施、实际检查与独立审核完成；最终阅读和视觉是否合适仍由用户确认。",
+        "remaining": [
+          "等待你最后验收"
+        ],
+        "flags": [],
+        "runId": "v07-refresh-db99773ff8",
+        "candidate": {
+          "id": "v07-c-v07-truth-db99773ff8",
+          "version": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+          "result": "旧成果保留原验收结论，上一轮和这次交付仍待确认，技术检查没有算成用户通过。"
+        },
+        "evidence": [
+          {
+            "id": "v07-e-v07-truth-db99773ff8",
+            "candidateId": "v07-c-v07-truth-db99773ff8",
+            "acceptanceIds": [
+              "v07-accept-truth"
+            ],
+            "version": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "check": "本版本实际定向检查见冻结清单；历史全量检查只作历史依据，后续主页面与隔离恢复另登记；用户验收未代填。",
+            "result": "pass",
+            "reference": "evidence/v07-text-polish-preparation.json；evidence/v07-text-polish-model.txt；evidence/v07-text-polish-workflow.txt；evidence/v07-text-polish-browser.txt；evidence/v07-text-polish-final-build.txt；evidence/v07-text-polish-clone-ui.json；evidence/v07-text-polish-review-limitations.json；evidence/v07-text-polish-source-review.md；evidence/v07-text-polish-source-check.json",
+            "at": "2026-10-12T13:22:52.137Z",
+            "provenance": {
+              "command": "本版本实际Node24构建、定向模型与Playwright交互核对；详见冻结检查记录。未复跑的历史全量及规模检查不计为本版本实测。",
+              "scenario": "工作做好、待验收、已验收分别呈现。",
+              "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+              "record": "evidence/v07-text-polish-preparation.json；evidence/v07-text-polish-model.txt；evidence/v07-text-polish-workflow.txt；evidence/v07-text-polish-browser.txt；evidence/v07-text-polish-final-build.txt；evidence/v07-text-polish-clone-ui.json；evidence/v07-text-polish-review-limitations.json；evidence/v07-text-polish-source-review.md；evidence/v07-text-polish-source-check.json"
+            }
+          }
+        ]
+      },
+      "receipt": {
+        "operationId": "b4ed45c7-2567-4391-afdb-d13f2076c6eb",
+        "committedRevision": 202,
+        "currentRevision": 202,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "v07-problems",
+        "status": "待验收",
+        "result": "已解决大分支连线难辨和关闭详情后焦点丢失：现在可追踪所属计划，关闭后回到原卡。已报告的开发事项当前无受阻记录；下一步是检查实际阅读与操作体验。",
+        "reason": "本轮实施、实际检查与独立审核完成；最终阅读和视觉是否合适仍由用户确认。",
+        "remaining": [
+          "等待你最后验收"
+        ],
+        "flags": [],
+        "runId": "v07-refresh-db99773ff8",
+        "candidate": {
+          "id": "v07-c-v07-problems-db99773ff8",
+          "version": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+          "result": "已解决大分支连线难辨和关闭详情后焦点丢失：现在可追踪所属计划，关闭后回到原卡。已报告的开发事项当前无受阻记录；下一步是检查实际阅读与操作体验。"
+        },
+        "evidence": [
+          {
+            "id": "v07-e-v07-problems-db99773ff8",
+            "candidateId": "v07-c-v07-problems-db99773ff8",
+            "acceptanceIds": [
+              "v07-accept-problems"
+            ],
+            "version": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "check": "本版本实际定向检查见冻结清单；历史全量检查只作历史依据，后续主页面与隔离恢复另登记；用户验收未代填。",
+            "result": "pass",
+            "reference": "evidence/v07-text-polish-preparation.json；evidence/v07-text-polish-model.txt；evidence/v07-text-polish-workflow.txt；evidence/v07-text-polish-browser.txt；evidence/v07-text-polish-final-build.txt；evidence/v07-text-polish-clone-ui.json；evidence/v07-text-polish-review-limitations.json；evidence/v07-text-polish-source-review.md；evidence/v07-text-polish-source-check.json",
+            "at": "2026-10-12T13:22:52.137Z",
+            "provenance": {
+              "command": "本版本实际Node24构建、定向模型与Playwright交互核对；详见冻结检查记录。未复跑的历史全量及规模检查不计为本版本实测。",
+              "scenario": "折叠仍能注意重要问题，两步内找到原因。",
+              "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+              "record": "evidence/v07-text-polish-preparation.json；evidence/v07-text-polish-model.txt；evidence/v07-text-polish-workflow.txt；evidence/v07-text-polish-browser.txt；evidence/v07-text-polish-final-build.txt；evidence/v07-text-polish-clone-ui.json；evidence/v07-text-polish-review-limitations.json；evidence/v07-text-polish-source-review.md；evidence/v07-text-polish-source-check.json"
+            }
+          }
+        ]
+      },
+      "receipt": {
+        "operationId": "728e6edb-54d3-4f87-bb66-be12d70baf72",
+        "committedRevision": 203,
+        "currentRevision": 203,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "v07-changes",
+        "status": "待验收",
+        "result": "已把笼统的变化提示改为具体事项与前后状态，点选可以追到对应工作；刷新或改写说明不会产生新的进度事件。",
+        "reason": "本轮实施、实际检查与独立审核完成；最终阅读和视觉是否合适仍由用户确认。",
+        "remaining": [
+          "等待你最后验收"
+        ],
+        "flags": [],
+        "runId": "v07-refresh-db99773ff8",
+        "candidate": {
+          "id": "v07-c-v07-changes-db99773ff8",
+          "version": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+          "result": "已把笼统的变化提示改为具体事项与前后状态，点选可以追到对应工作；刷新或改写说明不会产生新的进度事件。"
+        },
+        "evidence": [
+          {
+            "id": "v07-e-v07-changes-db99773ff8",
+            "candidateId": "v07-c-v07-changes-db99773ff8",
+            "acceptanceIds": [
+              "v07-accept-changes"
+            ],
+            "version": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "check": "本版本实际定向检查见冻结清单；历史全量检查只作历史依据，后续主页面与隔离恢复另登记；用户验收未代填。",
+            "result": "pass",
+            "reference": "evidence/v07-text-polish-preparation.json；evidence/v07-text-polish-model.txt；evidence/v07-text-polish-workflow.txt；evidence/v07-text-polish-browser.txt；evidence/v07-text-polish-final-build.txt；evidence/v07-text-polish-clone-ui.json；evidence/v07-text-polish-review-limitations.json；evidence/v07-text-polish-source-review.md；evidence/v07-text-polish-source-check.json",
+            "at": "2026-10-12T13:22:52.137Z",
+            "provenance": {
+              "command": "本版本实际Node24构建、定向模型与Playwright交互核对；详见冻结检查记录。未复跑的历史全量及规模检查不计为本版本实测。",
+              "scenario": "可信推进与返工可见，刷新不制造变化。",
+              "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+              "record": "evidence/v07-text-polish-preparation.json；evidence/v07-text-polish-model.txt；evidence/v07-text-polish-workflow.txt；evidence/v07-text-polish-browser.txt；evidence/v07-text-polish-final-build.txt；evidence/v07-text-polish-clone-ui.json；evidence/v07-text-polish-review-limitations.json；evidence/v07-text-polish-source-review.md；evidence/v07-text-polish-source-check.json"
+            }
+          }
+        ]
+      },
+      "receipt": {
+        "operationId": "67bdf7a1-a90f-4721-9819-fea47a2fa6ab",
+        "committedRevision": 204,
+        "currentRevision": 204,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "v07-maintain",
+        "status": "待验收",
+        "result": "窄屏分计划详情列出全部事项，点选可定位并返回；记录和相关资料继续由Codex更新及核对保留。",
+        "reason": "本轮实施、实际检查与独立审核完成；最终阅读和视觉是否合适仍由用户确认。",
+        "remaining": [
+          "等待你最后验收"
+        ],
+        "flags": [],
+        "runId": "v07-refresh-db99773ff8",
+        "candidate": {
+          "id": "v07-c-v07-maintain-db99773ff8",
+          "version": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+          "result": "窄屏分计划详情列出全部事项，点选可定位并返回；记录和相关资料继续由Codex更新及核对保留。"
+        },
+        "evidence": [
+          {
+            "id": "v07-e-v07-maintain-db99773ff8",
+            "candidateId": "v07-c-v07-maintain-db99773ff8",
+            "acceptanceIds": [
+              "v07-accept-maintain"
+            ],
+            "version": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "check": "本版本实际定向检查见冻结清单；历史全量检查只作历史依据，后续主页面与隔离恢复另登记；用户验收未代填。",
+            "result": "pass",
+            "reference": "evidence/v07-text-polish-preparation.json；evidence/v07-text-polish-model.txt；evidence/v07-text-polish-workflow.txt；evidence/v07-text-polish-browser.txt；evidence/v07-text-polish-final-build.txt；evidence/v07-text-polish-clone-ui.json；evidence/v07-text-polish-review-limitations.json；evidence/v07-text-polish-source-review.md；evidence/v07-text-polish-source-check.json",
+            "at": "2026-10-12T13:22:52.137Z",
+            "provenance": {
+              "command": "本版本实际Node24构建、定向模型与Playwright交互核对；详见冻结检查记录。未复跑的历史全量及规模检查不计为本版本实测。",
+              "scenario": "Codex负责连续更新和核对，历史与恢复保护保留。",
+              "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+              "record": "evidence/v07-text-polish-preparation.json；evidence/v07-text-polish-model.txt；evidence/v07-text-polish-workflow.txt；evidence/v07-text-polish-browser.txt；evidence/v07-text-polish-final-build.txt；evidence/v07-text-polish-clone-ui.json；evidence/v07-text-polish-review-limitations.json；evidence/v07-text-polish-source-review.md；evidence/v07-text-polish-source-check.json"
+            }
+          }
+        ]
+      },
+      "receipt": {
+        "operationId": "5dc2fc56-62dd-4880-a641-49efbfbed909",
+        "committedRevision": 205,
+        "currentRevision": 205,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "register-evidence",
+        "records": [
+          {
+            "id": "v07-v07-plan-db99773ff8-6ae672b5894f",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-plan-db99773ff8",
+            "evidenceId": "v07-e-v07-plan-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-preparation.json",
+            "sha256": "b04d73e4f78b3245259aad359bba57366502d5a147e5b234a33d9385279ab85d",
+            "bytes": 612,
+            "mediaType": "application/json",
+            "title": "总计划看得懂 · v07-text-polish-preparation.json"
+          },
+          {
+            "id": "v07-v07-plan-db99773ff8-dee6be803d8e",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-plan-db99773ff8",
+            "evidenceId": "v07-e-v07-plan-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-model.txt",
+            "sha256": "8431bb44b9e8135f612a49782e6ed9bde91cffdd4ff495a621ec2920ebe42b98",
+            "bytes": 2325,
+            "mediaType": "text/plain",
+            "title": "总计划看得懂 · v07-text-polish-model.txt"
+          },
+          {
+            "id": "v07-v07-plan-db99773ff8-7c265b4281d3",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-plan-db99773ff8",
+            "evidenceId": "v07-e-v07-plan-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-workflow.txt",
+            "sha256": "798f287a17f52d0db1140e2a66d075f2c5b82006465d637328376e324e045b60",
+            "bytes": 1145,
+            "mediaType": "text/plain",
+            "title": "总计划看得懂 · v07-text-polish-workflow.txt"
+          },
+          {
+            "id": "v07-v07-plan-db99773ff8-6792cf5f96d9",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-plan-db99773ff8",
+            "evidenceId": "v07-e-v07-plan-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-browser.txt",
+            "sha256": "6742f2c7924d764ded038dab8a5309a947fb88abfa18e04bc40fc4a904d085e4",
+            "bytes": 2050,
+            "mediaType": "text/plain",
+            "title": "总计划看得懂 · v07-text-polish-browser.txt"
+          },
+          {
+            "id": "v07-v07-plan-db99773ff8-b3592d99928f",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-plan-db99773ff8",
+            "evidenceId": "v07-e-v07-plan-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-final-build.txt",
+            "sha256": "8abbffd642b351616caf78f4203596dda88529486c0aa3ad87142c41403603e2",
+            "bytes": 2179,
+            "mediaType": "text/plain",
+            "title": "总计划看得懂 · v07-text-polish-final-build.txt"
+          },
+          {
+            "id": "v07-v07-plan-db99773ff8-d4dc49f70986",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-plan-db99773ff8",
+            "evidenceId": "v07-e-v07-plan-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-clone-ui.json",
+            "sha256": "0288ccfec1d6442d3488221682fa179e96a1acdd67bfc60a51f49243a793d248",
+            "bytes": 7138,
+            "mediaType": "application/json",
+            "title": "总计划看得懂 · v07-text-polish-clone-ui.json"
+          },
+          {
+            "id": "v07-v07-plan-db99773ff8-8263766822f6",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-plan-db99773ff8",
+            "evidenceId": "v07-e-v07-plan-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-review-limitations.json",
+            "sha256": "291f9a66994be7c29c5f1e38471a605626e7a7b67882bef575e9f5de58ee4d54",
+            "bytes": 1045,
+            "mediaType": "application/json",
+            "title": "总计划看得懂 · v07-text-polish-review-limitations.json"
+          },
+          {
+            "id": "v07-v07-plan-db99773ff8-5935b161c1e9",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-plan-db99773ff8",
+            "evidenceId": "v07-e-v07-plan-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-source-review.md",
+            "sha256": "34acd5b2507e63f008ac6f098db8116c05944c1e43a4ffeaa840da767b424960",
+            "bytes": 5698,
+            "mediaType": "text/plain",
+            "title": "总计划看得懂 · v07-text-polish-source-review.md"
+          },
+          {
+            "id": "v07-v07-plan-db99773ff8-5146db5670b7",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-plan-db99773ff8",
+            "evidenceId": "v07-e-v07-plan-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-source-check.json",
+            "sha256": "331967ac4773b94a5a99350feced383624a8b9bc00c48a36d4db8e069e329463",
+            "bytes": 4291,
+            "mediaType": "application/json",
+            "title": "总计划看得懂 · v07-text-polish-source-check.json"
+          },
+          {
+            "id": "v07-v07-plan-db99773ff8-fa9682940c12",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-plan-db99773ff8",
+            "evidenceId": "v07-e-v07-plan-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/artifact-manifests/sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8.json",
+            "sha256": "5f7406adc2f814005259e80e0a8e53650f1f14515c6078b2ed87f8ccc95d6df4",
+            "bytes": 16535,
+            "mediaType": "application/json",
+            "title": "总计划看得懂 · sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8.json"
+          },
+          {
+            "id": "v07-v07-clean-db99773ff8-6ae672b5894f",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-clean-db99773ff8",
+            "evidenceId": "v07-e-v07-clean-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-preparation.json",
+            "sha256": "b04d73e4f78b3245259aad359bba57366502d5a147e5b234a33d9385279ab85d",
+            "bytes": 612,
+            "mediaType": "application/json",
+            "title": "页面简洁好用 · v07-text-polish-preparation.json"
+          },
+          {
+            "id": "v07-v07-clean-db99773ff8-dee6be803d8e",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-clean-db99773ff8",
+            "evidenceId": "v07-e-v07-clean-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-model.txt",
+            "sha256": "8431bb44b9e8135f612a49782e6ed9bde91cffdd4ff495a621ec2920ebe42b98",
+            "bytes": 2325,
+            "mediaType": "text/plain",
+            "title": "页面简洁好用 · v07-text-polish-model.txt"
+          },
+          {
+            "id": "v07-v07-clean-db99773ff8-7c265b4281d3",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-clean-db99773ff8",
+            "evidenceId": "v07-e-v07-clean-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-workflow.txt",
+            "sha256": "798f287a17f52d0db1140e2a66d075f2c5b82006465d637328376e324e045b60",
+            "bytes": 1145,
+            "mediaType": "text/plain",
+            "title": "页面简洁好用 · v07-text-polish-workflow.txt"
+          },
+          {
+            "id": "v07-v07-clean-db99773ff8-6792cf5f96d9",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-clean-db99773ff8",
+            "evidenceId": "v07-e-v07-clean-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-browser.txt",
+            "sha256": "6742f2c7924d764ded038dab8a5309a947fb88abfa18e04bc40fc4a904d085e4",
+            "bytes": 2050,
+            "mediaType": "text/plain",
+            "title": "页面简洁好用 · v07-text-polish-browser.txt"
+          },
+          {
+            "id": "v07-v07-clean-db99773ff8-b3592d99928f",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-clean-db99773ff8",
+            "evidenceId": "v07-e-v07-clean-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-final-build.txt",
+            "sha256": "8abbffd642b351616caf78f4203596dda88529486c0aa3ad87142c41403603e2",
+            "bytes": 2179,
+            "mediaType": "text/plain",
+            "title": "页面简洁好用 · v07-text-polish-final-build.txt"
+          },
+          {
+            "id": "v07-v07-clean-db99773ff8-d4dc49f70986",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-clean-db99773ff8",
+            "evidenceId": "v07-e-v07-clean-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-clone-ui.json",
+            "sha256": "0288ccfec1d6442d3488221682fa179e96a1acdd67bfc60a51f49243a793d248",
+            "bytes": 7138,
+            "mediaType": "application/json",
+            "title": "页面简洁好用 · v07-text-polish-clone-ui.json"
+          },
+          {
+            "id": "v07-v07-clean-db99773ff8-8263766822f6",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-clean-db99773ff8",
+            "evidenceId": "v07-e-v07-clean-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-review-limitations.json",
+            "sha256": "291f9a66994be7c29c5f1e38471a605626e7a7b67882bef575e9f5de58ee4d54",
+            "bytes": 1045,
+            "mediaType": "application/json",
+            "title": "页面简洁好用 · v07-text-polish-review-limitations.json"
+          },
+          {
+            "id": "v07-v07-clean-db99773ff8-5935b161c1e9",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-clean-db99773ff8",
+            "evidenceId": "v07-e-v07-clean-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-source-review.md",
+            "sha256": "34acd5b2507e63f008ac6f098db8116c05944c1e43a4ffeaa840da767b424960",
+            "bytes": 5698,
+            "mediaType": "text/plain",
+            "title": "页面简洁好用 · v07-text-polish-source-review.md"
+          },
+          {
+            "id": "v07-v07-clean-db99773ff8-5146db5670b7",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-clean-db99773ff8",
+            "evidenceId": "v07-e-v07-clean-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-source-check.json",
+            "sha256": "331967ac4773b94a5a99350feced383624a8b9bc00c48a36d4db8e069e329463",
+            "bytes": 4291,
+            "mediaType": "application/json",
+            "title": "页面简洁好用 · v07-text-polish-source-check.json"
+          },
+          {
+            "id": "v07-v07-clean-db99773ff8-fa9682940c12",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-clean-db99773ff8",
+            "evidenceId": "v07-e-v07-clean-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/artifact-manifests/sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8.json",
+            "sha256": "5f7406adc2f814005259e80e0a8e53650f1f14515c6078b2ed87f8ccc95d6df4",
+            "bytes": 16535,
+            "mediaType": "application/json",
+            "title": "页面简洁好用 · sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8.json"
+          },
+          {
+            "id": "v07-v07-truth-db99773ff8-6ae672b5894f",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-truth-db99773ff8",
+            "evidenceId": "v07-e-v07-truth-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-preparation.json",
+            "sha256": "b04d73e4f78b3245259aad359bba57366502d5a147e5b234a33d9385279ab85d",
+            "bytes": 612,
+            "mediaType": "application/json",
+            "title": "进展与完成真实 · v07-text-polish-preparation.json"
+          },
+          {
+            "id": "v07-v07-truth-db99773ff8-dee6be803d8e",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-truth-db99773ff8",
+            "evidenceId": "v07-e-v07-truth-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-model.txt",
+            "sha256": "8431bb44b9e8135f612a49782e6ed9bde91cffdd4ff495a621ec2920ebe42b98",
+            "bytes": 2325,
+            "mediaType": "text/plain",
+            "title": "进展与完成真实 · v07-text-polish-model.txt"
+          },
+          {
+            "id": "v07-v07-truth-db99773ff8-7c265b4281d3",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-truth-db99773ff8",
+            "evidenceId": "v07-e-v07-truth-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-workflow.txt",
+            "sha256": "798f287a17f52d0db1140e2a66d075f2c5b82006465d637328376e324e045b60",
+            "bytes": 1145,
+            "mediaType": "text/plain",
+            "title": "进展与完成真实 · v07-text-polish-workflow.txt"
+          },
+          {
+            "id": "v07-v07-truth-db99773ff8-6792cf5f96d9",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-truth-db99773ff8",
+            "evidenceId": "v07-e-v07-truth-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-browser.txt",
+            "sha256": "6742f2c7924d764ded038dab8a5309a947fb88abfa18e04bc40fc4a904d085e4",
+            "bytes": 2050,
+            "mediaType": "text/plain",
+            "title": "进展与完成真实 · v07-text-polish-browser.txt"
+          },
+          {
+            "id": "v07-v07-truth-db99773ff8-b3592d99928f",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-truth-db99773ff8",
+            "evidenceId": "v07-e-v07-truth-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-final-build.txt",
+            "sha256": "8abbffd642b351616caf78f4203596dda88529486c0aa3ad87142c41403603e2",
+            "bytes": 2179,
+            "mediaType": "text/plain",
+            "title": "进展与完成真实 · v07-text-polish-final-build.txt"
+          },
+          {
+            "id": "v07-v07-truth-db99773ff8-d4dc49f70986",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-truth-db99773ff8",
+            "evidenceId": "v07-e-v07-truth-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-clone-ui.json",
+            "sha256": "0288ccfec1d6442d3488221682fa179e96a1acdd67bfc60a51f49243a793d248",
+            "bytes": 7138,
+            "mediaType": "application/json",
+            "title": "进展与完成真实 · v07-text-polish-clone-ui.json"
+          },
+          {
+            "id": "v07-v07-truth-db99773ff8-8263766822f6",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-truth-db99773ff8",
+            "evidenceId": "v07-e-v07-truth-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-review-limitations.json",
+            "sha256": "291f9a66994be7c29c5f1e38471a605626e7a7b67882bef575e9f5de58ee4d54",
+            "bytes": 1045,
+            "mediaType": "application/json",
+            "title": "进展与完成真实 · v07-text-polish-review-limitations.json"
+          },
+          {
+            "id": "v07-v07-truth-db99773ff8-5935b161c1e9",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-truth-db99773ff8",
+            "evidenceId": "v07-e-v07-truth-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-source-review.md",
+            "sha256": "34acd5b2507e63f008ac6f098db8116c05944c1e43a4ffeaa840da767b424960",
+            "bytes": 5698,
+            "mediaType": "text/plain",
+            "title": "进展与完成真实 · v07-text-polish-source-review.md"
+          },
+          {
+            "id": "v07-v07-truth-db99773ff8-5146db5670b7",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-truth-db99773ff8",
+            "evidenceId": "v07-e-v07-truth-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-source-check.json",
+            "sha256": "331967ac4773b94a5a99350feced383624a8b9bc00c48a36d4db8e069e329463",
+            "bytes": 4291,
+            "mediaType": "application/json",
+            "title": "进展与完成真实 · v07-text-polish-source-check.json"
+          },
+          {
+            "id": "v07-v07-truth-db99773ff8-fa9682940c12",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-truth-db99773ff8",
+            "evidenceId": "v07-e-v07-truth-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/artifact-manifests/sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8.json",
+            "sha256": "5f7406adc2f814005259e80e0a8e53650f1f14515c6078b2ed87f8ccc95d6df4",
+            "bytes": 16535,
+            "mediaType": "application/json",
+            "title": "进展与完成真实 · sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8.json"
+          },
+          {
+            "id": "v07-v07-problems-db99773ff8-6ae672b5894f",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-problems-db99773ff8",
+            "evidenceId": "v07-e-v07-problems-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-preparation.json",
+            "sha256": "b04d73e4f78b3245259aad359bba57366502d5a147e5b234a33d9385279ab85d",
+            "bytes": 612,
+            "mediaType": "application/json",
+            "title": "难题不会藏住 · v07-text-polish-preparation.json"
+          },
+          {
+            "id": "v07-v07-problems-db99773ff8-dee6be803d8e",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-problems-db99773ff8",
+            "evidenceId": "v07-e-v07-problems-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-model.txt",
+            "sha256": "8431bb44b9e8135f612a49782e6ed9bde91cffdd4ff495a621ec2920ebe42b98",
+            "bytes": 2325,
+            "mediaType": "text/plain",
+            "title": "难题不会藏住 · v07-text-polish-model.txt"
+          },
+          {
+            "id": "v07-v07-problems-db99773ff8-7c265b4281d3",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-problems-db99773ff8",
+            "evidenceId": "v07-e-v07-problems-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-workflow.txt",
+            "sha256": "798f287a17f52d0db1140e2a66d075f2c5b82006465d637328376e324e045b60",
+            "bytes": 1145,
+            "mediaType": "text/plain",
+            "title": "难题不会藏住 · v07-text-polish-workflow.txt"
+          },
+          {
+            "id": "v07-v07-problems-db99773ff8-6792cf5f96d9",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-problems-db99773ff8",
+            "evidenceId": "v07-e-v07-problems-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-browser.txt",
+            "sha256": "6742f2c7924d764ded038dab8a5309a947fb88abfa18e04bc40fc4a904d085e4",
+            "bytes": 2050,
+            "mediaType": "text/plain",
+            "title": "难题不会藏住 · v07-text-polish-browser.txt"
+          },
+          {
+            "id": "v07-v07-problems-db99773ff8-b3592d99928f",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-problems-db99773ff8",
+            "evidenceId": "v07-e-v07-problems-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-final-build.txt",
+            "sha256": "8abbffd642b351616caf78f4203596dda88529486c0aa3ad87142c41403603e2",
+            "bytes": 2179,
+            "mediaType": "text/plain",
+            "title": "难题不会藏住 · v07-text-polish-final-build.txt"
+          },
+          {
+            "id": "v07-v07-problems-db99773ff8-d4dc49f70986",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-problems-db99773ff8",
+            "evidenceId": "v07-e-v07-problems-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-clone-ui.json",
+            "sha256": "0288ccfec1d6442d3488221682fa179e96a1acdd67bfc60a51f49243a793d248",
+            "bytes": 7138,
+            "mediaType": "application/json",
+            "title": "难题不会藏住 · v07-text-polish-clone-ui.json"
+          },
+          {
+            "id": "v07-v07-problems-db99773ff8-8263766822f6",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-problems-db99773ff8",
+            "evidenceId": "v07-e-v07-problems-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-review-limitations.json",
+            "sha256": "291f9a66994be7c29c5f1e38471a605626e7a7b67882bef575e9f5de58ee4d54",
+            "bytes": 1045,
+            "mediaType": "application/json",
+            "title": "难题不会藏住 · v07-text-polish-review-limitations.json"
+          },
+          {
+            "id": "v07-v07-problems-db99773ff8-5935b161c1e9",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-problems-db99773ff8",
+            "evidenceId": "v07-e-v07-problems-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-source-review.md",
+            "sha256": "34acd5b2507e63f008ac6f098db8116c05944c1e43a4ffeaa840da767b424960",
+            "bytes": 5698,
+            "mediaType": "text/plain",
+            "title": "难题不会藏住 · v07-text-polish-source-review.md"
+          },
+          {
+            "id": "v07-v07-problems-db99773ff8-5146db5670b7",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-problems-db99773ff8",
+            "evidenceId": "v07-e-v07-problems-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-source-check.json",
+            "sha256": "331967ac4773b94a5a99350feced383624a8b9bc00c48a36d4db8e069e329463",
+            "bytes": 4291,
+            "mediaType": "application/json",
+            "title": "难题不会藏住 · v07-text-polish-source-check.json"
+          },
+          {
+            "id": "v07-v07-problems-db99773ff8-fa9682940c12",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-problems-db99773ff8",
+            "evidenceId": "v07-e-v07-problems-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/artifact-manifests/sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8.json",
+            "sha256": "5f7406adc2f814005259e80e0a8e53650f1f14515c6078b2ed87f8ccc95d6df4",
+            "bytes": 16535,
+            "mediaType": "application/json",
+            "title": "难题不会藏住 · sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8.json"
+          },
+          {
+            "id": "v07-v07-changes-db99773ff8-6ae672b5894f",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-changes-db99773ff8",
+            "evidenceId": "v07-e-v07-changes-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-preparation.json",
+            "sha256": "b04d73e4f78b3245259aad359bba57366502d5a147e5b234a33d9385279ab85d",
+            "bytes": 612,
+            "mediaType": "application/json",
+            "title": "看见重要变化 · v07-text-polish-preparation.json"
+          },
+          {
+            "id": "v07-v07-changes-db99773ff8-dee6be803d8e",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-changes-db99773ff8",
+            "evidenceId": "v07-e-v07-changes-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-model.txt",
+            "sha256": "8431bb44b9e8135f612a49782e6ed9bde91cffdd4ff495a621ec2920ebe42b98",
+            "bytes": 2325,
+            "mediaType": "text/plain",
+            "title": "看见重要变化 · v07-text-polish-model.txt"
+          },
+          {
+            "id": "v07-v07-changes-db99773ff8-7c265b4281d3",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-changes-db99773ff8",
+            "evidenceId": "v07-e-v07-changes-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-workflow.txt",
+            "sha256": "798f287a17f52d0db1140e2a66d075f2c5b82006465d637328376e324e045b60",
+            "bytes": 1145,
+            "mediaType": "text/plain",
+            "title": "看见重要变化 · v07-text-polish-workflow.txt"
+          },
+          {
+            "id": "v07-v07-changes-db99773ff8-6792cf5f96d9",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-changes-db99773ff8",
+            "evidenceId": "v07-e-v07-changes-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-browser.txt",
+            "sha256": "6742f2c7924d764ded038dab8a5309a947fb88abfa18e04bc40fc4a904d085e4",
+            "bytes": 2050,
+            "mediaType": "text/plain",
+            "title": "看见重要变化 · v07-text-polish-browser.txt"
+          },
+          {
+            "id": "v07-v07-changes-db99773ff8-b3592d99928f",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-changes-db99773ff8",
+            "evidenceId": "v07-e-v07-changes-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-final-build.txt",
+            "sha256": "8abbffd642b351616caf78f4203596dda88529486c0aa3ad87142c41403603e2",
+            "bytes": 2179,
+            "mediaType": "text/plain",
+            "title": "看见重要变化 · v07-text-polish-final-build.txt"
+          },
+          {
+            "id": "v07-v07-changes-db99773ff8-d4dc49f70986",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-changes-db99773ff8",
+            "evidenceId": "v07-e-v07-changes-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-clone-ui.json",
+            "sha256": "0288ccfec1d6442d3488221682fa179e96a1acdd67bfc60a51f49243a793d248",
+            "bytes": 7138,
+            "mediaType": "application/json",
+            "title": "看见重要变化 · v07-text-polish-clone-ui.json"
+          },
+          {
+            "id": "v07-v07-changes-db99773ff8-8263766822f6",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-changes-db99773ff8",
+            "evidenceId": "v07-e-v07-changes-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-review-limitations.json",
+            "sha256": "291f9a66994be7c29c5f1e38471a605626e7a7b67882bef575e9f5de58ee4d54",
+            "bytes": 1045,
+            "mediaType": "application/json",
+            "title": "看见重要变化 · v07-text-polish-review-limitations.json"
+          },
+          {
+            "id": "v07-v07-changes-db99773ff8-5935b161c1e9",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-changes-db99773ff8",
+            "evidenceId": "v07-e-v07-changes-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-source-review.md",
+            "sha256": "34acd5b2507e63f008ac6f098db8116c05944c1e43a4ffeaa840da767b424960",
+            "bytes": 5698,
+            "mediaType": "text/plain",
+            "title": "看见重要变化 · v07-text-polish-source-review.md"
+          },
+          {
+            "id": "v07-v07-changes-db99773ff8-5146db5670b7",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-changes-db99773ff8",
+            "evidenceId": "v07-e-v07-changes-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-source-check.json",
+            "sha256": "331967ac4773b94a5a99350feced383624a8b9bc00c48a36d4db8e069e329463",
+            "bytes": 4291,
+            "mediaType": "application/json",
+            "title": "看见重要变化 · v07-text-polish-source-check.json"
+          },
+          {
+            "id": "v07-v07-changes-db99773ff8-fa9682940c12",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-changes-db99773ff8",
+            "evidenceId": "v07-e-v07-changes-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/artifact-manifests/sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8.json",
+            "sha256": "5f7406adc2f814005259e80e0a8e53650f1f14515c6078b2ed87f8ccc95d6df4",
+            "bytes": 16535,
+            "mediaType": "application/json",
+            "title": "看见重要变化 · sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8.json"
+          }
+        ],
+        "reason": "登记本次实际检查与成果清单，不产生用户验收。"
+      },
+      "receipt": {
+        "operationId": "ac657abf-eb9d-4e65-ab5c-41d3e6bc8f53",
+        "committedRevision": 206,
+        "currentRevision": 206,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "register-evidence",
+        "records": [
+          {
+            "id": "v07-v07-maintain-db99773ff8-6ae672b5894f",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-maintain-db99773ff8",
+            "evidenceId": "v07-e-v07-maintain-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-preparation.json",
+            "sha256": "b04d73e4f78b3245259aad359bba57366502d5a147e5b234a33d9385279ab85d",
+            "bytes": 612,
+            "mediaType": "application/json",
+            "title": "不用你维护地图 · v07-text-polish-preparation.json"
+          },
+          {
+            "id": "v07-v07-maintain-db99773ff8-dee6be803d8e",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-maintain-db99773ff8",
+            "evidenceId": "v07-e-v07-maintain-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-model.txt",
+            "sha256": "8431bb44b9e8135f612a49782e6ed9bde91cffdd4ff495a621ec2920ebe42b98",
+            "bytes": 2325,
+            "mediaType": "text/plain",
+            "title": "不用你维护地图 · v07-text-polish-model.txt"
+          },
+          {
+            "id": "v07-v07-maintain-db99773ff8-7c265b4281d3",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-maintain-db99773ff8",
+            "evidenceId": "v07-e-v07-maintain-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-workflow.txt",
+            "sha256": "798f287a17f52d0db1140e2a66d075f2c5b82006465d637328376e324e045b60",
+            "bytes": 1145,
+            "mediaType": "text/plain",
+            "title": "不用你维护地图 · v07-text-polish-workflow.txt"
+          },
+          {
+            "id": "v07-v07-maintain-db99773ff8-6792cf5f96d9",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-maintain-db99773ff8",
+            "evidenceId": "v07-e-v07-maintain-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-browser.txt",
+            "sha256": "6742f2c7924d764ded038dab8a5309a947fb88abfa18e04bc40fc4a904d085e4",
+            "bytes": 2050,
+            "mediaType": "text/plain",
+            "title": "不用你维护地图 · v07-text-polish-browser.txt"
+          },
+          {
+            "id": "v07-v07-maintain-db99773ff8-b3592d99928f",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-maintain-db99773ff8",
+            "evidenceId": "v07-e-v07-maintain-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-final-build.txt",
+            "sha256": "8abbffd642b351616caf78f4203596dda88529486c0aa3ad87142c41403603e2",
+            "bytes": 2179,
+            "mediaType": "text/plain",
+            "title": "不用你维护地图 · v07-text-polish-final-build.txt"
+          },
+          {
+            "id": "v07-v07-maintain-db99773ff8-d4dc49f70986",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-maintain-db99773ff8",
+            "evidenceId": "v07-e-v07-maintain-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-clone-ui.json",
+            "sha256": "0288ccfec1d6442d3488221682fa179e96a1acdd67bfc60a51f49243a793d248",
+            "bytes": 7138,
+            "mediaType": "application/json",
+            "title": "不用你维护地图 · v07-text-polish-clone-ui.json"
+          },
+          {
+            "id": "v07-v07-maintain-db99773ff8-8263766822f6",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-maintain-db99773ff8",
+            "evidenceId": "v07-e-v07-maintain-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-review-limitations.json",
+            "sha256": "291f9a66994be7c29c5f1e38471a605626e7a7b67882bef575e9f5de58ee4d54",
+            "bytes": 1045,
+            "mediaType": "application/json",
+            "title": "不用你维护地图 · v07-text-polish-review-limitations.json"
+          },
+          {
+            "id": "v07-v07-maintain-db99773ff8-5935b161c1e9",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-maintain-db99773ff8",
+            "evidenceId": "v07-e-v07-maintain-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-source-review.md",
+            "sha256": "34acd5b2507e63f008ac6f098db8116c05944c1e43a4ffeaa840da767b424960",
+            "bytes": 5698,
+            "mediaType": "text/plain",
+            "title": "不用你维护地图 · v07-text-polish-source-review.md"
+          },
+          {
+            "id": "v07-v07-maintain-db99773ff8-5146db5670b7",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-maintain-db99773ff8",
+            "evidenceId": "v07-e-v07-maintain-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/v07-text-polish-source-check.json",
+            "sha256": "331967ac4773b94a5a99350feced383624a8b9bc00c48a36d4db8e069e329463",
+            "bytes": 4291,
+            "mediaType": "application/json",
+            "title": "不用你维护地图 · v07-text-polish-source-check.json"
+          },
+          {
+            "id": "v07-v07-maintain-db99773ff8-fa9682940c12",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 3,
+            "candidateId": "v07-c-v07-maintain-db99773ff8",
+            "evidenceId": "v07-e-v07-maintain-db99773ff8",
+            "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+            "relativePath": "evidence/artifact-manifests/sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8.json",
+            "sha256": "5f7406adc2f814005259e80e0a8e53650f1f14515c6078b2ed87f8ccc95d6df4",
+            "bytes": 16535,
+            "mediaType": "application/json",
+            "title": "不用你维护地图 · sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8.json"
+          }
+        ],
+        "reason": "登记本次实际检查与成果清单，不产生用户验收。"
+      },
+      "receipt": {
+        "operationId": "9310edaa-2ac7-4b42-8ef3-95d1fae479f3",
+        "committedRevision": 207,
+        "currentRevision": 207,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "goal",
+        "status": "待验收",
+        "result": "总计划分清旧成果与这次改版，具体变化和已解决问题可以追到事项；窄屏全部子项可以查看和定位。阅读与操作体验仍等你最后确认。",
+        "reason": "本轮技术准备完成，不代填用户验收。",
+        "remaining": [
+          "体验复验与用户最后确认"
+        ],
+        "flags": []
+      },
+      "receipt": {
+        "operationId": "e3e13eea-759c-4824-b013-36ef0402af73",
+        "committedRevision": 208,
+        "currentRevision": 208,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "passed": true,
+  "humanAcceptance": false,
+  "revision": 209,
+  "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+  "filesAndChecks": [
+    88,
+    9
+  ],
+  "oldChecksPreserved": [
+    19,
+    10,
+    11
+  ],
+  "original472RecordsPreserved": 472,
+  "recordsVerified": 538,
+  "originalAcceptanceDecisions": 16,
+  "fixedBasisRevision": 159,
+  "exportFiles": 512,
+  "archiveFiles": 1031,
+  "assetsExact": true,
+  "pendingPacks": [
+    2,
+    3
+  ],
+  "uiCasesPassed": 2,
+  "sourceGateFrozenUnchanged": true,
+  "liveServiceIdentityChecked": true,
+  "liveRevision": 209,
+  "liveAcceptancePacksMatched": true,
+  "actualStartReady": true,
+  "browserOpened": true,
+  "finalTechnicalGatePassed": true
+}

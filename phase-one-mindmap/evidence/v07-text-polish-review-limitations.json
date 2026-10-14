@@ -1,0 +1,32 @@
+{
+  "kind": "independent targeted limitation replay",
+  "passed": true,
+  "humanAcceptance": false,
+  "cases": [
+    {
+      "input": "页面已经更新。真实手机还没有验证。",
+      "output": "真实手机还没有验证",
+      "limitationPreserved": true
+    },
+    {
+      "input": "已完成首轮验证，仅桌面范围通过，移动端尚待核对。",
+      "output": "仅桌面范围通过；移动端尚待核对",
+      "limitationPreserved": true
+    },
+    {
+      "input": "恢复测试已通过。真实备份暂时不可用。",
+      "output": "真实备份暂时不可用",
+      "limitationPreserved": true
+    },
+    {
+      "input": "页面能打开，前提是本地服务正在运行。",
+      "output": "页面能打开，前提是本地服务正在运行",
+      "limitationPreserved": true
+    },
+    {
+      "input": "在副本中可以恢复，真实项目没有做过恢复。",
+      "output": "在副本中可以恢复；真实项目没有做过恢复",
+      "limitationPreserved": true
+    }
+  ]
+}

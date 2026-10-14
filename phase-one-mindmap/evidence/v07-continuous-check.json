@@ -1,0 +1,309 @@
+{
+  "kind": "synthetic-continuous-only",
+  "actualCli": true,
+  "actualBridge": true,
+  "mainStateUnchanged": true,
+  "mainStateSha256": "469ca7f6e6894896d465a89fe592c8140f1b1c26b7d6c26fb581685dfedc3501",
+  "nodeCount": 10,
+  "steps": [
+    {
+      "step": "未开始",
+      "status": "未开始",
+      "summary": "",
+      "issues": [],
+      "revision": 0,
+      "comparison": "missing"
+    },
+    {
+      "step": "已开始但尚未报告",
+      "status": "进行中",
+      "summary": "",
+      "issues": [],
+      "revision": 1,
+      "comparison": "missing"
+    },
+    {
+      "step": "推进并固定比较点",
+      "status": "进行中",
+      "summary": "已整理目标，正在核对分计划。",
+      "issues": [],
+      "revision": 3,
+      "comparison": "ready"
+    },
+    {
+      "step": "技术交付待确认",
+      "status": "待验收",
+      "summary": "目标和分计划已经整理好，等你确认。",
+      "issues": [
+        "pending"
+      ],
+      "change": "工作已做好，等你确认",
+      "revision": 4,
+      "comparison": "ready"
+    },
+    {
+      "step": "隔离模拟通过",
+      "status": "已验收",
+      "summary": "目标和分计划已经整理好",
+      "issues": [],
+      "change": "已通过你的验收",
+      "revision": 5,
+      "comparison": "ready"
+    },
+    {
+      "step": "隔离模拟退回",
+      "status": "返工",
+      "summary": "目标和分计划已经整理好",
+      "issues": [
+        "return"
+      ],
+      "change": "出现需要处理的问题",
+      "revision": 6,
+      "comparison": "ready"
+    },
+    {
+      "step": "检查失败与难题",
+      "status": "返工",
+      "summary": "发现目标说明与分计划冲突。",
+      "issues": [
+        "return",
+        "review",
+        "blocked"
+      ],
+      "change": "出现需要处理的问题",
+      "revision": 7,
+      "comparison": "ready"
+    },
+    {
+      "step": "难题解决，新成果待确认",
+      "status": "待验收",
+      "summary": "冲突已经修正，新的目标说明与分计划一致。",
+      "issues": [
+        "pending"
+      ],
+      "change": "工作已做好，等你确认",
+      "revision": 8,
+      "comparison": "ready"
+    },
+    {
+      "step": "漏报或中断",
+      "status": "待核对",
+      "summary": "冲突已经修正，新的目标说明与分计划一致。",
+      "issues": [
+        "pending",
+        "unknown"
+      ],
+      "change": "出现需要处理的问题",
+      "revision": 10,
+      "comparison": "ready"
+    },
+    {
+      "step": "核对补齐",
+      "status": "待验收",
+      "summary": "已补齐中断后的核对，成果仍一致。",
+      "issues": [
+        "pending"
+      ],
+      "change": "工作已做好，等你确认",
+      "revision": 11,
+      "comparison": "ready"
+    },
+    {
+      "step": "服务重开",
+      "status": "待验收",
+      "summary": "已补齐中断后的核对，成果仍一致。",
+      "issues": [
+        "pending"
+      ],
+      "change": "工作已做好，等你确认",
+      "revision": 12,
+      "comparison": "ready"
+    },
+    {
+      "step": "恢复后保留成果、比较需重核",
+      "status": "待验收",
+      "summary": "已补齐中断后的核对，成果仍一致。",
+      "issues": [
+        "pending"
+      ],
+      "revision": 14,
+      "comparison": "needs-verification"
+    },
+    {
+      "step": "恢复后明确重核",
+      "status": "待验收",
+      "summary": "已补齐中断后的核对，成果仍一致。",
+      "issues": [
+        "pending"
+      ],
+      "revision": 15,
+      "comparison": "ready"
+    }
+  ],
+  "operations": [
+    {
+      "kind": "CLI init",
+      "elapsedMs": 113
+    },
+    {
+      "kind": "CLI make-request",
+      "elapsedMs": 99
+    },
+    {
+      "kind": "CLI submit",
+      "elapsedMs": 127
+    },
+    {
+      "kind": "CLI make-request",
+      "elapsedMs": 103
+    },
+    {
+      "kind": "CLI submit",
+      "elapsedMs": 125
+    },
+    {
+      "kind": "CLI make-request",
+      "elapsedMs": 101
+    },
+    {
+      "kind": "CLI submit",
+      "elapsedMs": 126
+    },
+    {
+      "kind": "CLI make-request",
+      "elapsedMs": 104
+    },
+    {
+      "kind": "CLI submit",
+      "elapsedMs": 126
+    },
+    {
+      "kind": "CLI read",
+      "elapsedMs": 102
+    },
+    {
+      "kind": "隔离模拟用户决定",
+      "elapsedMs": 27
+    },
+    {
+      "kind": "CLI read",
+      "elapsedMs": 100
+    },
+    {
+      "kind": "隔离模拟用户决定",
+      "elapsedMs": 27
+    },
+    {
+      "kind": "CLI make-request",
+      "elapsedMs": 102
+    },
+    {
+      "kind": "CLI submit",
+      "elapsedMs": 129
+    },
+    {
+      "kind": "CLI make-request",
+      "elapsedMs": 102
+    },
+    {
+      "kind": "CLI submit",
+      "elapsedMs": 127
+    },
+    {
+      "kind": "CLI make-request",
+      "elapsedMs": 101
+    },
+    {
+      "kind": "CLI submit",
+      "elapsedMs": 128
+    },
+    {
+      "kind": "CLI make-request",
+      "elapsedMs": 103
+    },
+    {
+      "kind": "CLI submit",
+      "elapsedMs": 127
+    },
+    {
+      "kind": "CLI make-request",
+      "elapsedMs": 102
+    },
+    {
+      "kind": "CLI submit",
+      "elapsedMs": 134
+    },
+    {
+      "kind": "CLI map",
+      "elapsedMs": 105
+    },
+    {
+      "kind": "CLI map",
+      "elapsedMs": 101
+    },
+    {
+      "kind": "CLI make-request",
+      "elapsedMs": 105
+    },
+    {
+      "kind": "CLI submit",
+      "elapsedMs": 126
+    },
+    {
+      "kind": "CLI submit",
+      "elapsedMs": 110,
+      "replayed": true
+    },
+    {
+      "kind": "CLI backup",
+      "elapsedMs": 113
+    },
+    {
+      "kind": "CLI make-request",
+      "elapsedMs": 103
+    },
+    {
+      "kind": "CLI submit",
+      "elapsedMs": 124
+    },
+    {
+      "kind": "CLI read",
+      "elapsedMs": 102
+    },
+    {
+      "kind": "CLI make-request",
+      "elapsedMs": 104
+    },
+    {
+      "kind": "CLI recover",
+      "elapsedMs": 132
+    },
+    {
+      "kind": "CLI submit",
+      "elapsedMs": 109
+    },
+    {
+      "kind": "CLI make-request",
+      "elapsedMs": 103
+    },
+    {
+      "kind": "CLI submit",
+      "elapsedMs": 129
+    }
+  ],
+  "elapsedMs": 4077,
+  "cliCalls": 35,
+  "webSimulatedDecisions": 2,
+  "duplicateRecording": 0,
+  "explicitIdempotentRetry": 1,
+  "manualInterventions": 0,
+  "manualInterventionDefinition": "仅指最终预设隔离脚本运行时无需真人介入，不包含Codex编写、修复、复核工作，也不代表长期自动维护。",
+  "interventionReasons": [],
+  "observedFixes": [
+    "首次运行复现：旧版本退回仍被套用到有新版本通过依据的修正成果；现按原决定版本区分，新成果仅待验收，不自动通过。",
+    "连续证据复核发现：已验收或退回仍显示旧等待确认尾句；现仅在展示中清除不适用等待句，保留原报告和原退回理由。"
+  ],
+  "constraints": "隔离模拟用户决定不是真人验收；中断后由Codex补核，恢复后显式重核比较点；不自动维护未报告工作。",
+  "oldCliRejected": true,
+  "oldWebRejected": true
+}

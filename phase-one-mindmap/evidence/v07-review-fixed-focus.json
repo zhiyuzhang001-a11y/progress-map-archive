@@ -1,0 +1,67 @@
+{
+  "isolatedOnly": true,
+  "artifact": "v07-relationship-dist with actual measured preserved",
+  "cycles": [
+    {
+      "run": 0,
+      "card": "card-b1-content",
+      "active": true,
+      "wrapperVisibility": "visible"
+    },
+    {
+      "run": 1,
+      "card": "card-b1-content",
+      "active": true,
+      "wrapperVisibility": "visible"
+    },
+    {
+      "run": 2,
+      "card": "card-b1-content",
+      "active": true,
+      "wrapperVisibility": "visible"
+    },
+    {
+      "run": 3,
+      "card": "card-b1-content",
+      "active": true,
+      "wrapperVisibility": "visible"
+    },
+    {
+      "run": 4,
+      "card": "card-b1-content",
+      "active": true,
+      "wrapperVisibility": "visible"
+    },
+    {
+      "run": 5,
+      "card": "card-b1-content",
+      "active": true,
+      "wrapperVisibility": "visible"
+    },
+    {
+      "run": 6,
+      "card": "card-b1-content",
+      "active": true,
+      "wrapperVisibility": "visible"
+    },
+    {
+      "run": 7,
+      "card": "card-b1-content",
+      "active": true,
+      "wrapperVisibility": "visible"
+    },
+    {
+      "run": 8,
+      "card": "card-b1-content",
+      "active": true,
+      "wrapperVisibility": "visible"
+    },
+    {
+      "run": 9,
+      "card": "card-b1-content",
+      "active": true,
+      "wrapperVisibility": "visible"
+    }
+  ],
+  "pausedRafCloseAndNativeArrowPassed": true
+}

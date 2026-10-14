@@ -1,0 +1,14 @@
+
+Running 7 tests using 1 worker
+
+(node:1440) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/browser/pure-map.spec.ts:9:1 › public default is only a readable map; details are opt in and internal tools stay absent (8.8s)
+  ✓  2 tests/browser/pure-map.spec.ts:10:1 › collapsed deep problem reaches original item in two actions and returns to the map (8.7s)
+  ✓  3 tests/browser/pure-map.spec.ts:11:1 › keyboard opens closes and returns focus; arrows navigate and plus zooms without a toolbar (8.7s)
+  ✓  4 tests/browser/pure-map.spec.ts:12:1 › branch fold restores camera, reload keeps expansion and ordinary report does not move known anchors (3.7s)
+  ✓  5 tests/browser/pure-map.spec.ts:13:1 › meaningful changes survive reload while text-only edits and refresh produce no false change (6.1s)
+  ✓  6 tests/browser/pure-map.spec.ts:14:1 › read-only fallback signals uncertainty on the center card instead of claiming current healthy completion (269ms)
+  ✓  7 tests/browser/pure-map.spec.ts:15:1 › phone overview keeps readable card text, touch detail and close work without default panels (482ms)
+
+  7 passed (37.5s)

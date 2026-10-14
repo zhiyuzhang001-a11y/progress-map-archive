@@ -1,0 +1,45 @@
+
+Running 12 tests using 1 worker
+
+(node:26442) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/browser/experience-repair.spec.ts:2:1 › specific parent change reaches affected original item and preserves its source and map return (8.8s)
+  ✓   2 tests/browser/pure-map.spec.ts:9:1 › public default is only a readable map; details are opt in and internal tools stay absent (275ms)
+  ✓   3 tests/browser/pure-map.spec.ts:10:1 › collapsed deep problem reaches original item in two actions and returns to the map (270ms)
+  ✓   4 tests/browser/pure-map.spec.ts:11:1 › keyboard opens closes and returns focus; arrows navigate and plus zooms without a toolbar (217ms)
+  ✓   5 tests/browser/pure-map.spec.ts:12:1 › branch fold restores camera, reload keeps expansion and ordinary report does not move known anchors (3.7s)
+  ✓   6 tests/browser/pure-map.spec.ts:13:1 › meaningful changes survive reload while text-only edits and refresh produce no false change (6.2s)
+  ✓   7 tests/browser/pure-map.spec.ts:14:1 › read-only fallback signals uncertainty on the center card instead of claiming current healthy completion (270ms)
+  ✓   8 tests/browser/pure-map.spec.ts:15:1 › phone overview keeps readable card text, touch detail and close work without default panels (535ms)
+  ✓   9 tests/browser/pure-map.spec.ts:16:1 › restored project invalidates the old page and old camera; a fresh page rechecks comparison applicability (3.2s)
+  ✘  10 tests/browser/pure-map.spec.ts:17:1 › rapid open-close cancels obsolete fit and pointer panning stays available without controls (5.5s)
+(node:26609) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  11 tests/browser/pure-map.spec.ts:18:1 › pointer and keyboard make the current card, direct parent and exact relationship clear without changing facts (407ms)
+  ✓  12 tests/browser/pure-map.spec.ts:19:1 › a delayed initial saved view cannot overwrite a branch the user already expanded (644ms)
+
+
+  1) tests/browser/pure-map.spec.ts:17:1 › rapid open-close cancels obsolete fit and pointer panning stays available without controls 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: "transform: translate(720px, 500px) scale(1);"
+    Received: "transform: translate(1111.5px, 338px) scale(0.9);"
+
+    Call Log:
+    - Timeout 5000ms exceeded while waiting on the predicate
+
+      15 | test('phone overview keeps readable card text, touch detail and close work without default panels',async({page,browser})=>{const mobile=await browser.newContext({viewport:{width:390,height:844},isMobile:true,hasTouch:true});const p=await mobile.newPage();await p.goto(bridge.url);await expect(p.locator('.project-card')).toHaveCount(5);const cards=await p.locator('.project-card').evaluateAll(nodes=>nodes.map(n=>{const box=n.getBoundingClientRect();return {width:box.width,left:box.left,right:box.right,top:box.top,bottom:box.bottom};}));for(const box of cards){expect(box.width).toBeGreaterThan(145);expect(box.left).toBeGreaterThanOrEqual(-1);expect(box.right).toBeLessThanOrEqual(391);expect(box.top).toBeGreaterThanOrEqual(0);expect(box.bottom).toBeLessThanOrEqual(844);}await p.getByTestId('card-b1-content').locator('.project-card-read').tap();await expect(p.getByRole('dialog')).toBeVisible();await p.getByRole('button',{name:'关闭详情'}).tap();await expect(p.getByRole('dialog')).toHaveCount(0);await mobile.close();});
+      16 | test('restored project invalidates the old page and old camera; a fresh page rechecks comparison applicability',async({page})=>{await submit({type:'map-checkpoint',reason:'隔离恢复前固定比较点'});const backup=await bridge.store.backup();const before=(await bridge.store.read()).state;const context=await bridge.store.recoveryContext(backup.id);await bridge.store.restore({projectId:before.projectId,recoveryEpoch:before.recoveryEpoch,expectedRevision:before.revision,baselineVersion:before.baseline.version,operationId:crypto.randomUUID(),action:{type:'restore',backupId:backup.id,expectedFileHash:context.fileHash,confirmLoss:true,reason:'隔离恢复，不作用于真实项目'}});await expect(page.getByTestId('card-map-goal')).toHaveAttribute('data-state','待核对',{timeout:10000});await expect(page.getByTestId('card-map-goal')).toContainText('重新打开');await page.reload();await expect(page.getByTestId('card-map-goal')).toContainText('重新核对');const fresh=(await bridge.store.read()).state;expect(fresh.recoveryEpoch).not.toBe(before.recoveryEpoch);await expect.poll(()=>page.evaluate(epoch=>Object.keys(localStorage).some(k=>k.includes(epoch)&&k.includes(':public:v7:')),fresh.recoveryEpoch)).toBeTruthy();});
+    > 17 | test('rapid open-close cancels obsolete fit and pointer panning stays available without controls',async({page})=>{await page.waitForTimeout(200);const before=await camera(page);await page.getByRole('button',{name:'展开02 · 内容与表达'}).click();await page.getByRole('button',{name:'收起02 · 内容与表达'}).click();await page.waitForTimeout(140);await expect.poll(()=>camera(page)).toBe(before);await page.mouse.move(700,810);await page.mouse.down();await page.mouse.move(780,740,{steps:6});await page.mouse.up();await expect.poll(()=>camera(page)).not.toBe(before);await page.keyboard.press('Home');await expect(page.getByTestId('card-map-goal')).toBeVisible();});
+         |                                                                                                                                                                                                                                                                                                                                                                               ^
+      18 | test('pointer and keyboard make the current card, direct parent and exact relationship clear without changing facts',async({page})=>{const before=(await bridge.store.read()).state;const card=page.getByTestId('card-b1-content');const edge=page.getByTestId('edge-b1-content');await card.hover();await expect(card).toHaveAttribute('data-related','true');await expect(page.getByTestId('card-map-goal')).toHaveAttribute('data-related','true');await expect(edge).toHaveAttribute('data-related','true');await expect(edge).toHaveAttribute('data-source','map-goal');await expect(edge).toHaveAttribute('data-target','b1-content');await expect(page.getByTestId('edge-b1-research')).toHaveClass(/is-muted/);const keyboardCard=page.getByTestId('card-b1-experience');await card.locator('.project-card-read').focus();await page.keyboard.press('ArrowRight');await expect(page.getByTestId('card-map-goal').locator('.project-card-read')).toBeFocused();await page.keyboard.press('ArrowRight');await expect(keyboardCard.locator('.project-card-read')).toBeFocused();await expect(keyboardCard).toHaveAttribute('data-related','true');await expect(page.getByTestId('edge-b1-experience')).toHaveAttribute('data-related','true');await expect(edge).toHaveClass(/is-muted/);await page.keyboard.press('Enter');await page.getByRole('dialog').getByRole('button',{name:/← 让城市自然观察触手可及/}).click();await expect(page.locator('#map-detail-title')).toHaveText('让城市自然观察触手可及');expect((await bridge.store.read()).state).toEqual(before);});
+      19 | test('a delayed initial saved view cannot overwrite a branch the user already expanded',async({page})=>{let release!:()=>void;const held=new Promise<void>(r=>{release=r;});await page.route('**/api/map-view',async route=>{if(route.request().method()==='GET'){await held;await route.fulfill({json:{positions:{'map-goal':{x:9000,y:9000}},expanded:['map-goal'],viewport:{x:9000,y:9000,zoom:.4},windowSize:{width:1440,height:1000},compact:false}});}else await route.continue();});await page.evaluate(()=>localStorage.clear());await page.reload();await expect(page.getByTestId('card-map-goal')).toBeVisible();await page.getByRole('button',{name:'展开02 · 内容与表达'}).click();await expect(page.getByTestId('card-b1-facts')).toBeVisible();await page.waitForTimeout(100);const before=await camera(page);release();await page.waitForTimeout(200);await expect(page.getByRole('button',{name:'收起02 · 内容与表达'})).toBeVisible();expect(await camera(page)).toBe(before);await expect.poll(async()=> (await bridge.store.readMapView())?.expanded).toContain('b1-content');});
+      20 |
+        at /Users/zhiyu/Documents/ChatGPT/progress map/phase-one-mindmap/tests/browser/pure-map.spec.ts:17:367
+
+    Error Context: test-results/pure-map-rapid-open-close--725aa--available-without-controls/error-context.md
+
+  1 failed
+    tests/browser/pure-map.spec.ts:17:1 › rapid open-close cancels obsolete fit and pointer panning stays available without controls 
+  11 passed (31.4s)

@@ -1,0 +1,28 @@
+✔ projection is readonly, uses outcome plans, and distinguishes original scope completion (9.297708ms)
+✔ nested blocked item keeps source identity without declaring entire parent blocked (1.591459ms)
+✔ failed latest evidence cannot look ready or accepted (2.989917ms)
+✔ refresh and raw result wording cannot produce artificial change (3.343209ms)
+✔ old accepted fixture does not pretend new ranges were completed (3.725333ms)
+✔ report blocked or cancelled status is preserved even without flags (1.154625ms)
+✔ a genuinely new passing candidate can await acceptance after return; changing ID at same version cannot conceal return (1.198625ms)
+✔ valid baseline storage order does not hide children in the user tree (0.842ms)
+✔ accepted and returned display remove stale acceptance waiting while keeping original report and return reason (1.561291ms)
+✔ all original and current six-item scopes accepted cannot leave parent summaries awaiting acceptance (7.115542ms)
+✔ a legally activated later scope remains visible with original references and cannot inherit earlier completion (4.420042ms)
+✔ specific changes retain fixed before/after, current outcome and all affected source identities (11.733708ms)
+✔ current concrete issue outcome reaches overview and leaf body without duplicating status or hardcoding an issue (6.228791ms)
+✔ wording alone adds no comparison event; critical current problem takes parent priority without resetting checkpoint (6.901875ms)
+✔ removing a reported problem or rewriting resolution words cannot claim it solved without verified outcome (8.149417ms)
+✔ card facts preserve negation, scope and prerequisites without mechanical clipping (0.136709ms)
+✔ cards show a single complete fact, critical restrictions win, and change never duplicates full result (12.880791ms)
+✔ recovery unknown and non-comparable views retain caution instead of a successful card sentence (5.485833ms)
+✔ unrecognized positive prose retains later limits, including unverified mobile, desktop-only scope and service prerequisite (0.100833ms)
+✔ three explicitly checked previous-scope statements have short safe card facts while limits remain authoritative (1.050208ms)
+ℹ tests 20
+ℹ suites 0
+ℹ pass 20
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 221.21625

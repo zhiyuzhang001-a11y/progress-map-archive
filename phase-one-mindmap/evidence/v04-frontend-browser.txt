@@ -1,0 +1,19 @@
+
+Running 11 tests using 1 worker
+
+(node:10237) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓   1 tests/browser/real-project.spec.ts:13:1 › real preview uses explicit project content without fake decisions or demo report controls (400ms)
+  ✓   2 tests/browser/real-project.spec.ts:14:1 › real writable channel records local-user decision while drafts stay on the page and capacities are complete (711ms)
+  ✓   3 tests/browser/real-project.spec.ts:15:1 › views are keyed by project and recovery epoch and never replay legacy demo cache (462ms)
+  ✓   4 tests/browser/real-project.spec.ts:17:1 › restoration discards server view from old epoch when a fresh browser session reopens (416ms)
+  ✓   5 tests/browser/workflow.spec.ts:15:1 › opinion acknowledgement, implementation and synthetic acceptance remain separate (1.2s)
+  ✓   6 tests/browser/workflow.spec.ts:23:1 › plain text opinion and stale open approval preserve drafts without auto submission (7.0s)
+  ✓   7 tests/browser/workflow.spec.ts:29:1 › restoration expires old browser session and leaves unsubmitted draft intact (411ms)
+  ✓   8 tests/browser/workflow.spec.ts:33:1 › proposal needs explicit approval and pause prevents new synthetic rounds (592ms)
+  ✓   9 tests/browser/workflow.spec.ts:38:1 › full proposal diff exposes same-count acceptance and rule changes before approval (410ms)
+  ✓  10 tests/browser/workflow.spec.ts:42:1 › approved removal of focused branch refreshes safely and preserves history references (421ms)
+CLI→网页直接证据：真实make-request/submit子进程，打开页轮询显示r1；关闭页提交再重开显示r2；两次节点结果均与CLI read一致。
+  ✓  11 tests/browser/workflow.spec.ts:46:1 › real CLI reports synchronize by polling and survive page close then reopen (3.4s)
+
+  11 passed (16.4s)

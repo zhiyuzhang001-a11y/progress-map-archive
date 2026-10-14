@@ -1,0 +1,76 @@
+{
+  "recordedAt": "2026-10-11T14:40:01.456Z",
+  "method": "真实CLI主备份/导出/verify/clone；仅临时隔离副本probe/recover/read，主项目没有恢复",
+  "mainStateUnchanged": true,
+  "mainStateSha256": "79b1f0b0bb39bf51b18259c88e35e9665303d4c6c10ae7841bbbeeba762854cd",
+  "backup": {
+    "id": "snapshot-5daedead-4ca7-4349-9d4f-6d275d3a6d1d",
+    "revision": 149,
+    "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+    "evidenceRecords": 202,
+    "evidenceCoverage": "registered-records-only"
+  },
+  "exported": {
+    "directory": "/Users/zhiyu/Documents/ChatGPT/progress map/phase-one-mindmap/archives/v05-final-delivery-1791729597336",
+    "manifestHash": "5733969f3a093aef03a0d6c90dc7b94c5987f8a0cec25d931d99577768b8f9d5",
+    "files": 95,
+    "exportReclaimsCapacity": false
+  },
+  "verified": {
+    "verified": true,
+    "projectId": "progress-mindmap-self",
+    "files": 95,
+    "manifestHash": "5733969f3a093aef03a0d6c90dc7b94c5987f8a0cec25d931d99577768b8f9d5"
+  },
+  "recordsVerified": 202,
+  "historyAccepted": 16,
+  "currentUserAccepted": 0,
+  "missingBlobRestored": true,
+  "oldCliRejected": true,
+  "oldWebRejected": true,
+  "log": [
+    {
+      "clone": {
+        "root": "/private/var/folders/2t/gkd8kqg10gv_ynpqm07tgzz00000gn/T/v05-delivery-restore-BlO07E",
+        "projectId": "progress-mindmap-self",
+        "recoveryEpoch": "306a7c09-3021-4581-b130-e9de97ca4b33",
+        "sourceEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "revision": 150
+      }
+    },
+    {
+      "probe": {
+        "operationId": "a8c8679e-97ae-4064-9922-212034a6e485",
+        "committedRevision": 151,
+        "currentRevision": 151,
+        "recoveryEpoch": "306a7c09-3021-4581-b130-e9de97ca4b33",
+        "replayed": false
+      }
+    },
+    {
+      "restored": {
+        "operationId": "14a7d7d5-a3b0-43ef-8247-a8c229d4beca",
+        "committedRevision": 152,
+        "currentRevision": 152,
+        "recoveryEpoch": "42e40535-06a2-41e7-8ec9-ceae404fa5ff",
+        "previousEpoch": "306a7c09-3021-4581-b130-e9de97ca4b33",
+        "knownRolledBack": 1
+      }
+    },
+    {
+      "recordId": "history-8219cd8b6e27caff7d8df92d",
+      "version": "sha256-11d2f6d0a065efd8cd09ca947a617294f05e48003718171f16fd99ef7d3b4752",
+      "contentVerified": true
+    },
+    {
+      "recordId": "v05-closure-state-7662687d2ca0",
+      "version": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+      "contentVerified": true
+    },
+    {
+      "recordId": "v05-continuous-use-e150188f9a-13563d5c0ca0",
+      "version": "sha256-31e976552222c101f36f2ba2acaef5bf00ab635935fb58d16629b6e150188f9a",
+      "contentVerified": true
+    }
+  ]
+}

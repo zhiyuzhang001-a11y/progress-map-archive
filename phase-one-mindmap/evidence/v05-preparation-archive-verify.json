@@ -1,0 +1,6 @@
+{
+  "method": "隔离临时目录解包并逐字节摘要核对，未恢复主项目",
+  "evidenceFilesVerified": 102,
+  "stateAndIdentityVerified": true,
+  "mismatch": []
+}

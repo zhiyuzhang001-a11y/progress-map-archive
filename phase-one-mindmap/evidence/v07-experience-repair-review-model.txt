@@ -1,0 +1,42 @@
+✔ checkpoint is fixed, restart durable, wording/refresh do not manufacture changes, actual progress does (134.951709ms)
+✔ historical acceptance preserves pending fixed original chain; no CLI privilege; selected partial receipt retries (110.144083ms)
+✔ historical return and stale/hash/changed-version requests reject or preserve exact old scope (129.08075ms)
+✔ checkpoint and both view slots exported; recovery invalidates comparison, view, old CLI and user retry before receipt (221.939334ms)
+✔ all-paused/cancelled branch and paused project are not called active (11.450583ms)
+✔ historical successful retry is refused after restore before receipt lookup (166.6735ms)
+✔ checkpoint project and source range validated; new scope is never compared with old scope (120.308916ms)
+✔ historical pack keeps original delivered evidence; later pass cannot replace it and later failure invalidates (155.661375ms)
+✔ legacy B1 and B2 run ranges remain legal when B3 activates without modifying their outcomes (2.8125ms)
+✔ parallel subtree slots remain distinct at 45 and 201 nodes (4.521833ms)
+✔ inserting tasks preserves every existing anchor and assigns unoccupied new slots (0.621791ms)
+✔ four progress states and unknown propagation (1.156667ms)
+✔ collapse hides descendants but preserves all anomaly and acceptance summaries (0.381541ms)
+✔ weighted acceptance, invalidated evidence and near 100% (0.150958ms)
+✔ layout is deterministic, full tree leaves do not overlap, sides remain stable (9.757834ms)
+✔ unique acceptance IDs are counted once (0.08325ms)
+✔ focus filters the tree without changing business data (0.122417ms)
+✔ closure distinguishes technical completion, partial decision, return and final acceptance (0.107458ms)
+✔ resolved acceptance notice filter preserves genuine pending scope decisions (0.149542ms)
+✔ projection is readonly, uses outcome plans, and distinguishes original scope completion (8.532542ms)
+✔ nested blocked item keeps source identity without declaring entire parent blocked (1.403792ms)
+✔ failed latest evidence cannot look ready or accepted (2.225334ms)
+✔ refresh and raw result wording cannot produce artificial change (3.544458ms)
+✔ old accepted fixture does not pretend new ranges were completed (5.09ms)
+✔ report blocked or cancelled status is preserved even without flags (1.337958ms)
+✔ a genuinely new passing candidate can await acceptance after return; changing ID at same version cannot conceal return (1.263417ms)
+✔ valid baseline storage order does not hide children in the user tree (0.906291ms)
+✔ accepted and returned display remove stale acceptance waiting while keeping original report and return reason (1.368208ms)
+✔ all original and current six-item scopes accepted cannot leave parent summaries awaiting acceptance (6.602083ms)
+✔ a legally activated later scope remains visible with original references and cannot inherit earlier completion (4.740541ms)
+✔ specific changes retain fixed before/after, current outcome and all affected source identities (12.16575ms)
+✔ current concrete issue outcome reaches overview and leaf body without duplicating status or hardcoding an issue (5.719542ms)
+✔ wording alone adds no comparison event; critical current problem takes parent priority without resetting checkpoint (7.167125ms)
+✔ removing a reported problem or rewriting resolution words cannot claim it solved without verified outcome (7.212792ms)
+ℹ tests 34
+ℹ suites 0
+ℹ pass 34
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1167.414834

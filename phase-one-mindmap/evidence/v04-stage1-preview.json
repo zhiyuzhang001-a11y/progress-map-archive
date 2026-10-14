@@ -1,0 +1,16 @@
+{
+  "projectId": "progress-mindmap-self",
+  "title": "项目进度思维导图工具",
+  "readOnly": true,
+  "nodes": 21,
+  "acceptance": 16,
+  "equalWeights": true,
+  "userDecisions": 0,
+  "previewWriteResult": {
+    "error": "READ_ONLY_PREVIEW",
+    "message": "此配置为只读预览",
+    "details": null
+  },
+  "demoStateUnchanged": true,
+  "oldClientPolicy": "schema2 rejects missing schemaVersion; backend38tests"
+}

@@ -1,0 +1,126 @@
+{
+  "recordedAt": "2026-10-12T13:22:30.133646+00:00",
+  "kind": "independent text polish source gate",
+  "passed": true,
+  "humanAcceptance": false,
+  "independentModelChecks": 20,
+  "independentWorkflowChecks": 9,
+  "independentAffectedBrowserChecks": 5,
+  "independentLimitationExamples": 5,
+  "cloneActualDevices": 2,
+  "cloneItemsEach": 9,
+  "mainStateNotWritten": true,
+  "mainUiArtifactRegistryRecoveryPending": true,
+  "files": [
+    {
+      "path": "src/project-map.ts",
+      "bytes": 28927,
+      "sha256": "fcf1dd8ea5eb6dae88ff0fc37fb7ae04de7e8acb28dcb9cef522c38940c4094d"
+    },
+    {
+      "path": "src/ProjectMapScreen.tsx",
+      "bytes": 22608,
+      "sha256": "2e71c359ee55b15fe51128247b7ed51860eeb366b55e2ba7bdf4b5d71bb0cf53"
+    },
+    {
+      "path": "tests/project-map.test.ts",
+      "bytes": 22769,
+      "sha256": "4fc274cd39d38fbb0fc4e312777a09ddc232b6688499eb08357ab941e4a7e7c9"
+    },
+    {
+      "path": "tests/backend/map-workflow.test.ts",
+      "bytes": 13333,
+      "sha256": "cab8d1b1ca5ec3eecc39e05d470e564783226ad1f4ecc475150171583fd68c0b"
+    },
+    {
+      "path": "tests/browser/pure-map.spec.ts",
+      "bytes": 14146,
+      "sha256": "e9239afa6213fe1e24558a7b9fb301de86b4ac8dc4f33f2e5c4423bd30ee56b7"
+    },
+    {
+      "path": "tests/browser/experience-repair.spec.ts",
+      "bytes": 2603,
+      "sha256": "0e3da58bf727d0d8b5037c71b75785345faf8d13ed118ae58653a39868c29e15"
+    },
+    {
+      "path": "scripts/v07-text-polish-ui.ts",
+      "bytes": 10482,
+      "sha256": "f190e77df1f95a791db8f2ac2a3a936d05ec7b145c130d687364f1ae3b6e3ef6"
+    },
+    {
+      "path": "scripts/v07-record-project.ts",
+      "bytes": 9021,
+      "sha256": "4729dd6e46d74611495ddc0e0dbf58a0d36632e069e88da21bec94ed7d0d9142"
+    },
+    {
+      "path": "evidence/v07-text-polish-source-review.md",
+      "bytes": 5698,
+      "sha256": "34acd5b2507e63f008ac6f098db8116c05944c1e43a4ffeaa840da767b424960"
+    },
+    {
+      "path": "evidence/v07-text-polish-review-model.txt",
+      "bytes": 2325,
+      "sha256": "1c6c1b2a0d98613192046ecf6416bdcbbc15001f2287b3ffb179e082f0351c96"
+    },
+    {
+      "path": "evidence/v07-text-polish-review-workflow.txt",
+      "bytes": 1144,
+      "sha256": "f273bf1be910b0398fb3ef342f0bf87aac771cdf0142c69e514411061b569214"
+    },
+    {
+      "path": "evidence/v07-text-polish-review-browser-fixed.txt",
+      "bytes": 969,
+      "sha256": "846aed799a463657f67f666831cb855d89245beb9f2b41ad04a34e52c44f1769"
+    },
+    {
+      "path": "evidence/v07-text-polish-review-browser-first-failed.txt",
+      "bytes": 10804,
+      "sha256": "3623756368a71d8f913e0822bbc3de5917582b3f54126cff8acf506de306963c"
+    },
+    {
+      "path": "evidence/v07-text-polish-review-first-issues.json",
+      "bytes": 927,
+      "sha256": "591c4542ab2b4c3e1b40337cbf14025c505e9b84c322f15393e44439a664ad2d"
+    },
+    {
+      "path": "evidence/v07-text-polish-review-limitations.json",
+      "bytes": 1045,
+      "sha256": "291f9a66994be7c29c5f1e38471a605626e7a7b67882bef575e9f5de58ee4d54"
+    },
+    {
+      "path": "evidence/v07-text-polish-clone-ui.json",
+      "bytes": 7138,
+      "sha256": "0288ccfec1d6442d3488221682fa179e96a1acdd67bfc60a51f49243a793d248"
+    },
+    {
+      "path": "evidence/v07-text-polish-review-fit-fixed.txt",
+      "bytes": 1433,
+      "sha256": "69780d75cf676aaa2e2c5b86ce02b74c1d65b14a76d0caba8484614e641469d2"
+    },
+    {
+      "path": "evidence/v07-text-polish-review-queued-fit.txt",
+      "bytes": 363,
+      "sha256": "964e22bc7cde6aee07dfecfac64ecb543d00e9391b04f671bb10c424dfc5200d"
+    },
+    {
+      "path": "evidence/v07-text-polish-sync-rapid-failure.txt",
+      "bytes": 9015,
+      "sha256": "c778978324fd8d8ec6584a28565e4a8cea34c39bba6655016c6e0123bc44beef"
+    },
+    {
+      "path": "dist/assets/index-D_geVhs6.js",
+      "bytes": 661154,
+      "sha256": "65fceaf4d2cd0619650fd0738f34ba4a38ce6583e96add755c2bae2f3fb989ab"
+    },
+    {
+      "path": "dist/assets/index-DVnz4Q_l.css",
+      "bytes": 36677,
+      "sha256": "7eed175b960e59f95aaa8957e8761e03f07ed5d313a73cfffd2bd3546ec5bc1b"
+    }
+  ],
+  "finalQueuedFitRepairReviewed": true,
+  "independentRapidAndReloadRepeats": 6,
+  "independentBlockedFramesCasePassed": true,
+  "productionAndIsolatedAssetsEqual": true,
+  "previousUnregisteredGatePreserved": true
+}

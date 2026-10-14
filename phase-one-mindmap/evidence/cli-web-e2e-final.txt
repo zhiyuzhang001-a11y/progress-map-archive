@@ -1,0 +1,9 @@
+
+Running 1 test using 1 worker
+
+(node:98460) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+CLI→网页直接证据：真实make-request/submit子进程，打开页轮询显示r1；关闭页提交再重开显示r2；两次节点结果均与CLI read一致。
+  ✓  1 tests/browser/workflow.spec.ts:46:1 › real CLI reports synchronize by polling and survive page close then reopen (3.5s)
+
+  1 passed (4.3s)

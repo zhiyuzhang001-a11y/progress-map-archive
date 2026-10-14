@@ -1,0 +1,24 @@
+{
+  "method": "补齐实际B3中心工作报告；不重设已固定比较点、不写用户决定",
+  "log": {
+    "action": {
+      "type": "report",
+      "nodeId": "goal",
+      "status": "进行中",
+      "result": "正在把整个项目的计划、进展与难题整理成简洁导图，已有成果和待确认内容继续保留。",
+      "reason": "本次范围已开始，阶段一二通过，阶段三连续使用验证中。",
+      "remaining": [
+        "完成实际使用与恢复验证",
+        "提交你最终验收"
+      ],
+      "flags": []
+    },
+    "receipt": {
+      "operationId": "8a0c952b-3148-44ca-8401-f4c8bd7a9817",
+      "committedRevision": 161,
+      "currentRevision": 161,
+      "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+      "replayed": false
+    }
+  }
+}

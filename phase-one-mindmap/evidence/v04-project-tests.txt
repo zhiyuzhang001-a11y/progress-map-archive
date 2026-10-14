@@ -1,0 +1,21 @@
+✔ explicit config fails closed on missing/unknown fields/foreign IDs and preview business writes (54.011875ms)
+✔ schema2 genuine local channel differs from synthetic; ordinary CLI stays unprivileged (62.624875ms)
+✔ isolated clone preserves decisions and origin bytes but invalidates old envelopes/views/receipts (116.983292ms)
+✔ complete immutable data export verifies hashes and never reclaims capacity (187.853542ms)
+✔ real configured bridge returns accurate metadata and local channel, preview denies APIs (105.6195ms)
+✔ package verification rejects incomplete, duplicate and identity-mismatched manifests (56.415958ms)
+✔ schema2 rejects old client requests before receipts and initialization failure leaves no data directory (79.579ms)
+✔ real local acceptance source is recorded separately from AI reports and synthetic decisions (102.61175ms)
+✔ server view is isolated by project and recovery generation, restoration cannot revive prior view (116.559958ms)
+✔ actual CLI subprocess uses explicit real config for init, report, clone, export and doctor (1500.318208ms)
+✔ legacy bare demo view is not reused after a recovery generation changes (75.12775ms)
+✔ controlled self-project clone: actual offline CLI recovery preserves opinion/acceptance/withdrawal provenance and rejects old receipts across server restart (1267.972958ms)
+✔ actual CLI and API contend on same real-copy revision: exactly one commits, no source data changes (224.970292ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2690.614875

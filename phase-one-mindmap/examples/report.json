@@ -1,0 +1,11 @@
+{
+  "type": "report",
+  "nodeId": "facts",
+  "status": "待验证",
+  "result": "合成示例：完成交叉核对草稿，等待独立验证和模拟用户验收。",
+  "reason": "本轮只报告候选结果，不自动提高验收进度。",
+  "remaining": ["补充可复现检查证据", "等待合成模拟用户决定"],
+  "flags": [],
+  "candidate": {"id": "example-facts-v2", "version": "synthetic-v2", "result": "合成辨识核对草稿 v2"},
+  "evidence": []
+}

@@ -1,0 +1,8 @@
+{
+  "recordedAt": "2026-10-12T08:39:37.163469+00:00",
+  "archive": "/Users/zhiyu/Documents/ChatGPT/progress map/phase-one-mindmap/archives/v05-before-v07-full.tar.gz",
+  "sha256": "0870db58b7d7a860d6de49260ef3f3e917616432780e66125efa3969bcf75fd1",
+  "files": 345,
+  "stateSha256": "79b1f0b0bb39bf51b18259c88e35e9665303d4c6c10ae7841bbbeeba762854cd",
+  "scope": "Source, configuration, state, original evidence and registered blobs; excludes dependencies, existing archives, transient service logs and test caches. Main state unchanged."
+}

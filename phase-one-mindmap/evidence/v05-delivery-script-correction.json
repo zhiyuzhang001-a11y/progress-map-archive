@@ -1,0 +1,8 @@
+{
+  "reason": "首轮隔离恢复准备动作缺confirmLoss=true，严格校验在make-request拒绝，未提交restore，主数据未变",
+  "fix": "显式确认仅隔离副本回退；唯一导出目录保留历史；重新实际CLI恢复与读取118记录通过",
+  "productCodeUnchanged": true,
+  "oldArtifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+  "sourceManifestWillRefresh": true,
+  "additionalCorrection": "刷新版本时旧登记标识重复，后端DUPLICATE_ID拒绝，旧登记未覆盖；登记ID现含成果版本后缀，每版原候选与证据继续保留。本轮真实验收仍0/6。"
+}

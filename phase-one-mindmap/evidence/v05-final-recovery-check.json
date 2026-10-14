@@ -1,0 +1,76 @@
+{
+  "recordedAt": "2026-10-11T14:37:38.555Z",
+  "method": "真实CLI主备份/导出/verify/clone；仅临时隔离副本probe/recover/read，主项目没有恢复",
+  "mainStateUnchanged": true,
+  "mainStateSha256": "847f9b59eae535c1c58e323e11e63463584326e51e768710ebbe12324eba9660",
+  "backup": {
+    "id": "snapshot-18f9e05c-c289-4d26-a6a9-07fb87e8637a",
+    "revision": 129,
+    "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+    "evidenceRecords": 118,
+    "evidenceCoverage": "registered-records-only"
+  },
+  "exported": {
+    "directory": "/Users/zhiyu/Documents/ChatGPT/progress map/phase-one-mindmap/archives/v05-final-delivery-1791729455959",
+    "manifestHash": "3b17906bde1c10090358cf164224148760ca6f279eab96d4477098dbf81a3b84",
+    "files": 69,
+    "exportReclaimsCapacity": false
+  },
+  "verified": {
+    "verified": true,
+    "projectId": "progress-mindmap-self",
+    "files": 69,
+    "manifestHash": "3b17906bde1c10090358cf164224148760ca6f279eab96d4477098dbf81a3b84"
+  },
+  "recordsVerified": 118,
+  "historyAccepted": 16,
+  "currentUserAccepted": 0,
+  "missingBlobRestored": true,
+  "oldCliRejected": true,
+  "oldWebRejected": true,
+  "log": [
+    {
+      "clone": {
+        "root": "/private/var/folders/2t/gkd8kqg10gv_ynpqm07tgzz00000gn/T/v05-delivery-restore-U989NB",
+        "projectId": "progress-mindmap-self",
+        "recoveryEpoch": "b56bed3a-c436-43d3-a3e4-634eb4b0feea",
+        "sourceEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "revision": 130
+      }
+    },
+    {
+      "probe": {
+        "operationId": "51838e51-50bb-492a-823e-1c3fd5756c68",
+        "committedRevision": 131,
+        "currentRevision": 131,
+        "recoveryEpoch": "b56bed3a-c436-43d3-a3e4-634eb4b0feea",
+        "replayed": false
+      }
+    },
+    {
+      "restored": {
+        "operationId": "635a976a-d441-443f-b24d-621d018953f4",
+        "committedRevision": 132,
+        "currentRevision": 132,
+        "recoveryEpoch": "5b4dfb9b-9694-4396-8be4-30122e2b7644",
+        "previousEpoch": "b56bed3a-c436-43d3-a3e4-634eb4b0feea",
+        "knownRolledBack": 1
+      }
+    },
+    {
+      "recordId": "history-8219cd8b6e27caff7d8df92d",
+      "version": "sha256-11d2f6d0a065efd8cd09ca947a617294f05e48003718171f16fd99ef7d3b4752",
+      "contentVerified": true
+    },
+    {
+      "recordId": "v05-closure-state-7662687d2ca0",
+      "version": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+      "contentVerified": true
+    },
+    {
+      "recordId": "v05-continuous-use-b2894138cdd4",
+      "version": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+      "contentVerified": true
+    }
+  ]
+}

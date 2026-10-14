@@ -1,0 +1,128 @@
+{
+  "kind": "real main read-only business GET experience check",
+  "humanAcceptance": false,
+  "cases": [
+    {
+      "device": "desktop",
+      "allItems": 9,
+      "eachItemLocatedAndReturned": true,
+      "originalCameraRestored": true,
+      "sourceLabels": true,
+      "twoCompleteLinesWithoutEllipsis": true,
+      "fullProblemResultOnce": true,
+      "leafSummarySpecific": true,
+      "changeChecks": [
+        {
+          "id": "map-goal",
+          "hasChange": true,
+          "before": "进行中",
+          "after": "待验收",
+          "text": "完整计划地图：进行中→待验收",
+          "affected": 6
+        },
+        {
+          "id": "map-planning",
+          "hasChange": true,
+          "before": "进行中",
+          "after": "待验收",
+          "text": "完整计划地图：进行中→待验收",
+          "affected": 3
+        },
+        {
+          "id": "map-problems",
+          "hasChange": true,
+          "before": "进行中",
+          "after": "待验收",
+          "text": "本轮难题与处理：进行中→待验收",
+          "affected": 1
+        },
+        {
+          "id": "map-results",
+          "hasChange": false,
+          "factOnly": true,
+          "text": "上一轮成果 · 一起确认做好了什么：六项成果可以一起核对，也能分别确认通过或需要修改。\n上一轮成果 · 点开能了解实际成果：成果先显示简明说明；相关内容可以只读查看，其中的操作不会自动执行。",
+          "affected": 0
+        },
+        {
+          "id": "map-follow",
+          "hasChange": true,
+          "before": "进行中",
+          "after": "待验收",
+          "text": "重要变化：进行中→待验收",
+          "affected": 2
+        }
+      ]
+    },
+    {
+      "device": "390x844 actual touch",
+      "allItems": 9,
+      "eachItemLocatedAndReturned": true,
+      "originalCameraRestored": true,
+      "sourceLabels": true,
+      "twoCompleteLinesWithoutEllipsis": true,
+      "fullProblemResultOnce": true,
+      "leafSummarySpecific": true,
+      "touchPinchAndPan": true,
+      "changeChecks": [
+        {
+          "id": "map-goal",
+          "hasChange": true,
+          "before": "进行中",
+          "after": "待验收",
+          "text": "完整计划地图：进行中→待验收",
+          "affected": 6
+        },
+        {
+          "id": "map-planning",
+          "hasChange": true,
+          "before": "进行中",
+          "after": "待验收",
+          "text": "完整计划地图：进行中→待验收",
+          "affected": 3
+        },
+        {
+          "id": "map-problems",
+          "hasChange": true,
+          "before": "进行中",
+          "after": "待验收",
+          "text": "本轮难题与处理：进行中→待验收",
+          "affected": 1
+        },
+        {
+          "id": "map-results",
+          "hasChange": false,
+          "factOnly": true,
+          "text": "上一轮成果 · 一起确认做好了什么：六项成果可以一起核对，也能分别确认通过或需要修改。\n上一轮成果 · 点开能了解实际成果：成果先显示简明说明；相关内容可以只读查看，其中的操作不会自动执行。",
+          "affected": 0
+        },
+        {
+          "id": "map-follow",
+          "hasChange": true,
+          "before": "进行中",
+          "after": "待验收",
+          "text": "重要变化：进行中→待验收",
+          "affected": 2
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "mainStateUnchanged": true,
+  "passed": true,
+  "artifactVersion": "sha256-9efb1e78b0241bc31390ede8bcf93bae283a527e442259304c5280db99773ff8",
+  "revision": 208,
+  "userViewUnchanged": true,
+  "stateSha256": "41cd22c3fad1a02c93e3a6fbb340cbc81b5dcf7cbe1eeda061011ff320ef421e",
+  "viewSha256": "0e665a6f8ebe43743e10e5315cb47f02e42eae1e3079f106c4721dba52302dc6",
+  "runtimeAssetChecks": [
+    {
+      "path": "assets/index-D_geVhs6.js",
+      "sha256": "65fceaf4d2cd0619650fd0738f34ba4a38ce6583e96add755c2bae2f3fb989ab"
+    },
+    {
+      "path": "assets/index-DVnz4Q_l.css",
+      "sha256": "7eed175b960e59f95aaa8957e8761e03f07ed5d313a73cfffd2bd3546ec5bc1b"
+    }
+  ],
+  "method": "Real business GET and live production assets; only map-view read/write intercepted to preserve user preferences. No human acceptance."
+}

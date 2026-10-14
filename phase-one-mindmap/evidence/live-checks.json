@@ -1,0 +1,58 @@
+{
+  "checkedOn": "2026-10-11 Asia/Shanghai",
+  "method": "Codex in-app browser UI + DOM observations",
+  "edgeStates": [
+    {
+      "coloredPaths": 1,
+      "dash": "100 0",
+      "id": "edge-research",
+      "percent": "100"
+    },
+    {
+      "coloredPaths": 1,
+      "dash": "60 40",
+      "id": "edge-content",
+      "percent": "60"
+    },
+    {
+      "coloredPaths": 0,
+      "id": "edge-experience",
+      "percent": "0"
+    },
+    {
+      "coloredPaths": 0,
+      "id": "edge-release",
+      "percent": "unknown"
+    }
+  ],
+  "collapsedSummary": "阶段目标\n进行中\n02 · 内容与表达\n60%\n已验收 3/5\n△ 3 个异常 / 待决定\n+",
+  "desktopFocus": {
+    "map": {
+      "bottom": 742.2005004882812,
+      "height": 379.609375,
+      "left": 0,
+      "right": 860,
+      "top": 362.5911254882813,
+      "width": 860,
+      "x": 0,
+      "y": 362.5911254882813
+    },
+    "transform": "transform: translate(615.969px, 319.782px) scale(0.664541);",
+    "viewport": {
+      "height": 833,
+      "width": 1200
+    },
+    "visibleNodes": 5
+  },
+  "reading": {
+    "font": "14px",
+    "fullTitle": "辨识特征与相似物种的交叉核对（长标题示例）",
+    "height": 39.19270706176758,
+    "lineHeight": "19.6px",
+    "width": 207.8515625
+  },
+  "limitations": [
+    "Full expanded view is an overview, not readable text at small zoom",
+    "Earlier 8 Playwright browser tests have not been rerun after this visual follow-up"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "artifactVersion": "sha256-51ef51807d637519e0d6ce61225396ef7516cc018a0fde4821c1e851ba810b4f",
+  "records": 6,
+  "receipt": {
+    "action": {
+      "type": "register-evidence",
+      "records": [
+        {
+          "id": "v07-experience-ui-v07-plan-51ba810b4f",
+          "projectId": "progress-mindmap-self",
+          "baselineVersion": 3,
+          "candidateId": "v07-c-v07-plan-51ba810b4f",
+          "evidenceId": "v07-e-v07-plan-51ba810b4f",
+          "artifactVersion": "sha256-51ef51807d637519e0d6ce61225396ef7516cc018a0fde4821c1e851ba810b4f",
+          "relativePath": "evidence/v07-experience-repair-real-ui.json",
+          "sha256": "bf1c80372ffa6f0f1e488044ba3e38e14b3364e7ffd879c71e2fe81b0b2b6434",
+          "bytes": 5614,
+          "mediaType": "application/json",
+          "title": "体验补修真实页面、具体变化及全部事项定位核对"
+        },
+        {
+          "id": "v07-experience-ui-v07-clean-51ba810b4f",
+          "projectId": "progress-mindmap-self",
+          "baselineVersion": 3,
+          "candidateId": "v07-c-v07-clean-51ba810b4f",
+          "evidenceId": "v07-e-v07-clean-51ba810b4f",
+          "artifactVersion": "sha256-51ef51807d637519e0d6ce61225396ef7516cc018a0fde4821c1e851ba810b4f",
+          "relativePath": "evidence/v07-experience-repair-real-ui.json",
+          "sha256": "bf1c80372ffa6f0f1e488044ba3e38e14b3364e7ffd879c71e2fe81b0b2b6434",
+          "bytes": 5614,
+          "mediaType": "application/json",
+          "title": "体验补修真实页面、具体变化及全部事项定位核对"
+        },
+        {
+          "id": "v07-experience-ui-v07-truth-51ba810b4f",
+          "projectId": "progress-mindmap-self",
+          "baselineVersion": 3,
+          "candidateId": "v07-c-v07-truth-51ba810b4f",
+          "evidenceId": "v07-e-v07-truth-51ba810b4f",
+          "artifactVersion": "sha256-51ef51807d637519e0d6ce61225396ef7516cc018a0fde4821c1e851ba810b4f",
+          "relativePath": "evidence/v07-experience-repair-real-ui.json",
+          "sha256": "bf1c80372ffa6f0f1e488044ba3e38e14b3364e7ffd879c71e2fe81b0b2b6434",
+          "bytes": 5614,
+          "mediaType": "application/json",
+          "title": "体验补修真实页面、具体变化及全部事项定位核对"
+        },
+        {
+          "id": "v07-experience-ui-v07-problems-51ba810b4f",
+          "projectId": "progress-mindmap-self",
+          "baselineVersion": 3,
+          "candidateId": "v07-c-v07-problems-51ba810b4f",
+          "evidenceId": "v07-e-v07-problems-51ba810b4f",
+          "artifactVersion": "sha256-51ef51807d637519e0d6ce61225396ef7516cc018a0fde4821c1e851ba810b4f",
+          "relativePath": "evidence/v07-experience-repair-real-ui.json",
+          "sha256": "bf1c80372ffa6f0f1e488044ba3e38e14b3364e7ffd879c71e2fe81b0b2b6434",
+          "bytes": 5614,
+          "mediaType": "application/json",
+          "title": "体验补修真实页面、具体变化及全部事项定位核对"
+        },
+        {
+          "id": "v07-experience-ui-v07-changes-51ba810b4f",
+          "projectId": "progress-mindmap-self",
+          "baselineVersion": 3,
+          "candidateId": "v07-c-v07-changes-51ba810b4f",
+          "evidenceId": "v07-e-v07-changes-51ba810b4f",
+          "artifactVersion": "sha256-51ef51807d637519e0d6ce61225396ef7516cc018a0fde4821c1e851ba810b4f",
+          "relativePath": "evidence/v07-experience-repair-real-ui.json",
+          "sha256": "bf1c80372ffa6f0f1e488044ba3e38e14b3364e7ffd879c71e2fe81b0b2b6434",
+          "bytes": 5614,
+          "mediaType": "application/json",
+          "title": "体验补修真实页面、具体变化及全部事项定位核对"
+        },
+        {
+          "id": "v07-experience-ui-v07-maintain-51ba810b4f",
+          "projectId": "progress-mindmap-self",
+          "baselineVersion": 3,
+          "candidateId": "v07-c-v07-maintain-51ba810b4f",
+          "evidenceId": "v07-e-v07-maintain-51ba810b4f",
+          "artifactVersion": "sha256-51ef51807d637519e0d6ce61225396ef7516cc018a0fde4821c1e851ba810b4f",
+          "relativePath": "evidence/v07-experience-repair-real-ui.json",
+          "sha256": "bf1c80372ffa6f0f1e488044ba3e38e14b3364e7ffd879c71e2fe81b0b2b6434",
+          "bytes": 5614,
+          "mediaType": "application/json",
+          "title": "体验补修真实页面、具体变化及全部事项定位核对"
+        }
+      ],
+      "reason": "登记相同最终产物的真实主页面核对，不产生用户决定。"
+    },
+    "receipt": {
+      "operationId": "b4db1bed-28ee-4222-88ee-9a00ffa8c7c7",
+      "committedRevision": 197,
+      "currentRevision": 197,
+      "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+      "replayed": false
+    }
+  }
+}

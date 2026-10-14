@@ -1,0 +1,27 @@
+{
+  "recordedAt": "2026-10-11T09:04:50.116Z",
+  "httpStatus": 200,
+  "project": "项目进度思维导图工具",
+  "projectId": "progress-mindmap-self",
+  "revision": 76,
+  "baseline": 1,
+  "acceptanceConditions": 16,
+  "acceptedDecisions": 0,
+  "candidates": 48,
+  "evidence": 48,
+  "responses": 9,
+  "run": "finished",
+  "errors": [],
+  "actualDetailChecks": {
+    "version": true,
+    "evidence": true,
+    "awaitingUser": true,
+    "narrowRootVisible": true,
+    "narrowClickAndDetails": true
+  },
+  "viewports": [
+    "1440x1000",
+    "390x844"
+  ],
+  "scenario": "实际默认主项目只读体验，未提交任何用户决定或意见；搜索/视图为表现层操作。"
+}

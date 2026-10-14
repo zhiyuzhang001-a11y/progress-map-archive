@@ -1,0 +1,86 @@
+{
+  "recordedAt": "2026-10-12T09:31:57.308Z",
+  "method": "真实CLI主备份/导出/verify/clone；仅临时隔离副本probe/recover/read，主项目没有恢复",
+  "mainStateUnchanged": true,
+  "mainStateSha256": "469ca7f6e6894896d465a89fe592c8140f1b1c26b7d6c26fb581685dfedc3501",
+  "backup": {
+    "id": "snapshot-0e3ce01f-8364-40ad-9ade-145df84fb862",
+    "revision": 161,
+    "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+    "evidenceRecords": 202,
+    "evidenceCoverage": "registered-records-only"
+  },
+  "exported": {
+    "directory": "/Users/zhiyu/Documents/ChatGPT/progress map/phase-one-mindmap/archives/v07-final-delivery-1791797513686",
+    "manifestHash": "7143ab97d8475a0bfee733a125be213b1a8b8fefff9e2949364f5a76cc2242da",
+    "files": 141,
+    "exportReclaimsCapacity": false
+  },
+  "verified": {
+    "verified": true,
+    "projectId": "progress-mindmap-self",
+    "files": 141,
+    "manifestHash": "7143ab97d8475a0bfee733a125be213b1a8b8fefff9e2949364f5a76cc2242da"
+  },
+  "recordsVerified": 202,
+  "historyAccepted": 16,
+  "currentUserAccepted": 0,
+  "oldPending": 6,
+  "comparisonRecordsPreserved": true,
+  "missingBlobRestored": true,
+  "oldCliRejected": true,
+  "oldWebRejected": true,
+  "log": [
+    {
+      "clone": {
+        "root": "/private/var/folders/2t/gkd8kqg10gv_ynpqm07tgzz00000gn/T/v07-delivery-restore-cEbwWr",
+        "projectId": "progress-mindmap-self",
+        "recoveryEpoch": "f0dfe302-c6f8-4d01-a3cd-d0f7067df153",
+        "sourceEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "revision": 162
+      }
+    },
+    {
+      "probe": {
+        "operationId": "1992ef11-af8f-422b-90a7-481b81389c44",
+        "committedRevision": 163,
+        "currentRevision": 163,
+        "recoveryEpoch": "f0dfe302-c6f8-4d01-a3cd-d0f7067df153",
+        "replayed": false
+      }
+    },
+    {
+      "restored": {
+        "operationId": "0e45003e-f782-423e-b767-32b54753fe81",
+        "committedRevision": 164,
+        "currentRevision": 164,
+        "recoveryEpoch": "00c69b9f-c0bd-4fa8-aa3e-11b0d7bf5163",
+        "previousEpoch": "f0dfe302-c6f8-4d01-a3cd-d0f7067df153",
+        "knownRolledBack": 1
+      }
+    },
+    {
+      "restoredComparison": {
+        "status": "needs-verification",
+        "basisRevision": 159,
+        "message": "资料恢复后，原比较依据需要重新核对。"
+      },
+      "oldChangesNotReplayed": true
+    },
+    {
+      "recordId": "history-8219cd8b6e27caff7d8df92d",
+      "version": "sha256-11d2f6d0a065efd8cd09ca947a617294f05e48003718171f16fd99ef7d3b4752",
+      "contentVerified": true
+    },
+    {
+      "recordId": "v05-closure-state-7662687d2ca0",
+      "version": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+      "contentVerified": true
+    },
+    {
+      "recordId": "v05-continuous-use-e150188f9a-13563d5c0ca0",
+      "version": "sha256-31e976552222c101f36f2ba2acaef5bf00ab635935fb58d16629b6e150188f9a",
+      "contentVerified": true
+    }
+  ]
+}

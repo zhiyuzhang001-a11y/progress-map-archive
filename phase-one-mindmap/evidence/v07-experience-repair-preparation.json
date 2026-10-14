@@ -1,0 +1,16 @@
+{
+  "recordedAt": "2026-10-12T12:00:32.686900+00:00",
+  "revision": 173,
+  "stateSha256": "60e4435d6514b59820823812a704c31be6b0f4d8c6d7bbaed8ed8bf7871a8084",
+  "epoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+  "oldArtifactVersion": "sha256-d078bf06eeb5c55347afe3594d592a979ee3492179609375ac4870dfd931b844",
+  "oldChecksPreserved": 19,
+  "evidenceRecords": 328,
+  "fixedCheckpoint": "e19cf7d2-b035-4f69-9d5e-97face69195a",
+  "checkpointRevision": 159,
+  "input": "v07-experience-review-input.txt",
+  "inputProvenance": "Independent agent experience review, not user acceptance or a new scope approval; repairs authorized by original v0.7 continuous review-and-fix instruction.",
+  "backupId": "snapshot-552502c2-d41b-4ad7-a4e8-7d9dcab3c71c",
+  "programRollback": "archives/v07-delivered-full-dfd931b844.tar.gz",
+  "newAcceptanceDecisions": 0
+}

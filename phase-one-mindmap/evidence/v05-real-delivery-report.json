@@ -1,0 +1,1332 @@
+{
+  "recordedAt": "2026-10-11T14:35:42.367Z",
+  "method": "真实Node CLI子进程read/make-request/submit，未创建本轮验收",
+  "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+  "baselineVersion": 2,
+  "revision": 129,
+  "registered": 72,
+  "log": [
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "closure-state",
+        "status": "待验收",
+        "result": "页面结项、下一步和待决定按有效状态一致显示，保留工作完成与用户验收的区别。",
+        "reason": "补充后的v0.5实际实施、自测及独立审核完成；技术结论不代填用户决定。",
+        "remaining": [
+          "等待你最终验收；可核对本轮验收包后整体通过、部分通过或退回。"
+        ],
+        "flags": [],
+        "runId": "v05-continuous-use",
+        "candidate": {
+          "id": "v05-candidate-closure-state-683ffd31f7",
+          "version": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+          "result": "页面结项、下一步和待决定按有效状态一致显示，保留工作完成与用户验收的区别。"
+        },
+        "evidence": [
+          {
+            "id": "v05-evidence-closure-state-683ffd31f7",
+            "candidateId": "v05-candidate-closure-state-683ffd31f7",
+            "acceptanceIds": [
+              "v05-accept-closure-state"
+            ],
+            "version": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "check": "本轮实际技术检查和分阶段独立复核；历史76项没有当成本轮检查，用户体验留待真实最终验收。",
+            "result": "pass",
+            "reference": "evidence/v05-final-build.txt；evidence/v05-stage3-model.txt；evidence/v05-stage3-backend.txt；evidence/v05-stage3-evidence-backend.txt；evidence/v05-stage3-browser.txt；evidence/v05-stage1-review.md；evidence/v05-stage2-review.md；evidence/v05-stage3-code-review.md；evidence/v05-final-performance.json；evidence/v05-final-benchmark.txt；evidence/v05-preparation-archive-verify.json",
+            "at": "2026-10-11T14:35:26.440Z",
+            "provenance": {
+              "command": "实际本轮Node24构建、模型/后端隔离测试、Playwright浏览器与200节点基准；详见各原始日志",
+              "scenario": "页眉、节点详情、下一步与待决定提示在待验收、部分通过、全部通过及退回场景一致，没有错误待决定提示。；所有测试验收仅在隔离项目，真实主项目不破坏性恢复。",
+              "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+              "record": "evidence/v05-final-build.txt；evidence/v05-stage3-model.txt；evidence/v05-stage3-backend.txt；evidence/v05-stage3-evidence-backend.txt；evidence/v05-stage3-browser.txt；evidence/v05-stage1-review.md；evidence/v05-stage2-review.md；evidence/v05-stage3-code-review.md；evidence/v05-final-performance.json；evidence/v05-final-benchmark.txt；evidence/v05-preparation-archive-verify.json"
+            }
+          }
+        ]
+      },
+      "receipt": {
+        "operationId": "6f7ce507-4685-4d16-9ad8-d5df2cdc8b8f",
+        "committedRevision": 118,
+        "currentRevision": 118,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "acceptance-pack",
+        "status": "待验收",
+        "result": "权威验收包支持整体或选定部分原子通过、明确回执和原请求重试；冲突和旧代次拒绝。",
+        "reason": "补充后的v0.5实际实施、自测及独立审核完成；技术结论不代填用户决定。",
+        "remaining": [
+          "等待你最终验收；可核对本轮验收包后整体通过、部分通过或退回。"
+        ],
+        "flags": [],
+        "runId": "v05-continuous-use",
+        "candidate": {
+          "id": "v05-candidate-acceptance-pack-683ffd31f7",
+          "version": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+          "result": "权威验收包支持整体或选定部分原子通过、明确回执和原请求重试；冲突和旧代次拒绝。"
+        },
+        "evidence": [
+          {
+            "id": "v05-evidence-acceptance-pack-683ffd31f7",
+            "candidateId": "v05-candidate-acceptance-pack-683ffd31f7",
+            "acceptanceIds": [
+              "v05-accept-acceptance-pack"
+            ],
+            "version": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "check": "本轮实际技术检查和分阶段独立复核；历史76项没有当成本轮检查，用户体验留待真实最终验收。",
+            "result": "pass",
+            "reference": "evidence/v05-final-build.txt；evidence/v05-stage3-model.txt；evidence/v05-stage3-backend.txt；evidence/v05-stage3-evidence-backend.txt；evidence/v05-stage3-browser.txt；evidence/v05-stage1-review.md；evidence/v05-stage2-review.md；evidence/v05-stage3-code-review.md；evidence/v05-final-performance.json；evidence/v05-final-benchmark.txt；evidence/v05-preparation-archive-verify.json",
+            "at": "2026-10-11T14:35:26.440Z",
+            "provenance": {
+              "command": "实际本轮Node24构建、模型/后端隔离测试、Playwright浏览器与200节点基准；详见各原始日志",
+              "scenario": "整体、部分、冲突拒绝及同请求重试有可核对结果，未选项不改变，旧恢复代次不能重放。；所有测试验收仅在隔离项目，真实主项目不破坏性恢复。",
+              "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+              "record": "evidence/v05-final-build.txt；evidence/v05-stage3-model.txt；evidence/v05-stage3-backend.txt；evidence/v05-stage3-evidence-backend.txt；evidence/v05-stage3-browser.txt；evidence/v05-stage1-review.md；evidence/v05-stage2-review.md；evidence/v05-stage3-code-review.md；evidence/v05-final-performance.json；evidence/v05-final-benchmark.txt；evidence/v05-preparation-archive-verify.json"
+            }
+          }
+        ]
+      },
+      "receipt": {
+        "operationId": "bd9bdc36-0d1b-45d0-8b59-1f4501e71cde",
+        "committedRevision": 119,
+        "currentRevision": 119,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "iteration-history",
+        "status": "待验收",
+        "result": "本工具已进入六项当前工作，B1固定16/16及原验收链可查；不变事项合法引用原链，新范围不自动验收。",
+        "reason": "补充后的v0.5实际实施、自测及独立审核完成；技术结论不代填用户决定。",
+        "remaining": [
+          "等待你最终验收；可核对本轮验收包后整体通过、部分通过或退回。"
+        ],
+        "flags": [],
+        "runId": "v05-continuous-use",
+        "candidate": {
+          "id": "v05-candidate-iteration-history-683ffd31f7",
+          "version": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+          "result": "本工具已进入六项当前工作，B1固定16/16及原验收链可查；不变事项合法引用原链，新范围不自动验收。"
+        },
+        "evidence": [
+          {
+            "id": "v05-evidence-iteration-history-683ffd31f7",
+            "candidateId": "v05-candidate-iteration-history-683ffd31f7",
+            "acceptanceIds": [
+              "v05-accept-iteration-history"
+            ],
+            "version": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "check": "本轮实际技术检查和分阶段独立复核；历史76项没有当成本轮检查，用户体验留待真实最终验收。",
+            "result": "pass",
+            "reference": "evidence/v05-final-build.txt；evidence/v05-stage3-model.txt；evidence/v05-stage3-backend.txt；evidence/v05-stage3-evidence-backend.txt；evidence/v05-stage3-browser.txt；evidence/v05-stage1-review.md；evidence/v05-stage2-review.md；evidence/v05-stage3-code-review.md；evidence/v05-final-performance.json；evidence/v05-final-benchmark.txt；evidence/v05-preparation-archive-verify.json",
+            "at": "2026-10-11T14:35:26.440Z",
+            "provenance": {
+              "command": "实际本轮Node24构建、模型/后端隔离测试、Playwright浏览器与200节点基准；详见各原始日志",
+              "scenario": "本轮六项初始未验收，B1结项快照保留16/16，原决定、候选和证据可查，后续复核不改写历史结项。；所有测试验收仅在隔离项目，真实主项目不破坏性恢复。",
+              "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+              "record": "evidence/v05-final-build.txt；evidence/v05-stage3-model.txt；evidence/v05-stage3-backend.txt；evidence/v05-stage3-evidence-backend.txt；evidence/v05-stage3-browser.txt；evidence/v05-stage1-review.md；evidence/v05-stage2-review.md；evidence/v05-stage3-code-review.md；evidence/v05-final-performance.json；evidence/v05-final-benchmark.txt；evidence/v05-preparation-archive-verify.json"
+            }
+          }
+        ]
+      },
+      "receipt": {
+        "operationId": "cc0a1f8b-e817-4765-ade8-7e29bbd4a984",
+        "committedRevision": 120,
+        "currentRevision": 120,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "progress-explanation",
+        "status": "待验收",
+        "result": "新增范围、条件变更、证据复核与用户退回分别说明，不把范围增加显示为旧成果失败。",
+        "reason": "补充后的v0.5实际实施、自测及独立审核完成；技术结论不代填用户决定。",
+        "remaining": [
+          "等待你最终验收；可核对本轮验收包后整体通过、部分通过或退回。"
+        ],
+        "flags": [],
+        "runId": "v05-continuous-use",
+        "candidate": {
+          "id": "v05-candidate-progress-explanation-683ffd31f7",
+          "version": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+          "result": "新增范围、条件变更、证据复核与用户退回分别说明，不把范围增加显示为旧成果失败。"
+        },
+        "evidence": [
+          {
+            "id": "v05-evidence-progress-explanation-683ffd31f7",
+            "candidateId": "v05-candidate-progress-explanation-683ffd31f7",
+            "acceptanceIds": [
+              "v05-accept-progress-explanation"
+            ],
+            "version": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "check": "本轮实际技术检查和分阶段独立复核；历史76项没有当成本轮检查，用户体验留待真实最终验收。",
+            "result": "pass",
+            "reference": "evidence/v05-final-build.txt；evidence/v05-stage3-model.txt；evidence/v05-stage3-backend.txt；evidence/v05-stage3-evidence-backend.txt；evidence/v05-stage3-browser.txt；evidence/v05-stage1-review.md；evidence/v05-stage2-review.md；evidence/v05-stage3-code-review.md；evidence/v05-final-performance.json；evidence/v05-final-benchmark.txt；evidence/v05-preparation-archive-verify.json",
+            "at": "2026-10-11T14:35:26.440Z",
+            "provenance": {
+              "command": "实际本轮Node24构建、模型/后端隔离测试、Playwright浏览器与200节点基准；详见各原始日志",
+              "scenario": "新增任务、条件变更、证据失效及用户退回分别显示范围和原因，范围增加不误称旧成果失败。；所有测试验收仅在隔离项目，真实主项目不破坏性恢复。",
+              "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+              "record": "evidence/v05-final-build.txt；evidence/v05-stage3-model.txt；evidence/v05-stage3-backend.txt；evidence/v05-stage3-evidence-backend.txt；evidence/v05-stage3-browser.txt；evidence/v05-stage1-review.md；evidence/v05-stage2-review.md；evidence/v05-stage3-code-review.md；evidence/v05-final-performance.json；evidence/v05-final-benchmark.txt；evidence/v05-preparation-archive-verify.json"
+            }
+          }
+        ]
+      },
+      "receipt": {
+        "operationId": "faec41e3-613f-4839-9b4a-9e84c3a9b99a",
+        "committedRevision": 121,
+        "currentRevision": 121,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "readable-evidence",
+        "status": "待验收",
+        "result": "成果先显示简明说明，登记记录可安全只读展开；内容、路径、大小和版本校验，命令及脚本不执行、外部资源不自动加载。",
+        "reason": "补充后的v0.5实际实施、自测及独立审核完成；技术结论不代填用户决定。",
+        "remaining": [
+          "等待你最终验收；可核对本轮验收包后整体通过、部分通过或退回。"
+        ],
+        "flags": [],
+        "runId": "v05-continuous-use",
+        "candidate": {
+          "id": "v05-candidate-readable-evidence-683ffd31f7",
+          "version": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+          "result": "成果先显示简明说明，登记记录可安全只读展开；内容、路径、大小和版本校验，命令及脚本不执行、外部资源不自动加载。"
+        },
+        "evidence": [
+          {
+            "id": "v05-evidence-readable-evidence-683ffd31f7",
+            "candidateId": "v05-candidate-readable-evidence-683ffd31f7",
+            "acceptanceIds": [
+              "v05-accept-readable-evidence"
+            ],
+            "version": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "check": "本轮实际技术检查和分阶段独立复核；历史76项没有当成本轮检查，用户体验留待真实最终验收。",
+            "result": "pass",
+            "reference": "evidence/v05-final-build.txt；evidence/v05-stage3-model.txt；evidence/v05-stage3-backend.txt；evidence/v05-stage3-evidence-backend.txt；evidence/v05-stage3-browser.txt；evidence/v05-stage1-review.md；evidence/v05-stage2-review.md；evidence/v05-stage3-code-review.md；evidence/v05-final-performance.json；evidence/v05-final-benchmark.txt；evidence/v05-preparation-archive-verify.json",
+            "at": "2026-10-11T14:35:26.440Z",
+            "provenance": {
+              "command": "实际本轮Node24构建、模型/后端隔离测试、Playwright浏览器与200节点基准；详见各原始日志",
+              "scenario": "节点与验收包可理解成果，登记记录可只读展开；越界、内容不符、版本不符、缺失和可执行内容按规定处理。；所有测试验收仅在隔离项目，真实主项目不破坏性恢复。",
+              "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+              "record": "evidence/v05-final-build.txt；evidence/v05-stage3-model.txt；evidence/v05-stage3-backend.txt；evidence/v05-stage3-evidence-backend.txt；evidence/v05-stage3-browser.txt；evidence/v05-stage1-review.md；evidence/v05-stage2-review.md；evidence/v05-stage3-code-review.md；evidence/v05-final-performance.json；evidence/v05-final-benchmark.txt；evidence/v05-preparation-archive-verify.json"
+            }
+          }
+        ]
+      },
+      "receipt": {
+        "operationId": "de64a35d-9c87-48b0-9af7-849ca83836f1",
+        "committedRevision": 122,
+        "currentRevision": 122,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "continuous-use",
+        "status": "待验收",
+        "result": "真实CLI读取六项目标、记录成果与证据、网页同步和最终验收包已串联；必要证据随备份导出及隔离恢复核对。",
+        "reason": "补充后的v0.5实际实施、自测及独立审核完成；技术结论不代填用户决定。",
+        "remaining": [
+          "等待你最终验收；可核对本轮验收包后整体通过、部分通过或退回。"
+        ],
+        "flags": [],
+        "runId": "v05-continuous-use",
+        "candidate": {
+          "id": "v05-candidate-continuous-use-683ffd31f7",
+          "version": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+          "result": "真实CLI读取六项目标、记录成果与证据、网页同步和最终验收包已串联；必要证据随备份导出及隔离恢复核对。"
+        },
+        "evidence": [
+          {
+            "id": "v05-evidence-continuous-use-683ffd31f7",
+            "candidateId": "v05-candidate-continuous-use-683ffd31f7",
+            "acceptanceIds": [
+              "v05-accept-continuous-use"
+            ],
+            "version": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "check": "本轮实际技术检查和分阶段独立复核；历史76项没有当成本轮检查，用户体验留待真实最终验收。",
+            "result": "pass",
+            "reference": "evidence/v05-final-build.txt；evidence/v05-stage3-model.txt；evidence/v05-stage3-backend.txt；evidence/v05-stage3-evidence-backend.txt；evidence/v05-stage3-browser.txt；evidence/v05-stage1-review.md；evidence/v05-stage2-review.md；evidence/v05-stage3-code-review.md；evidence/v05-final-performance.json；evidence/v05-final-benchmark.txt；evidence/v05-preparation-archive-verify.json",
+            "at": "2026-10-11T14:35:26.440Z",
+            "provenance": {
+              "command": "实际本轮Node24构建、模型/后端隔离测试、Playwright浏览器与200节点基准；详见各原始日志",
+              "scenario": "真实CLI报告、网页同步、产物证据绑定与最终验收包可串联核对；含必要证据文件的导出及隔离恢复可核对，技术完成不代填用户验收。；所有测试验收仅在隔离项目，真实主项目不破坏性恢复。",
+              "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+              "record": "evidence/v05-final-build.txt；evidence/v05-stage3-model.txt；evidence/v05-stage3-backend.txt；evidence/v05-stage3-evidence-backend.txt；evidence/v05-stage3-browser.txt；evidence/v05-stage1-review.md；evidence/v05-stage2-review.md；evidence/v05-stage3-code-review.md；evidence/v05-final-performance.json；evidence/v05-final-benchmark.txt；evidence/v05-preparation-archive-verify.json"
+            }
+          }
+        ]
+      },
+      "receipt": {
+        "operationId": "b91d52a6-18b6-48e1-b9e5-44c80d8257f1",
+        "committedRevision": 123,
+        "currentRevision": 123,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "register-evidence",
+        "records": [
+          {
+            "id": "v05-closure-state-7662687d2ca0",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-closure-state-683ffd31f7",
+            "evidenceId": "v05-evidence-closure-state-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-final-build.txt",
+            "sha256": "0c634e7865a85740221d4a9b90b0fdc5af51abc4c757a88e04930e1ccde40a6c",
+            "bytes": 2459,
+            "mediaType": "text/plain",
+            "title": "一致的结项状态 · v05-final-build.txt"
+          },
+          {
+            "id": "v05-closure-state-32fb5e2a6aab",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-closure-state-683ffd31f7",
+            "evidenceId": "v05-evidence-closure-state-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage3-model.txt",
+            "sha256": "f7e202fb07744cef048326eb164b9ac6b878ac6052b9be34f37316fb749f7f5f",
+            "bytes": 764,
+            "mediaType": "text/plain",
+            "title": "一致的结项状态 · v05-stage3-model.txt"
+          },
+          {
+            "id": "v05-closure-state-22f5a5eef810",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-closure-state-683ffd31f7",
+            "evidenceId": "v05-evidence-closure-state-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage3-backend.txt",
+            "sha256": "781c7343f89895b01ace292aa177156f59547faf8f5905efbb87ab703051d1ec",
+            "bytes": 7036,
+            "mediaType": "text/plain",
+            "title": "一致的结项状态 · v05-stage3-backend.txt"
+          },
+          {
+            "id": "v05-closure-state-e7a685eec5cd",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-closure-state-683ffd31f7",
+            "evidenceId": "v05-evidence-closure-state-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage3-evidence-backend.txt",
+            "sha256": "92fe75182dfce084632a2a1230f191ecbe171e146f72f7bd72eb2df04cc47168",
+            "bytes": 851,
+            "mediaType": "text/plain",
+            "title": "一致的结项状态 · v05-stage3-evidence-backend.txt"
+          },
+          {
+            "id": "v05-closure-state-be40711870f6",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-closure-state-683ffd31f7",
+            "evidenceId": "v05-evidence-closure-state-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage3-browser.txt",
+            "sha256": "cfb68ec017c18b1f5fc9f50ff34b22c6fd481f59c2a1ea1c7b476b1395616c39",
+            "bytes": 5204,
+            "mediaType": "text/plain",
+            "title": "一致的结项状态 · v05-stage3-browser.txt"
+          },
+          {
+            "id": "v05-closure-state-19335b74d659",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-closure-state-683ffd31f7",
+            "evidenceId": "v05-evidence-closure-state-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage1-review.md",
+            "sha256": "64026e0f840d6e8efd9c5d3a6b4f212caf7cce49ab74f088f98b4842109491b9",
+            "bytes": 2980,
+            "mediaType": "text/plain",
+            "title": "一致的结项状态 · v05-stage1-review.md"
+          },
+          {
+            "id": "v05-closure-state-fae1a7f6ed6b",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-closure-state-683ffd31f7",
+            "evidenceId": "v05-evidence-closure-state-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage2-review.md",
+            "sha256": "eece8912c135b59f4432388024292f83910da0c80b14ff1029ba329e0bbdf829",
+            "bytes": 2858,
+            "mediaType": "text/plain",
+            "title": "一致的结项状态 · v05-stage2-review.md"
+          },
+          {
+            "id": "v05-closure-state-b6ee8e80dedc",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-closure-state-683ffd31f7",
+            "evidenceId": "v05-evidence-closure-state-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage3-code-review.md",
+            "sha256": "1d049c124703eed8a12ffed27d39fe01a8e6c704bef1dff9f905bae929bc5ae5",
+            "bytes": 2298,
+            "mediaType": "text/plain",
+            "title": "一致的结项状态 · v05-stage3-code-review.md"
+          },
+          {
+            "id": "v05-closure-state-979296804b5b",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-closure-state-683ffd31f7",
+            "evidenceId": "v05-evidence-closure-state-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-final-performance.json",
+            "sha256": "94f36f11da6aac08e1b6ebbd608456d581a36ab9eb9c79c08e0c5d694f5e6838",
+            "bytes": 10800,
+            "mediaType": "application/json",
+            "title": "一致的结项状态 · v05-final-performance.json"
+          },
+          {
+            "id": "v05-closure-state-ef7313c3fceb",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-closure-state-683ffd31f7",
+            "evidenceId": "v05-evidence-closure-state-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-final-benchmark.txt",
+            "sha256": "9f4527d7498f5cf049e5d6c76b47f2318529f28e025585dbf9cbf1f11bfe74d7",
+            "bytes": 5363,
+            "mediaType": "text/plain",
+            "title": "一致的结项状态 · v05-final-benchmark.txt"
+          },
+          {
+            "id": "v05-closure-state-db2df7e9a85b",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-closure-state-683ffd31f7",
+            "evidenceId": "v05-evidence-closure-state-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-preparation-archive-verify.json",
+            "sha256": "6c57428882de89dc841105902c7d9d536001991c8f5185b666a9f5c44e31027e",
+            "bytes": 173,
+            "mediaType": "application/json",
+            "title": "一致的结项状态 · v05-preparation-archive-verify.json"
+          },
+          {
+            "id": "v05-closure-state-b2894138cdd4",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-closure-state-683ffd31f7",
+            "evidenceId": "v05-evidence-closure-state-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/artifact-manifests/sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7.json",
+            "sha256": "7fa26bb11aefb21bc66c7f5a7d3868f422822a409aadbde5dbfedbfbe47f79c2",
+            "bytes": 12176,
+            "mediaType": "application/json",
+            "title": "一致的结项状态 · sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7.json"
+          },
+          {
+            "id": "v05-acceptance-pack-7662687d2ca0",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-acceptance-pack-683ffd31f7",
+            "evidenceId": "v05-evidence-acceptance-pack-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-final-build.txt",
+            "sha256": "0c634e7865a85740221d4a9b90b0fdc5af51abc4c757a88e04930e1ccde40a6c",
+            "bytes": 2459,
+            "mediaType": "text/plain",
+            "title": "可核对的验收包 · v05-final-build.txt"
+          },
+          {
+            "id": "v05-acceptance-pack-32fb5e2a6aab",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-acceptance-pack-683ffd31f7",
+            "evidenceId": "v05-evidence-acceptance-pack-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage3-model.txt",
+            "sha256": "f7e202fb07744cef048326eb164b9ac6b878ac6052b9be34f37316fb749f7f5f",
+            "bytes": 764,
+            "mediaType": "text/plain",
+            "title": "可核对的验收包 · v05-stage3-model.txt"
+          },
+          {
+            "id": "v05-acceptance-pack-22f5a5eef810",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-acceptance-pack-683ffd31f7",
+            "evidenceId": "v05-evidence-acceptance-pack-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage3-backend.txt",
+            "sha256": "781c7343f89895b01ace292aa177156f59547faf8f5905efbb87ab703051d1ec",
+            "bytes": 7036,
+            "mediaType": "text/plain",
+            "title": "可核对的验收包 · v05-stage3-backend.txt"
+          },
+          {
+            "id": "v05-acceptance-pack-e7a685eec5cd",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-acceptance-pack-683ffd31f7",
+            "evidenceId": "v05-evidence-acceptance-pack-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage3-evidence-backend.txt",
+            "sha256": "92fe75182dfce084632a2a1230f191ecbe171e146f72f7bd72eb2df04cc47168",
+            "bytes": 851,
+            "mediaType": "text/plain",
+            "title": "可核对的验收包 · v05-stage3-evidence-backend.txt"
+          },
+          {
+            "id": "v05-acceptance-pack-be40711870f6",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-acceptance-pack-683ffd31f7",
+            "evidenceId": "v05-evidence-acceptance-pack-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage3-browser.txt",
+            "sha256": "cfb68ec017c18b1f5fc9f50ff34b22c6fd481f59c2a1ea1c7b476b1395616c39",
+            "bytes": 5204,
+            "mediaType": "text/plain",
+            "title": "可核对的验收包 · v05-stage3-browser.txt"
+          },
+          {
+            "id": "v05-acceptance-pack-19335b74d659",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-acceptance-pack-683ffd31f7",
+            "evidenceId": "v05-evidence-acceptance-pack-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage1-review.md",
+            "sha256": "64026e0f840d6e8efd9c5d3a6b4f212caf7cce49ab74f088f98b4842109491b9",
+            "bytes": 2980,
+            "mediaType": "text/plain",
+            "title": "可核对的验收包 · v05-stage1-review.md"
+          },
+          {
+            "id": "v05-acceptance-pack-fae1a7f6ed6b",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-acceptance-pack-683ffd31f7",
+            "evidenceId": "v05-evidence-acceptance-pack-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage2-review.md",
+            "sha256": "eece8912c135b59f4432388024292f83910da0c80b14ff1029ba329e0bbdf829",
+            "bytes": 2858,
+            "mediaType": "text/plain",
+            "title": "可核对的验收包 · v05-stage2-review.md"
+          },
+          {
+            "id": "v05-acceptance-pack-b6ee8e80dedc",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-acceptance-pack-683ffd31f7",
+            "evidenceId": "v05-evidence-acceptance-pack-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage3-code-review.md",
+            "sha256": "1d049c124703eed8a12ffed27d39fe01a8e6c704bef1dff9f905bae929bc5ae5",
+            "bytes": 2298,
+            "mediaType": "text/plain",
+            "title": "可核对的验收包 · v05-stage3-code-review.md"
+          },
+          {
+            "id": "v05-acceptance-pack-979296804b5b",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-acceptance-pack-683ffd31f7",
+            "evidenceId": "v05-evidence-acceptance-pack-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-final-performance.json",
+            "sha256": "94f36f11da6aac08e1b6ebbd608456d581a36ab9eb9c79c08e0c5d694f5e6838",
+            "bytes": 10800,
+            "mediaType": "application/json",
+            "title": "可核对的验收包 · v05-final-performance.json"
+          },
+          {
+            "id": "v05-acceptance-pack-ef7313c3fceb",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-acceptance-pack-683ffd31f7",
+            "evidenceId": "v05-evidence-acceptance-pack-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-final-benchmark.txt",
+            "sha256": "9f4527d7498f5cf049e5d6c76b47f2318529f28e025585dbf9cbf1f11bfe74d7",
+            "bytes": 5363,
+            "mediaType": "text/plain",
+            "title": "可核对的验收包 · v05-final-benchmark.txt"
+          },
+          {
+            "id": "v05-acceptance-pack-db2df7e9a85b",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-acceptance-pack-683ffd31f7",
+            "evidenceId": "v05-evidence-acceptance-pack-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-preparation-archive-verify.json",
+            "sha256": "6c57428882de89dc841105902c7d9d536001991c8f5185b666a9f5c44e31027e",
+            "bytes": 173,
+            "mediaType": "application/json",
+            "title": "可核对的验收包 · v05-preparation-archive-verify.json"
+          },
+          {
+            "id": "v05-acceptance-pack-b2894138cdd4",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-acceptance-pack-683ffd31f7",
+            "evidenceId": "v05-evidence-acceptance-pack-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/artifact-manifests/sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7.json",
+            "sha256": "7fa26bb11aefb21bc66c7f5a7d3868f422822a409aadbde5dbfedbfbe47f79c2",
+            "bytes": 12176,
+            "mediaType": "application/json",
+            "title": "可核对的验收包 · sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7.json"
+          },
+          {
+            "id": "v05-iteration-history-7662687d2ca0",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-iteration-history-683ffd31f7",
+            "evidenceId": "v05-evidence-iteration-history-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-final-build.txt",
+            "sha256": "0c634e7865a85740221d4a9b90b0fdc5af51abc4c757a88e04930e1ccde40a6c",
+            "bytes": 2459,
+            "mediaType": "text/plain",
+            "title": "当前工作与历史成果 · v05-final-build.txt"
+          },
+          {
+            "id": "v05-iteration-history-32fb5e2a6aab",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-iteration-history-683ffd31f7",
+            "evidenceId": "v05-evidence-iteration-history-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage3-model.txt",
+            "sha256": "f7e202fb07744cef048326eb164b9ac6b878ac6052b9be34f37316fb749f7f5f",
+            "bytes": 764,
+            "mediaType": "text/plain",
+            "title": "当前工作与历史成果 · v05-stage3-model.txt"
+          },
+          {
+            "id": "v05-iteration-history-22f5a5eef810",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-iteration-history-683ffd31f7",
+            "evidenceId": "v05-evidence-iteration-history-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage3-backend.txt",
+            "sha256": "781c7343f89895b01ace292aa177156f59547faf8f5905efbb87ab703051d1ec",
+            "bytes": 7036,
+            "mediaType": "text/plain",
+            "title": "当前工作与历史成果 · v05-stage3-backend.txt"
+          },
+          {
+            "id": "v05-iteration-history-e7a685eec5cd",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-iteration-history-683ffd31f7",
+            "evidenceId": "v05-evidence-iteration-history-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage3-evidence-backend.txt",
+            "sha256": "92fe75182dfce084632a2a1230f191ecbe171e146f72f7bd72eb2df04cc47168",
+            "bytes": 851,
+            "mediaType": "text/plain",
+            "title": "当前工作与历史成果 · v05-stage3-evidence-backend.txt"
+          },
+          {
+            "id": "v05-iteration-history-be40711870f6",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-iteration-history-683ffd31f7",
+            "evidenceId": "v05-evidence-iteration-history-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage3-browser.txt",
+            "sha256": "cfb68ec017c18b1f5fc9f50ff34b22c6fd481f59c2a1ea1c7b476b1395616c39",
+            "bytes": 5204,
+            "mediaType": "text/plain",
+            "title": "当前工作与历史成果 · v05-stage3-browser.txt"
+          },
+          {
+            "id": "v05-iteration-history-19335b74d659",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-iteration-history-683ffd31f7",
+            "evidenceId": "v05-evidence-iteration-history-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage1-review.md",
+            "sha256": "64026e0f840d6e8efd9c5d3a6b4f212caf7cce49ab74f088f98b4842109491b9",
+            "bytes": 2980,
+            "mediaType": "text/plain",
+            "title": "当前工作与历史成果 · v05-stage1-review.md"
+          },
+          {
+            "id": "v05-iteration-history-fae1a7f6ed6b",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-iteration-history-683ffd31f7",
+            "evidenceId": "v05-evidence-iteration-history-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage2-review.md",
+            "sha256": "eece8912c135b59f4432388024292f83910da0c80b14ff1029ba329e0bbdf829",
+            "bytes": 2858,
+            "mediaType": "text/plain",
+            "title": "当前工作与历史成果 · v05-stage2-review.md"
+          },
+          {
+            "id": "v05-iteration-history-b6ee8e80dedc",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-iteration-history-683ffd31f7",
+            "evidenceId": "v05-evidence-iteration-history-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage3-code-review.md",
+            "sha256": "1d049c124703eed8a12ffed27d39fe01a8e6c704bef1dff9f905bae929bc5ae5",
+            "bytes": 2298,
+            "mediaType": "text/plain",
+            "title": "当前工作与历史成果 · v05-stage3-code-review.md"
+          },
+          {
+            "id": "v05-iteration-history-979296804b5b",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-iteration-history-683ffd31f7",
+            "evidenceId": "v05-evidence-iteration-history-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-final-performance.json",
+            "sha256": "94f36f11da6aac08e1b6ebbd608456d581a36ab9eb9c79c08e0c5d694f5e6838",
+            "bytes": 10800,
+            "mediaType": "application/json",
+            "title": "当前工作与历史成果 · v05-final-performance.json"
+          },
+          {
+            "id": "v05-iteration-history-ef7313c3fceb",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-iteration-history-683ffd31f7",
+            "evidenceId": "v05-evidence-iteration-history-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-final-benchmark.txt",
+            "sha256": "9f4527d7498f5cf049e5d6c76b47f2318529f28e025585dbf9cbf1f11bfe74d7",
+            "bytes": 5363,
+            "mediaType": "text/plain",
+            "title": "当前工作与历史成果 · v05-final-benchmark.txt"
+          },
+          {
+            "id": "v05-iteration-history-db2df7e9a85b",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-iteration-history-683ffd31f7",
+            "evidenceId": "v05-evidence-iteration-history-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-preparation-archive-verify.json",
+            "sha256": "6c57428882de89dc841105902c7d9d536001991c8f5185b666a9f5c44e31027e",
+            "bytes": 173,
+            "mediaType": "application/json",
+            "title": "当前工作与历史成果 · v05-preparation-archive-verify.json"
+          },
+          {
+            "id": "v05-iteration-history-b2894138cdd4",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-iteration-history-683ffd31f7",
+            "evidenceId": "v05-evidence-iteration-history-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/artifact-manifests/sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7.json",
+            "sha256": "7fa26bb11aefb21bc66c7f5a7d3868f422822a409aadbde5dbfedbfbe47f79c2",
+            "bytes": 12176,
+            "mediaType": "application/json",
+            "title": "当前工作与历史成果 · sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7.json"
+          },
+          {
+            "id": "v05-progress-explanation-7662687d2ca0",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-progress-explanation-683ffd31f7",
+            "evidenceId": "v05-evidence-progress-explanation-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-final-build.txt",
+            "sha256": "0c634e7865a85740221d4a9b90b0fdc5af51abc4c757a88e04930e1ccde40a6c",
+            "bytes": 2459,
+            "mediaType": "text/plain",
+            "title": "清楚解释进度变化 · v05-final-build.txt"
+          },
+          {
+            "id": "v05-progress-explanation-32fb5e2a6aab",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-progress-explanation-683ffd31f7",
+            "evidenceId": "v05-evidence-progress-explanation-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage3-model.txt",
+            "sha256": "f7e202fb07744cef048326eb164b9ac6b878ac6052b9be34f37316fb749f7f5f",
+            "bytes": 764,
+            "mediaType": "text/plain",
+            "title": "清楚解释进度变化 · v05-stage3-model.txt"
+          },
+          {
+            "id": "v05-progress-explanation-22f5a5eef810",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-progress-explanation-683ffd31f7",
+            "evidenceId": "v05-evidence-progress-explanation-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage3-backend.txt",
+            "sha256": "781c7343f89895b01ace292aa177156f59547faf8f5905efbb87ab703051d1ec",
+            "bytes": 7036,
+            "mediaType": "text/plain",
+            "title": "清楚解释进度变化 · v05-stage3-backend.txt"
+          },
+          {
+            "id": "v05-progress-explanation-e7a685eec5cd",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-progress-explanation-683ffd31f7",
+            "evidenceId": "v05-evidence-progress-explanation-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage3-evidence-backend.txt",
+            "sha256": "92fe75182dfce084632a2a1230f191ecbe171e146f72f7bd72eb2df04cc47168",
+            "bytes": 851,
+            "mediaType": "text/plain",
+            "title": "清楚解释进度变化 · v05-stage3-evidence-backend.txt"
+          },
+          {
+            "id": "v05-progress-explanation-be40711870f6",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-progress-explanation-683ffd31f7",
+            "evidenceId": "v05-evidence-progress-explanation-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage3-browser.txt",
+            "sha256": "cfb68ec017c18b1f5fc9f50ff34b22c6fd481f59c2a1ea1c7b476b1395616c39",
+            "bytes": 5204,
+            "mediaType": "text/plain",
+            "title": "清楚解释进度变化 · v05-stage3-browser.txt"
+          },
+          {
+            "id": "v05-progress-explanation-19335b74d659",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-progress-explanation-683ffd31f7",
+            "evidenceId": "v05-evidence-progress-explanation-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage1-review.md",
+            "sha256": "64026e0f840d6e8efd9c5d3a6b4f212caf7cce49ab74f088f98b4842109491b9",
+            "bytes": 2980,
+            "mediaType": "text/plain",
+            "title": "清楚解释进度变化 · v05-stage1-review.md"
+          },
+          {
+            "id": "v05-progress-explanation-fae1a7f6ed6b",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-progress-explanation-683ffd31f7",
+            "evidenceId": "v05-evidence-progress-explanation-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage2-review.md",
+            "sha256": "eece8912c135b59f4432388024292f83910da0c80b14ff1029ba329e0bbdf829",
+            "bytes": 2858,
+            "mediaType": "text/plain",
+            "title": "清楚解释进度变化 · v05-stage2-review.md"
+          },
+          {
+            "id": "v05-progress-explanation-b6ee8e80dedc",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-progress-explanation-683ffd31f7",
+            "evidenceId": "v05-evidence-progress-explanation-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage3-code-review.md",
+            "sha256": "1d049c124703eed8a12ffed27d39fe01a8e6c704bef1dff9f905bae929bc5ae5",
+            "bytes": 2298,
+            "mediaType": "text/plain",
+            "title": "清楚解释进度变化 · v05-stage3-code-review.md"
+          },
+          {
+            "id": "v05-progress-explanation-979296804b5b",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-progress-explanation-683ffd31f7",
+            "evidenceId": "v05-evidence-progress-explanation-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-final-performance.json",
+            "sha256": "94f36f11da6aac08e1b6ebbd608456d581a36ab9eb9c79c08e0c5d694f5e6838",
+            "bytes": 10800,
+            "mediaType": "application/json",
+            "title": "清楚解释进度变化 · v05-final-performance.json"
+          },
+          {
+            "id": "v05-progress-explanation-ef7313c3fceb",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-progress-explanation-683ffd31f7",
+            "evidenceId": "v05-evidence-progress-explanation-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-final-benchmark.txt",
+            "sha256": "9f4527d7498f5cf049e5d6c76b47f2318529f28e025585dbf9cbf1f11bfe74d7",
+            "bytes": 5363,
+            "mediaType": "text/plain",
+            "title": "清楚解释进度变化 · v05-final-benchmark.txt"
+          },
+          {
+            "id": "v05-progress-explanation-db2df7e9a85b",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-progress-explanation-683ffd31f7",
+            "evidenceId": "v05-evidence-progress-explanation-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-preparation-archive-verify.json",
+            "sha256": "6c57428882de89dc841105902c7d9d536001991c8f5185b666a9f5c44e31027e",
+            "bytes": 173,
+            "mediaType": "application/json",
+            "title": "清楚解释进度变化 · v05-preparation-archive-verify.json"
+          },
+          {
+            "id": "v05-progress-explanation-b2894138cdd4",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-progress-explanation-683ffd31f7",
+            "evidenceId": "v05-evidence-progress-explanation-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/artifact-manifests/sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7.json",
+            "sha256": "7fa26bb11aefb21bc66c7f5a7d3868f422822a409aadbde5dbfedbfbe47f79c2",
+            "bytes": 12176,
+            "mediaType": "application/json",
+            "title": "清楚解释进度变化 · sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7.json"
+          },
+          {
+            "id": "v05-readable-evidence-7662687d2ca0",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-readable-evidence-683ffd31f7",
+            "evidenceId": "v05-evidence-readable-evidence-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-final-build.txt",
+            "sha256": "0c634e7865a85740221d4a9b90b0fdc5af51abc4c757a88e04930e1ccde40a6c",
+            "bytes": 2459,
+            "mediaType": "text/plain",
+            "title": "易读成果与安全证据 · v05-final-build.txt"
+          },
+          {
+            "id": "v05-readable-evidence-32fb5e2a6aab",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-readable-evidence-683ffd31f7",
+            "evidenceId": "v05-evidence-readable-evidence-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage3-model.txt",
+            "sha256": "f7e202fb07744cef048326eb164b9ac6b878ac6052b9be34f37316fb749f7f5f",
+            "bytes": 764,
+            "mediaType": "text/plain",
+            "title": "易读成果与安全证据 · v05-stage3-model.txt"
+          }
+        ],
+        "reason": "登记本轮实际检查与成果清单，内容可核对且不产生用户验收。"
+      },
+      "receipt": {
+        "operationId": "bb9599cf-1161-45b1-85cb-cf254bd3aca3",
+        "committedRevision": 124,
+        "currentRevision": 124,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "register-evidence",
+        "records": [
+          {
+            "id": "v05-readable-evidence-22f5a5eef810",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-readable-evidence-683ffd31f7",
+            "evidenceId": "v05-evidence-readable-evidence-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage3-backend.txt",
+            "sha256": "781c7343f89895b01ace292aa177156f59547faf8f5905efbb87ab703051d1ec",
+            "bytes": 7036,
+            "mediaType": "text/plain",
+            "title": "易读成果与安全证据 · v05-stage3-backend.txt"
+          },
+          {
+            "id": "v05-readable-evidence-e7a685eec5cd",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-readable-evidence-683ffd31f7",
+            "evidenceId": "v05-evidence-readable-evidence-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage3-evidence-backend.txt",
+            "sha256": "92fe75182dfce084632a2a1230f191ecbe171e146f72f7bd72eb2df04cc47168",
+            "bytes": 851,
+            "mediaType": "text/plain",
+            "title": "易读成果与安全证据 · v05-stage3-evidence-backend.txt"
+          },
+          {
+            "id": "v05-readable-evidence-be40711870f6",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-readable-evidence-683ffd31f7",
+            "evidenceId": "v05-evidence-readable-evidence-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage3-browser.txt",
+            "sha256": "cfb68ec017c18b1f5fc9f50ff34b22c6fd481f59c2a1ea1c7b476b1395616c39",
+            "bytes": 5204,
+            "mediaType": "text/plain",
+            "title": "易读成果与安全证据 · v05-stage3-browser.txt"
+          },
+          {
+            "id": "v05-readable-evidence-19335b74d659",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-readable-evidence-683ffd31f7",
+            "evidenceId": "v05-evidence-readable-evidence-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage1-review.md",
+            "sha256": "64026e0f840d6e8efd9c5d3a6b4f212caf7cce49ab74f088f98b4842109491b9",
+            "bytes": 2980,
+            "mediaType": "text/plain",
+            "title": "易读成果与安全证据 · v05-stage1-review.md"
+          },
+          {
+            "id": "v05-readable-evidence-fae1a7f6ed6b",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-readable-evidence-683ffd31f7",
+            "evidenceId": "v05-evidence-readable-evidence-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage2-review.md",
+            "sha256": "eece8912c135b59f4432388024292f83910da0c80b14ff1029ba329e0bbdf829",
+            "bytes": 2858,
+            "mediaType": "text/plain",
+            "title": "易读成果与安全证据 · v05-stage2-review.md"
+          },
+          {
+            "id": "v05-readable-evidence-b6ee8e80dedc",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-readable-evidence-683ffd31f7",
+            "evidenceId": "v05-evidence-readable-evidence-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage3-code-review.md",
+            "sha256": "1d049c124703eed8a12ffed27d39fe01a8e6c704bef1dff9f905bae929bc5ae5",
+            "bytes": 2298,
+            "mediaType": "text/plain",
+            "title": "易读成果与安全证据 · v05-stage3-code-review.md"
+          },
+          {
+            "id": "v05-readable-evidence-979296804b5b",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-readable-evidence-683ffd31f7",
+            "evidenceId": "v05-evidence-readable-evidence-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-final-performance.json",
+            "sha256": "94f36f11da6aac08e1b6ebbd608456d581a36ab9eb9c79c08e0c5d694f5e6838",
+            "bytes": 10800,
+            "mediaType": "application/json",
+            "title": "易读成果与安全证据 · v05-final-performance.json"
+          },
+          {
+            "id": "v05-readable-evidence-ef7313c3fceb",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-readable-evidence-683ffd31f7",
+            "evidenceId": "v05-evidence-readable-evidence-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-final-benchmark.txt",
+            "sha256": "9f4527d7498f5cf049e5d6c76b47f2318529f28e025585dbf9cbf1f11bfe74d7",
+            "bytes": 5363,
+            "mediaType": "text/plain",
+            "title": "易读成果与安全证据 · v05-final-benchmark.txt"
+          },
+          {
+            "id": "v05-readable-evidence-db2df7e9a85b",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-readable-evidence-683ffd31f7",
+            "evidenceId": "v05-evidence-readable-evidence-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-preparation-archive-verify.json",
+            "sha256": "6c57428882de89dc841105902c7d9d536001991c8f5185b666a9f5c44e31027e",
+            "bytes": 173,
+            "mediaType": "application/json",
+            "title": "易读成果与安全证据 · v05-preparation-archive-verify.json"
+          },
+          {
+            "id": "v05-readable-evidence-b2894138cdd4",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-readable-evidence-683ffd31f7",
+            "evidenceId": "v05-evidence-readable-evidence-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/artifact-manifests/sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7.json",
+            "sha256": "7fa26bb11aefb21bc66c7f5a7d3868f422822a409aadbde5dbfedbfbe47f79c2",
+            "bytes": 12176,
+            "mediaType": "application/json",
+            "title": "易读成果与安全证据 · sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7.json"
+          },
+          {
+            "id": "v05-continuous-use-7662687d2ca0",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-continuous-use-683ffd31f7",
+            "evidenceId": "v05-evidence-continuous-use-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-final-build.txt",
+            "sha256": "0c634e7865a85740221d4a9b90b0fdc5af51abc4c757a88e04930e1ccde40a6c",
+            "bytes": 2459,
+            "mediaType": "text/plain",
+            "title": "实际连续使用闭环 · v05-final-build.txt"
+          },
+          {
+            "id": "v05-continuous-use-32fb5e2a6aab",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-continuous-use-683ffd31f7",
+            "evidenceId": "v05-evidence-continuous-use-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage3-model.txt",
+            "sha256": "f7e202fb07744cef048326eb164b9ac6b878ac6052b9be34f37316fb749f7f5f",
+            "bytes": 764,
+            "mediaType": "text/plain",
+            "title": "实际连续使用闭环 · v05-stage3-model.txt"
+          },
+          {
+            "id": "v05-continuous-use-22f5a5eef810",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-continuous-use-683ffd31f7",
+            "evidenceId": "v05-evidence-continuous-use-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage3-backend.txt",
+            "sha256": "781c7343f89895b01ace292aa177156f59547faf8f5905efbb87ab703051d1ec",
+            "bytes": 7036,
+            "mediaType": "text/plain",
+            "title": "实际连续使用闭环 · v05-stage3-backend.txt"
+          },
+          {
+            "id": "v05-continuous-use-e7a685eec5cd",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-continuous-use-683ffd31f7",
+            "evidenceId": "v05-evidence-continuous-use-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage3-evidence-backend.txt",
+            "sha256": "92fe75182dfce084632a2a1230f191ecbe171e146f72f7bd72eb2df04cc47168",
+            "bytes": 851,
+            "mediaType": "text/plain",
+            "title": "实际连续使用闭环 · v05-stage3-evidence-backend.txt"
+          },
+          {
+            "id": "v05-continuous-use-be40711870f6",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-continuous-use-683ffd31f7",
+            "evidenceId": "v05-evidence-continuous-use-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage3-browser.txt",
+            "sha256": "cfb68ec017c18b1f5fc9f50ff34b22c6fd481f59c2a1ea1c7b476b1395616c39",
+            "bytes": 5204,
+            "mediaType": "text/plain",
+            "title": "实际连续使用闭环 · v05-stage3-browser.txt"
+          },
+          {
+            "id": "v05-continuous-use-19335b74d659",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-continuous-use-683ffd31f7",
+            "evidenceId": "v05-evidence-continuous-use-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage1-review.md",
+            "sha256": "64026e0f840d6e8efd9c5d3a6b4f212caf7cce49ab74f088f98b4842109491b9",
+            "bytes": 2980,
+            "mediaType": "text/plain",
+            "title": "实际连续使用闭环 · v05-stage1-review.md"
+          },
+          {
+            "id": "v05-continuous-use-fae1a7f6ed6b",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-continuous-use-683ffd31f7",
+            "evidenceId": "v05-evidence-continuous-use-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage2-review.md",
+            "sha256": "eece8912c135b59f4432388024292f83910da0c80b14ff1029ba329e0bbdf829",
+            "bytes": 2858,
+            "mediaType": "text/plain",
+            "title": "实际连续使用闭环 · v05-stage2-review.md"
+          },
+          {
+            "id": "v05-continuous-use-b6ee8e80dedc",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-continuous-use-683ffd31f7",
+            "evidenceId": "v05-evidence-continuous-use-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-stage3-code-review.md",
+            "sha256": "1d049c124703eed8a12ffed27d39fe01a8e6c704bef1dff9f905bae929bc5ae5",
+            "bytes": 2298,
+            "mediaType": "text/plain",
+            "title": "实际连续使用闭环 · v05-stage3-code-review.md"
+          },
+          {
+            "id": "v05-continuous-use-979296804b5b",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-continuous-use-683ffd31f7",
+            "evidenceId": "v05-evidence-continuous-use-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-final-performance.json",
+            "sha256": "94f36f11da6aac08e1b6ebbd608456d581a36ab9eb9c79c08e0c5d694f5e6838",
+            "bytes": 10800,
+            "mediaType": "application/json",
+            "title": "实际连续使用闭环 · v05-final-performance.json"
+          },
+          {
+            "id": "v05-continuous-use-ef7313c3fceb",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-continuous-use-683ffd31f7",
+            "evidenceId": "v05-evidence-continuous-use-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-final-benchmark.txt",
+            "sha256": "9f4527d7498f5cf049e5d6c76b47f2318529f28e025585dbf9cbf1f11bfe74d7",
+            "bytes": 5363,
+            "mediaType": "text/plain",
+            "title": "实际连续使用闭环 · v05-final-benchmark.txt"
+          },
+          {
+            "id": "v05-continuous-use-db2df7e9a85b",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-continuous-use-683ffd31f7",
+            "evidenceId": "v05-evidence-continuous-use-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/v05-preparation-archive-verify.json",
+            "sha256": "6c57428882de89dc841105902c7d9d536001991c8f5185b666a9f5c44e31027e",
+            "bytes": 173,
+            "mediaType": "application/json",
+            "title": "实际连续使用闭环 · v05-preparation-archive-verify.json"
+          },
+          {
+            "id": "v05-continuous-use-b2894138cdd4",
+            "projectId": "progress-mindmap-self",
+            "baselineVersion": 2,
+            "candidateId": "v05-candidate-continuous-use-683ffd31f7",
+            "evidenceId": "v05-evidence-continuous-use-683ffd31f7",
+            "artifactVersion": "sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7",
+            "relativePath": "evidence/artifact-manifests/sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7.json",
+            "sha256": "7fa26bb11aefb21bc66c7f5a7d3868f422822a409aadbde5dbfedbfbe47f79c2",
+            "bytes": 12176,
+            "mediaType": "application/json",
+            "title": "实际连续使用闭环 · sha256-e562030d7bcc2db66bb195ed3cf03e59ee9742e2dbcdfe2ae262bd683ffd31f7.json"
+          }
+        ],
+        "reason": "登记本轮实际检查与成果清单，内容可核对且不产生用户验收。"
+      },
+      "receipt": {
+        "operationId": "85538850-8317-42f4-941a-52ba90a85430",
+        "committedRevision": 125,
+        "currentRevision": 125,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "goal",
+        "status": "待验收",
+        "result": "v0.5六项技术成果已完成，B1历史仍16/16；请查看验收包决定本轮成果。",
+        "reason": "用户只负责最终验收，技术准备不构成通过。",
+        "remaining": [
+          "等待用户最终验收"
+        ],
+        "flags": []
+      },
+      "receipt": {
+        "operationId": "9c65bf5d-e3df-4447-89d2-4356efaf6e38",
+        "committedRevision": 126,
+        "currentRevision": 126,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "stage-one",
+        "status": "待验收",
+        "result": "本阶段实施、自测和独立复核完成，叶子成果与证据可查。",
+        "reason": "用户只负责最终验收，技术准备不构成通过。",
+        "remaining": [
+          "等待用户最终验收"
+        ],
+        "flags": []
+      },
+      "receipt": {
+        "operationId": "a34aa9f4-3e56-430f-8bdc-2534d4d380d1",
+        "committedRevision": 127,
+        "currentRevision": 127,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "stage-two",
+        "status": "待验收",
+        "result": "本阶段实施、自测和独立复核完成，叶子成果与证据可查。",
+        "reason": "用户只负责最终验收，技术准备不构成通过。",
+        "remaining": [
+          "等待用户最终验收"
+        ],
+        "flags": []
+      },
+      "receipt": {
+        "operationId": "dc7bd69f-a75c-4f6a-acce-28cfb0d8d3f1",
+        "committedRevision": 128,
+        "currentRevision": 128,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    },
+    {
+      "action": {
+        "type": "report",
+        "nodeId": "stage-three",
+        "status": "待验收",
+        "result": "本阶段实施、自测和独立复核完成，叶子成果与证据可查。",
+        "reason": "用户只负责最终验收，技术准备不构成通过。",
+        "remaining": [
+          "等待用户最终验收"
+        ],
+        "flags": []
+      },
+      "receipt": {
+        "operationId": "c23360af-cc24-404c-b46a-682c9e4ed5da",
+        "committedRevision": 129,
+        "currentRevision": 129,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    }
+  ]
+}

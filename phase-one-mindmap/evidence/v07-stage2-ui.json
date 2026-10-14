@@ -1,0 +1,12 @@
+{
+  "source": "readonly actual-project clone; no human acceptance",
+  "root": "/private/var/folders/2t/gkd8kqg10gv_ynpqm07tgzz00000gn/T/v07-stage2-real-ui-e5HhCN",
+  "url": "http://127.0.0.1:57326",
+  "errors": [],
+  "cards": 5,
+  "defaultText": "进行中\n一眼看清计划、进展和难题\n\n部分已做好，等待确认\n\n−\n4\n进行中\n看清计划与进展\n\n已能查看目标；将整理完整计划与页面\n\n+\n8\n进行中\n及时发现并处理难题\n\n意见已能记录；将让难题更醒目\n\n+\n5\n待验收\n点开了解并确认成果\n\n成果可以查看；相关改进等你确认\n\n+\n6\n进行中\n持续跟进每一步\n\n记录可以保留；将完善持续跟进\n\n+\n9",
+  "detail": "×\n进行中\n看清计划与进展\n\n把总目标与分计划讲清楚，让你知道现在做到哪里。\n\n现在怎么样\n\n已经具备：看清目标与分计划、沿着分支看进展、方便阅读与定位。\n\n分计划\n看清目标与分计划\n已验收\n沿着分支看进展\n已验收\n方便阅读与定位\n已验收\n展示我们的真实项目\n已验收\n解释为什么进度变了\n待验收\n看清总计划\n未开始\n页面简洁好用\n未开始\n进展与完成真实\n未开始",
+  "expanded": 13,
+  "mobileClose": true,
+  "passed": true
+}

@@ -1,0 +1,17 @@
+{
+  "mode": "只读核对实际v0.4数据与阶段一兼容，不生成决定",
+  "projectId": "progress-mindmap-self",
+  "revision": 113,
+  "aggregate": {
+    "total": 16,
+    "accepted": 16,
+    "unknown": 0,
+    "percent": 100,
+    "acceptedWeight": 16,
+    "totalWeight": 16,
+    "flags": []
+  },
+  "closure": "已验收",
+  "packItems": 16,
+  "stateSha256": "1ac331dfe45c5ac0cb95de0cd66b07bf6ca05981b8020a8442e529c6db3a9f12"
+}

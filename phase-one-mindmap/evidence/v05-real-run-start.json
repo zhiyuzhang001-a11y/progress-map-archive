@@ -1,0 +1,75 @@
+{
+  "recordedAt": "2026-10-11T14:23:50.919Z",
+  "method": "真实Node CLI子进程read/make-request/submit；记录实际读取，不补造之前页面已读",
+  "readRevision": 115,
+  "baselineVersion": 2,
+  "targets": [
+    {
+      "id": "v05-accept-closure-state",
+      "nodeId": "closure-state",
+      "condition": "页眉、节点详情、下一步与待决定提示在待验收、部分通过、全部通过及退回场景一致，没有错误待决定提示。",
+      "weight": 1,
+      "method": "user"
+    },
+    {
+      "id": "v05-accept-acceptance-pack",
+      "nodeId": "acceptance-pack",
+      "condition": "整体、部分、冲突拒绝及同请求重试有可核对结果，未选项不改变，旧恢复代次不能重放。",
+      "weight": 1,
+      "method": "user"
+    },
+    {
+      "id": "v05-accept-iteration-history",
+      "nodeId": "iteration-history",
+      "condition": "本轮六项初始未验收，B1结项快照保留16/16，原决定、候选和证据可查，后续复核不改写历史结项。",
+      "weight": 1,
+      "method": "user"
+    },
+    {
+      "id": "v05-accept-progress-explanation",
+      "nodeId": "progress-explanation",
+      "condition": "新增任务、条件变更、证据失效及用户退回分别显示范围和原因，范围增加不误称旧成果失败。",
+      "weight": 1,
+      "method": "user"
+    },
+    {
+      "id": "v05-accept-readable-evidence",
+      "nodeId": "readable-evidence",
+      "condition": "节点与验收包可理解成果，登记记录可只读展开；越界、内容不符、版本不符、缺失和可执行内容按规定处理。",
+      "weight": 1,
+      "method": "user"
+    },
+    {
+      "id": "v05-accept-continuous-use",
+      "nodeId": "continuous-use",
+      "condition": "真实CLI报告、网页同步、产物证据绑定与最终验收包可串联核对；含必要证据文件的导出及隔离恢复可核对，技术完成不代填用户验收。",
+      "weight": 1,
+      "method": "user"
+    }
+  ],
+  "log": [
+    {
+      "action": {
+        "type": "run-start",
+        "runId": "v05-continuous-use",
+        "nodeIds": [
+          "closure-state",
+          "acceptance-pack",
+          "iteration-history",
+          "progress-explanation",
+          "readable-evidence",
+          "continuous-use"
+        ],
+        "opinionIds": [],
+        "reason": "用户已批准补充后的v0.5，真实CLI读取当前六项目标并开始实际持续使用轮次。阶段一二已隔离验证，接续阶段三，不代表用户成果验收。"
+      },
+      "receipt": {
+        "operationId": "3cc1fa55-01f1-40bb-8262-252b9553d510",
+        "committedRevision": 116,
+        "currentRevision": 116,
+        "recoveryEpoch": "8ef7d834-ba09-49ca-92c4-d38468cf70c7",
+        "replayed": false
+      }
+    }
+  ]
+}
