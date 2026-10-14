@@ -1,6 +1,6 @@
 # Progress Map — archived project
 
-This private repository preserves the local Progress Map project at the Owner’s request on 2026-10-14. The Owner found the product unsatisfactory and requested closeout. **The product did not pass final user acceptance; the total plan was not completed.** No further work is authorized by this archive.
+This public repository preserves the local Progress Map project at the Owner’s request on 2026-10-14. The Owner found the product unsatisfactory and requested closeout. **The product did not pass final user acceptance; the total plan was not completed.** No further work is authorized by this archive.
 
 Program source and its existing documentation are under `phase-one-mindmap/`. The complete project-material archive is attached to Release `archive-2026-10-14`: it includes project state, original acceptance records, evidence, screenshots, stage plans/reviews, backup/export packages, historical artifacts, and closeout records. These data are excluded from normal source Git tracking but included in that Release archive.
 
